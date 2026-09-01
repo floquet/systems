@@ -1,0 +1,6 @@
+Mon Aug 31 10:26:50 PM MDT 2026
+
+COMMAND: cat /proc/fb
+DESCRIPTION: Registered framebuffer devices
+
+0 i915drmfb

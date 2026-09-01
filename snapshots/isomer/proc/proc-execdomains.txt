@@ -1,0 +1,6 @@
+Mon Aug 31 10:26:50 PM MDT 2026
+
+COMMAND: cat /proc/execdomains
+DESCRIPTION: Execution domains supported by the kernel
+
+0-0	Linux           	[kernel]

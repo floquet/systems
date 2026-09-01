@@ -1,0 +1,17 @@
+Mon Aug 31 10:26:50 PM MDT 2026
+
+COMMAND: find /proc/bus -maxdepth 2 -print
+
+/proc/bus
+/proc/bus/input
+/proc/bus/input/devices
+/proc/bus/input/handlers
+/proc/bus/pci
+/proc/bus/pci/00
+/proc/bus/pci/01
+/proc/bus/pci/2c
+/proc/bus/pci/2d
+/proc/bus/pci/2e
+/proc/bus/pci/56
+/proc/bus/pci/57
+/proc/bus/pci/devices

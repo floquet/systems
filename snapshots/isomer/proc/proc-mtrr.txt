@@ -1,0 +1,6 @@
+Mon Aug 31 10:26:50 PM MDT 2026
+
+COMMAND: cat /proc/mtrr
+DESCRIPTION: Memory Type Range Register information
+
+cat: /proc/mtrr: Operation not permitted

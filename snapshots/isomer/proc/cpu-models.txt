@@ -1,0 +1,5 @@
+Mon Aug 31 10:26:50 PM MDT 2026
+
+COMMAND: grep -i 'model name' /proc/cpuinfo | sort -u
+
+model name	: Intel(R) Core(TM) Ultra 5 225H
