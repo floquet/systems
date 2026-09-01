@@ -1,0 +1,30 @@
+dantopa@isomer:~$ sudo dmidecode --type memory | grep -E 'Size:|Type:|Speed:|Manufacturer:|Part Number:|Locator:'
+[sudo: authenticate] Password:         
+	Error Correction Type: None
+	Size: 16 GB
+	Locator: Controller0-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR5
+	Speed: 5600 MT/s
+	Manufacturer: A-DATA Technology
+	Part Number: AD5S560016G-B       
+	Configured Memory Speed: 5600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+	Size: 16 GB
+	Locator: Controller1-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR5
+	Speed: 5600 MT/s
+	Manufacturer: A-DATA Technology
+	Part Number: AD5S560016G-B       
+	Configured Memory Speed: 5600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+dantopa@isomer:~$ date
+Sun Aug 16 09:02:07 PM MDT 2026
+

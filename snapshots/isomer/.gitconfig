@@ -1,0 +1,24 @@
+[user]
+	email = dantopa@gmail.com
+	name = Daniel Topa
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[push]
+	default = simple
+	autoSetupRemote = true
+[color]
+	ui = auto
+[core]
+	editor = vim
+	pager = less -FRX
+[merge]
+	tool = meld
+[rerere]
+	enabled = true
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
