@@ -1,4 +1,4 @@
-Mon Aug 31 11:50:23 PM MDT 2026
+Mon Aug 31 11:53:31 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -62,11 +62,11 @@ udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=24420,fd=11))       
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=24420,fd=10))       
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=24420,fd=8))        
-udp   UNCONN 0      0                                 0.0.0.0:36942      0.0.0.0:*    users:(("firefox",pid=9955,fd=107))       
 udp   UNCONN 0      0                                 0.0.0.0:54252      0.0.0.0:*    users:(("python3",pid=24420,fd=9))        
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                              
 udp   UNCONN 0      0                             10.11.26.57:58344      0.0.0.0:*    users:(("Socket Process",pid=10109,fd=28))
 udp   UNCONN 0      0                              10.10.10.4:60860      0.0.0.0:*    users:(("Socket Process",pid=10109,fd=26))
+udp   UNCONN 0      0                                 0.0.0.0:32784      0.0.0.0:*    users:(("firefox",pid=9955,fd=142))       
 udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                              
 udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                              
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                              
