@@ -119,3 +119,4 @@ fi
 # run user scripts
 source ${HOME}/.${HOSTNAME}.sh
 
+. "$HOME/.cargo/env"

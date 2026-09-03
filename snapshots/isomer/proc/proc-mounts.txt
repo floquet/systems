@@ -1,4 +1,4 @@
-Mon Aug 31 11:53:31 PM MDT 2026
+Tue Sep  1 11:21:57 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -47,7 +47,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop18 /snap/gedit/697 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop19 /snap/github-gui/2 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop20 /snap/gitkraken/319 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop21 /snap/glab/6516 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop22 /snap/glab/6569 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop23 /snap/gnome-3-28-1804/198 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop24 /snap/gnome-42-2204/263 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -95,3 +94,5 @@ nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop55 /snap/opera/488 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
+/dev/loop37 /snap/glab/6617 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0
