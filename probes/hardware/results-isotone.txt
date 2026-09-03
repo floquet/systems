@@ -1,0 +1,90 @@
+dantopa@isotone:~/repos-isotone/github/systems/probes/hardware$ ./isomer-isotone.sh 
+========== isotone ==========
+
+=== CPU ===
+CPU(s):                                  12
+On-line CPU(s) list:                     0-11
+Model name:                              Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      6
+Socket(s):                               1
+CPU(s) scaling MHz:                      56%
+CPU max MHz:                             4600.0000
+CPU min MHz:                             800.0000
+L1d cache:                               192 KiB (6 instances)
+L2 cache:                                1.5 MiB (6 instances)
+L3 cache:                                12 MiB (1 instance)
+NUMA node0 CPU(s):                       0-11
+
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       8.6Gi        13Gi       5.5Gi        14Gi        22Gi
+Swap:          8.0Gi       6.3Mi       8.0Gi
+[sudo: authenticate] Password:         
+	Size: 16 GB
+	Speed: 2667 MT/s
+	Configured Memory Speed: 2667 MT/s
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+	Size: 16 GB
+	Speed: 2667 MT/s
+	Configured Memory Speed: 2667 MT/s
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+=== STORAGE ===
+TARGET SOURCE         FSTYPE OPTIONS
+/      /dev/nvme0n1p2 ext4   rw,relatime
+NAME      SIZE MODEL             TRAN   ROTA
+loop0       4K                             0
+loop1    66.8M                             0
+loop2   273.7M                             0
+loop3   606.1M                             0
+loop4     580K                             0
+loop5     395M                             0
+loop6    91.7M                             0
+loop7    15.7M                             0
+loop8   227.6M                             0
+loop9    18.8M                             0
+loop10   49.3M                             0
+loop11   16.5M                             0
+loop12   19.6M                             0
+loop13   66.8M                             0
+loop14    828K                             0
+loop15     20M                             0
+loop16   11.8M                             0
+loop17   18.8M                             0
+loop18    402M                             0
+loop19  221.1M                             0
+loop20   50.1M                             0
+nvme0n1   1.8T APPLE SSD AP2048M nvme      0
+
+=== TMP ===
+TARGET SOURCE FSTYPE OPTIONS
+/tmp   tmpfs  tmpfs  rw,nosuid,nodev,size=16089088k,nr_inodes=1048576,inode64,usrquota
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            16G  5.1G   11G  33% /tmp
+TMPDIR=
+
+=== SPACK STAGE ===
+./isomer-isotone.sh: line 27: spack: command not found
+
+=== SWAP ===
+NAME      TYPE SIZE USED PRIO
+/swap.img file   8G 6.3M   -1
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       8.6Gi        13Gi       5.5Gi        14Gi        22Gi
+Swap:          8.0Gi       6.3Mi       8.0Gi
+
+=== GOVERNOR ===
+powersave
+
+=== KERNEL ===
+Linux isotone 7.0.0-30-generic #30-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 18:22:54 UTC 2026 x86_64 GNU/Linux
+dantopa@isotone:~/repos-isotone/github/systems/probes/hardware$ date
+Wed Sep  2 09:34:55 PM MDT 2026
+
