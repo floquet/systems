@@ -1,0 +1,125 @@
+antopa@isomer:~/repos-isomer/github/systems/probes/hardware$ ./isomer-isotone.sh 
+========== isomer ==========
+
+=== CPU ===
+CPU(s):                                  14
+On-line CPU(s) list:                     0-13
+Model name:                              Intel(R) Core(TM) Ultra 5 225H
+Thread(s) per core:                      1
+Core(s) per socket:                      14
+Socket(s):                               1
+CPU(s) scaling MHz:                      63%
+CPU max MHz:                             4900.0000
+CPU min MHz:                             400.0000
+L1d cache:                               448 KiB (12 instances)
+L2 cache:                                22 MiB (7 instances)
+L3 cache:                                18 MiB (1 instance)
+NUMA node0 CPU(s):                       0-13
+
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi        11Gi        11Gi       3.7Gi       9.8Gi        18Gi
+Swap:           15Gi       2.6Gi        13Gi
+[sudo: authenticate] Password:         
+	Size: 16 GB
+	Speed: 5600 MT/s
+	Configured Memory Speed: 5600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+	Size: 16 GB
+	Speed: 5600 MT/s
+	Configured Memory Speed: 5600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+=== STORAGE ===
+TARGET SOURCE         FSTYPE OPTIONS
+/      /dev/nvme0n1p2 ext4   rw,relatime,errors=remount-ro
+NAME      SIZE MODEL                  TRAN   ROTA
+loop0       4K                                  0
+loop1   150.6M                                  0
+loop2   214.5M                                  0
+loop3     9.4M                                  0
+loop5    55.5M                                  0
+loop6    63.8M                                  0
+loop7    59.6M                                  0
+loop8      74M                                  0
+loop9    59.6M                                  0
+loop10   66.8M                                  0
+loop11   66.8M                                  0
+loop12   47.9M                                  0
+loop13   19.6M                                  0
+loop14     20M                                  0
+loop15  260.3M                                  0
+loop16  261.1M                                  0
+loop17   16.5M                                  0
+loop18      6M                                  0
+loop19   62.2M                                  0
+loop20  224.5M                                  0
+loop21  186.1M                                  0
+loop22   32.8M                                  0
+loop23  164.8M                                  0
+loop24  531.5M                                  0
+loop25  606.1M                                  0
+loop26    1.7M                                  0
+loop27  614.5M                                  0
+loop28   91.7M                                  0
+loop29  208.5M                                  0
+loop30  215.7M                                  0
+loop31  413.7M                                  0
+loop32  414.5M                                  0
+loop33    1.6G                                  0
+loop34    4.3M                                  0
+loop35    395M                                  0
+loop36    402M                                  0
+loop37   32.9M                                  0
+loop38  224.8M                                  0
+loop39   18.8M                                  0
+loop40   18.8M                                  0
+loop41  120.9M                                  0
+loop42    556K                                  0
+loop43   15.7M                                  0
+loop44   11.8M                                  0
+loop45   49.3M                                  0
+loop46   50.1M                                  0
+loop47    580K                                  0
+loop48    828K                                  0
+loop49   64.7M                                  0
+loop50  219.9M                                  0
+loop51  221.1M                                  0
+loop52  197.5M                                  0
+loop53  197.5M                                  0
+loop54      4M                                  0
+loop55  186.1M                                  0
+loop56  214.4M                                  0
+sda       3.6T Portable               usb       1
+sdb       1.8T PSSD T7 Shield         usb       0
+nvme0n1 953.9G KINGSTON SKC3000S1024G nvme      0
+
+=== TMP ===
+TARGET SOURCE FSTYPE OPTIONS
+/tmp   tmpfs  tmpfs  rw,nosuid,nodev,size=15813288k,nr_inodes=1048576,inode64,usrquota
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            16G  6.7M   16G   1% /tmp
+TMPDIR=
+
+=== SPACK STAGE ===
+./isomer-isotone.sh: line 27: spack: command not found
+
+=== SWAP ===
+NAME      TYPE SIZE USED PRIO
+/swapfile file  16G 2.6G   -1
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi        11Gi        11Gi       3.7Gi       9.8Gi        18Gi
+Swap:           15Gi       2.6Gi        13Gi
+
+=== GOVERNOR ===
+powersave
+
+=== KERNEL ===
+Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
+
