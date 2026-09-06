@@ -1,0 +1,3 @@
+lrwxrwxrwx   1 dantopa dantopa   33 Aug 16 21:52 GitHub -> /home/dantopa/repos-isomer/github
+lrwxrwxrwx+  1 dantopa dantopa   26 Aug 14 18:09 Mathematica_files -> /mnt/T7-Shield/Dropbox/_mm
+
