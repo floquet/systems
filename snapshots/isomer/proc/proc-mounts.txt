@@ -1,4 +1,4 @@
-Sat Sep  5 11:59:15 PM MDT 2026
+Sun Sep  6 01:43:01 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -91,8 +91,8 @@ nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0
 /dev/loop52 /snap/thunderbird/1240 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop50 /snap/vivaldi/470 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop53 /snap/snapd/27738 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop45 /snap/sublime-text/223 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop57 /snap/opera/490 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop55 /snap/brave/678 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
+/dev/loop2 /snap/sublime-text/229 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0

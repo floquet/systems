@@ -1,4 +1,4 @@
-Sat Sep  5 11:59:15 PM MDT 2026
+Sun Sep  6 01:43:01 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -6,7 +6,7 @@ COMMAND: hostnamectl
          Chassis: desktop 🖥️
       Machine ID: 97ea774c981495461d2745696a769745
          Boot ID: 87e0bf5e140a4115b325de00216a7f7f
-Operating System: Ubuntu 26.04 LTS
+Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 7.0.11-76070011-generic
     Architecture: x86-64
  Hardware Vendor: System76
@@ -14,14 +14,14 @@ Operating System: Ubuntu 26.04 LTS
     Hardware SKU: meer10
 Firmware Version: CRARL579.0027.2025.0918.1706
    Firmware Date: Thu 2025-09-18
-    Firmware Age: 11month 2w 4d
+    Firmware Age: 11month 2w 5d
 
 COMMAND: uname -a
 Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
 
 COMMAND: lsb_release -a
 Distributor ID:	Ubuntu
-Description:	Ubuntu 26.04 LTS
+Description:	Ubuntu 26.04.1 LTS
 Release:	26.04
 Codename:	resolute
 
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      69%
+CPU(s) scaling MHz:                      71%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,13 +74,14 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        14Gi       7.7Gi       4.5Gi       9.3Gi        15Gi
-Swap:           15Gi       7.0Gi       9.0Gi
+Mem:            30Gi        13Gi       5.1Gi       4.5Gi        11Gi        16Gi
+Swap:           15Gi       5.0Gi        10Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0         7:0    0     4K  1 loop /snap/bare/5
 loop1         7:1    0 150.6M  1 loop /snap/bitwarden/167
+loop2         7:2    0 121.4M  1 loop /snap/sublime-text/229
 loop3         7:3    0   9.4M  1 loop /snap/chromium-ffmpeg/118
 loop4         7:4    0 208.9M  1 loop /snap/vivaldi/468
 loop5         7:5    0  55.5M  1 loop /snap/core18/2999
@@ -123,7 +124,6 @@ loop41        7:41   0 120.9M  1 loop /snap/proton-mail/39
 loop42        7:42   0   556K  1 loop /snap/quadrapassel/492
 loop43        7:43   0  15.7M  1 loop /snap/snap-store/1367
 loop44        7:44   0  11.8M  1 loop /snap/snap-store/1390
-loop45        7:45   0  60.7M  1 loop /snap/sublime-text/223
 loop46        7:46   0  50.1M  1 loop /snap/snapd/27710
 loop47        7:47   0   580K  1 loop /snap/snapd-desktop-integration/361
 loop48        7:48   0   828K  1 loop /snap/snapd-desktop-integration/391
@@ -147,15 +147,15 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  4.3M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  212G  678G  24% /
-tmpfs          tmpfs      16G   33M   16G   1% /dev/shm
+/dev/nvme0n1p2 ext4      937G  213G  678G  24% /
+tmpfs          tmpfs      16G   47M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 tmpfs          tmpfs      16G  2.5G   13G  17% /tmp
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
 /dev/sda1      ext4      3.6T  3.3G  3.4T   1% /mnt/tethys
-tmpfs          tmpfs     3.1G  5.6M  3.1G   1% /run/user/1000
+tmpfs          tmpfs     3.1G  5.5M  3.1G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
@@ -235,7 +235,6 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/quadrapassel/492                          /dev/loop42            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1367                           /dev/loop43            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1390                           /dev/loop44            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/sublime-text/223                          /dev/loop45            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd-desktop-integration/361             /dev/loop47            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd/27710                               /dev/loop46            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/sublime-text/219                          /dev/loop49            squashfs        ro,nodev,relatime,errors=continue,threads=single
@@ -247,6 +246,7 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/thunderbird/1240                          /dev/loop52            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gitkraken/323                             /dev/loop38            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/opera/489                                 /dev/loop21            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/sublime-text/229                          /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/glab/6617                                 /dev/loop37            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/brave/676                                 /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd/27738                               /dev/loop53            squashfs        ro,nodev,relatime,errors=continue,threads=single
