@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
+: "${pHere}:?pHere is not set in master.sh}"
 
-: "${pInfo:?pInfo is not set}"
-
-dest="$pInfo/arXive"
-mkdir -p "$dest"
+dest="${pHere}/snapshots/${HOSTNAME}"
+mkdir -p "${dest}"
 
 cp    -- "$HOME/.vimrc"          "$dest/"
 cp    -- "$HOME/.gitconfig"      "$dest/"

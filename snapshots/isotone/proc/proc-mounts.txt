@@ -1,4 +1,4 @@
-Thu Sep  3 12:08:50 AM MDT 2026
+Sat Sep  5 10:34:25 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -35,7 +35,6 @@ tmpfs /tmp tmpfs rw,nosuid,nodev,size=16089088k,nr_inodes=1048576,inode64,usrquo
 /dev/loop7 /snap/snap-store/1367 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop12 /snap/desktop-security-center/150 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop10 /snap/snapd/26865 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop8 /snap/thunderbird/1057 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop11 /snap/firmware-updater/226 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop9 /snap/prompting-client/204 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/nvme0n1p1 /boot/efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
@@ -57,3 +56,5 @@ nsfs /run/snapd/ns/mesa-2404.mnt nsfs rw 0 0
 /dev/loop20 /snap/snapd/27710 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 dantopa@10.11.26.57:/mnt/tethys/spacktivity/spack_mirror /home/dantopa/spacktivity/isomer-spack-mirror fuse.sshfs rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
+/dev/loop21 /snap/thunderbird/1240 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0

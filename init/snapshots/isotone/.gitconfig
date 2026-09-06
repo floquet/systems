@@ -1,0 +1,19 @@
+[user]
+	name = Daniel Topa
+	email = dantopa@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[push]
+	default = simple
+	autoSetupRemote = true
+[color]
+	ui = auto
+[core]
+	editor = vim
+	pager = less -FRX
+[merge]
+	tool = meld
+[rerere]
+	enabled = true
