@@ -18,6 +18,7 @@ source "${pHere}/grep.sh"
 source "${pHere}/ptyxis.sh"
 source "${pHere}/snapshotter.sh" &
 source "${pHere}/spack-bootstrap.sh"
+source "${pHere}/ssh.sh"
 source "${pHere}/vim.sh"
 source "${pHere}/recorder.sh"
 

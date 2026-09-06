@@ -1,4 +1,4 @@
-Tue Sep  1 11:21:57 PM MDT 2026
+Sat Sep  5 11:59:15 PM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -7,9 +7,8 @@ major minor  #blocks  name
 
    7        0          4 loop0
    7        1     154208 loop1
-   7        2     219664 loop2
    7        3       9616 loop3
-   7        4     213428 loop4
+   7        4     213940 loop4
    7        5      56820 loop5
    7        6      65312 loop6
    7        7      61008 loop7
@@ -18,8 +17,6 @@ major minor  #blocks  name
  259        2  999203840 nvme0n1p2
    8        0 3907018583 sda
    8        1 3907016704 sda1
-   8       16 1953514584 sdb
-   8       17 1953467280 sdb1
    7        8      75768 loop8
    7        9      61008 loop9
    7       10      68452 loop10
@@ -33,6 +30,7 @@ major minor  #blocks  name
    7       18       6112 loop18
    7       19      63672 loop19
    7       20     229864 loop20
+   7       21     190616 loop21
    7       23     168780 loop23
    7       22      33576 loop22
    7       24     544248 loop24
@@ -50,20 +48,24 @@ major minor  #blocks  name
    7       36     411628 loop36
    7       37      33652 loop37
    7       39      19276 loop39
-   7       38     190640 loop38
+   7       38     230208 loop38
    7       40      19284 loop40
    7       41     123804 loop41
    7       42        556 loop42
    7       43      16064 loop43
-   7       45      50444 loop45
+   7       45      62148 loop45
    7       44      12092 loop44
    7       47        580 loop47
    7       46      51304 loop46
    7       48        828 loop48
    7       49      66236 loop49
-   7       50     225136 loop50
-   7       52     202244 loop52
+   7       50     214048 loop50
+   7       52     226796 loop52
    7       51     226444 loop51
-   7       53     202244 loop53
+   7       53      51476 loop53
    7       54       4088 loop54
-   7       55     190600 loop55
+   7       55     219644 loop55
+   7       56     219588 loop56
+   8       16 1953514584 sdb
+   8       17 1953467280 sdb1
+   7       57     190624 loop57
