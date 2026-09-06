@@ -6,6 +6,7 @@ recorderStart=$SECONDS
 
 # locate files relative to master.sh
 pHere="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+pSnapshots="${pHere}/snapshots"
 
 source "${pHere}/alias.sh"
 source "${pHere}/arXiver.sh"
