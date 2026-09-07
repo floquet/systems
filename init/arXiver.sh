@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-: "${pHere}:?pHere is not set in master.sh}"
+: "${pSystems:?pSystems is not set}"
 
-dest="${pHere}/snapshots/${HOSTNAME}"
-mkdir -p "${dest}"
+pSnapshot="${pSystems}/snapshots/${HOSTNAME}"
+mkdir -p "${pSnapshot}"
 
-cp    -- "$HOME/.vimrc"          "$dest/"
-cp    -- "$HOME/.gitconfig"      "$dest/"
-#cp -a -- "$HOME/.config/nvim"    "$dest/"
-cp    -- "$HOME/.$(hostname).sh" "$dest/"
+cp -- "$HOME/.vimrc"          "${pSnapshot}/"
+cp -- "$HOME/.gitconfig"      "${pSnapshot}/"
+# cp -a -- "$HOME/.config/nvim" "${pSnapshot}/"
+cp -- "$HOME/.${HOSTNAME}.sh" "${pSnapshot}/"
 

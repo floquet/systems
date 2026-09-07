@@ -1,29 +1,27 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-localTime=$SECONDS
 recorderStart=$SECONDS
 
-# locate files relative to master.sh
-pHere="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-pSnapshots="${pHere}/snapshots"
+# Paths must be established before any dependent init scripts.
+source "${pInit}/paths.sh"
 
-source "${pHere}/alias.sh"
-source "${pHere}/arXiver.sh"
-source "${pHere}/env.sh"
-source "${pHere}/fortran.sh"
-source "${pHere}/fortran-stack.sh"
-source "${pHere}/git.sh"
-source "${pHere}/go.sh"
-source "${pHere}/grep.sh"
-source "${pHere}/ptyxis.sh"
-source "${pHere}/snapshotter.sh" &
-source "${pHere}/spack-bootstrap.sh"
-source "${pHere}/ssh.sh"
-source "${pHere}/vim.sh"
-source "${pHere}/recorder.sh"
+source "${pInit}/alias.sh"
+source "${pInit}/arXiver.sh"
+source "${pInit}/env.sh"
+source "${pInit}/fortran.sh"
+source "${pInit}/fortran-stack.sh"
+source "${pInit}/git.sh"
+source "${pInit}/go.sh"
+source "${pInit}/grep.sh"
+source "${pInit}/ptyxis.sh"
+source "${pInit}/snapshotter.sh" &
+source "${pInit}/spack-bootstrap.sh"
+source "${pInit}/ssh.sh"
+source "${pInit}/vim.sh"
+source "${pInit}/recorder.sh"
 
-# commit changes to builds repo
+# commit changes to builds repo (git.sh)
 commit-builds
 
 echo "time used: $((SECONDS - recorderStart)) seconds"

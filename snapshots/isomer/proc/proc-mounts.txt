@@ -1,4 +1,4 @@
-Sun Sep  6 01:43:01 PM MDT 2026
+Mon Sep  7 05:43:40 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -76,7 +76,6 @@ binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime
 tmpfs /run/snapd/ns tmpfs rw,nosuid,nodev,size=6325316k,nr_inodes=819200,mode=755,inode64 0 0
 nsfs /run/snapd/ns/cups.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/snapd-desktop-integration.mnt nsfs rw 0 0
-/dev/sda1 /mnt/tethys ext4 rw,relatime 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=3162656k,nr_inodes=790664,mode=700,uid=1000,gid=1000,inode64 0 0
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
@@ -96,3 +95,5 @@ nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop55 /snap/brave/678 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop2 /snap/sublime-text/229 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
+/dev/sdb1 /mnt/T7-Shield ext4 rw,relatime,stripe=8191 0 0

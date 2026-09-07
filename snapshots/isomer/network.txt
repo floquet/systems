@@ -1,4 +1,4 @@
-Sun Sep  6 01:43:01 PM MDT 2026
+Mon Sep  7 05:43:40 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -42,7 +42,7 @@ Link 2 (enp86s0)
 Link 3 (enp87s0)
     Current Scopes: DNS
          Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 1.1.1.1
+Current DNS Server: 8.8.8.8
        DNS Servers: 8.8.8.8 1.1.1.1
      Default Route: yes
 
@@ -60,16 +60,14 @@ udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=24420,fd=10))         
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=24420,fd=8))          
 udp   UNCONN 0      0                                 0.0.0.0:54252      0.0.0.0:*    users:(("python3",pid=24420,fd=9))          
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2486309,fd=494))       
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2486309,fd=493))       
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                                
-udp   UNCONN 0      0                             10.11.26.57:56314      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=30))
-udp   UNCONN 0      0                             10.11.26.57:40079      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=35))
-udp   UNCONN 0      0                              10.10.10.4:57099      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=29))
-udp   UNCONN 0      0                             10.11.26.57:40835      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=28))
-udp   UNCONN 0      0                              10.10.10.4:57604      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=32))
-udp   UNCONN 0      0                              10.10.10.4:58659      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=6)) 
-udp   UNCONN 0      0                                 0.0.0.0:58983      0.0.0.0:*    users:(("firefox",pid=2470686,fd=516))      
-udp   UNCONN 0      0                              10.10.10.4:59457      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=34))
-udp   UNCONN 0      0                             10.11.26.57:43643      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=33))
+udp   UNCONN 0      0                             10.11.26.57:54708      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=35))
+udp   UNCONN 0      0                              10.10.10.4:38985      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=32))
+udp   UNCONN 0      0                             10.11.26.57:41778      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=33))
+udp   UNCONN 0      0                                 0.0.0.0:44238      0.0.0.0:*    users:(("firefox",pid=2470686,fd=166))      
+udp   UNCONN 0      0                              10.10.10.4:45755      0.0.0.0:*    users:(("Socket Process",pid=2470870,fd=34))
 udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                                
 udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                                
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                                
@@ -82,6 +80,7 @@ tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0
 tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                                
 tcp   LISTEN 0      4096                              0.0.0.0:22         0.0.0.0:*                                                
 tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                                
+tcp   LISTEN 0      1                      [::ffff:127.0.0.1]:6050             *:*    users:(("java",pid=2213785,fd=37))          
 tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                                
 
 COMMAND: ip neigh
@@ -100,5 +99,6 @@ COMMAND: ip neigh
 10.11.26.73 dev enp87s0 lladdr e0:c2:50:09:ed:94 STALE 
 10.10.10.1 dev enp86s0 FAILED 
 10.10.10.1 dev enp87s0 lladdr 6c:1f:f7:cc:02:43 STALE 
+10.11.26.54 dev enp86s0 lladdr f0:35:75:3e:66:a8 STALE 
 fe80::7a8c:77ff:fe79:9dda dev enp87s0 lladdr 78:8c:77:79:9d:da STALE 
 fe80::76da:78ff:fe27:5c87 dev enp87s0 lladdr 74:da:78:27:5c:87 STALE 
