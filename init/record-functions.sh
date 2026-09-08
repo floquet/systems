@@ -14,5 +14,5 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
     echo
     echo "COMMAND: declare -f"
     declare -f
-} > "${pSelf}/functions.txt"
+} > "${pSnapshot}/functions.txt"
 

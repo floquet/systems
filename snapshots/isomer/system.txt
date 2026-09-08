@@ -1,4 +1,4 @@
-Mon Sep  7 05:43:40 PM MDT 2026
+Mon Sep  7 10:47:14 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      67%
+CPU(s) scaling MHz:                      69%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        18Gi       3.5Gi       5.2Gi        10Gi        11Gi
-Swap:           15Gi       8.7Gi       7.3Gi
+Mem:            30Gi        11Gi        11Gi       4.0Gi       8.9Gi        18Gi
+Swap:           15Gi       9.1Gi       6.9Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -146,14 +146,14 @@ COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  4.4M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  213G  677G  24% /
-tmpfs          tmpfs      16G   76M   16G   1% /dev/shm
+tmpfs          tmpfs      16G   30M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-tmpfs          tmpfs      16G  2.6G   13G  17% /tmp
+tmpfs          tmpfs      16G  2.5G   13G  17% /tmp
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
 tmpfs          tmpfs     3.1G  5.5M  3.1G   1% /run/user/1000
-/dev/sdb1      ext4      1.8T  211G  1.5T  13% /mnt/T7-Shield
+/dev/sdb1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS

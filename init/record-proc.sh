@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-: "${pSelf:?pSelf is not defined}"
+: "${pSnapshot:?pSnapshot is not defined}"
 
 # ----------------------------------------------------------------------
 # /proc recorder
 # ----------------------------------------------------------------------
 
-pProc="${pSelf}/proc"
+pProc="${pSnapshot}/proc"
 mkdir -p "${pProc}"
 
 # ----------------------------------------------------------------------

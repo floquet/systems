@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-: "${pSelf:?pSelf is not defined}"
+: "${pSnapshot:?pSnapshot is not defined}"
 
 # Capture Ubuntu system information
 {
@@ -39,5 +39,5 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
     echo "COMMAND: findmnt"
     findmnt
 
-} > "${pSelf}/system.txt" 2>&1
+} > "${pSnapshot}/system.txt" 2>&1
 
