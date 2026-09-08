@@ -1,4 +1,4 @@
-Mon Sep  7 06:09:03 PM MDT 2026
+Tue Sep  8 12:23:06 AM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isotone
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      6
 Socket(s):                               1
 Stepping:                                10
-CPU(s) scaling MHz:                      74%
+CPU(s) scaling MHz:                      91%
 CPU max MHz:                             4600.0000
 CPU min MHz:                             800.0000
 BogoMIPS:                                6399.96
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       8.7Gi       8.8Gi       5.9Gi        19Gi        21Gi
+Mem:            30Gi       8.7Gi       8.6Gi       5.9Gi        19Gi        21Gi
 Swap:          8.0Gi       932Mi       7.1Gi
 
 COMMAND: lsblk
@@ -115,7 +115,7 @@ none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.se
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 tmpfs          tmpfs   16G  5.9G  9.6G  38% /tmp
 /dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs          tmpfs  3.1G  112K  3.1G   1% /run/user/1000
+tmpfs          tmpfs  3.1G  100K  3.1G   1% /run/user/1000
 /dev/sda1      ext4   3.6T  3.7G  3.4T   1% /mnt/tethys
 
 COMMAND: findmnt

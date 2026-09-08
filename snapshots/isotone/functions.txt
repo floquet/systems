@@ -1,4 +1,4 @@
-Mon Sep  7 06:09:03 PM MDT 2026
+Tue Sep  8 12:23:06 AM MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -446,7 +446,9 @@ declare -f gawkpath_default
 declare -f gawkpath_prepend
 declare -f genesis
 declare -f gf
+declare -f goio
 declare -f gomirror
+declare -f gonb
 declare -f gospack
 declare -f gospacktivity
 declare -f goyaml
@@ -5667,10 +5669,18 @@ gf ()
     echo "gfortran ${allflags} ${stem}.f08 -o ${stem}";
     gfortran ${allflags} "${stem}.f08" -o "${stem}"
 }
+goio () 
+{ 
+    cd "$(pwd | sed 's|/nb/|/io/|')"
+}
 gomirror () 
 { 
     cd "${spack_mirror}" || return;
     pwd
+}
+gonb () 
+{ 
+    cd "$(pwd | sed 's|/io/|/nb/|')"
 }
 gospack () 
 { 
