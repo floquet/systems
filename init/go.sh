@@ -16,6 +16,8 @@ alias goShellLibrary='cd "${pGithub}/shell-library" && pwd'
 alias goSpacklandia='cd "${pGithub}/spacklandia" && pwd'
 alias goEcho='cd "${pGithub}/echo" && pwd'
 alias goFramework='cd "${pGithub}/framework" && pwd'
+alias goDocs='cd "${pGithub}/frameworki/docs" && pwd'
+alias goPres='cd "${pGithub}/framework/pres" && pwd'
 alias goSystems='cd "${pGithub}/systems" && pwd'
 
 # Gitlab repositories
