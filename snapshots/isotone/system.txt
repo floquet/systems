@@ -1,4 +1,4 @@
-Sat Sep  5 10:34:25 PM MDT 2026
+Mon Sep  7 06:09:03 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isotone
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
 Hardware Version: 1.0
 Firmware Version: 2103.160.2.0.0 (iBridge: 23.16.16068.0.0,0)
    Firmware Date: Sat 2026-07-11
-    Firmware Age: 1month 3w 5d
+    Firmware Age: 1month 4w
 
 COMMAND: uname -a
 Linux isotone 7.0.0-30-generic #30-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 18:22:54 UTC 2026 x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      6
 Socket(s):                               1
 Stepping:                                10
-CPU(s) scaling MHz:                      81%
+CPU(s) scaling MHz:                      74%
 CPU max MHz:                             4600.0000
 CPU min MHz:                             800.0000
 BogoMIPS:                                6399.96
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       8.7Gi       8.9Gi       5.4Gi        18Gi        21Gi
-Swap:          8.0Gi       6.0Mi       8.0Gi
+Mem:            30Gi       8.7Gi       8.8Gi       5.9Gi        19Gi        21Gi
+Swap:          8.0Gi       932Mi       7.1Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -87,8 +87,8 @@ loop4         7:4    0   580K  1 loop /snap/snapd-desktop-integration/361
 loop5         7:5    0   395M  1 loop /snap/mesa-2404/1165
 loop6         7:6    0  91.7M  1 loop /snap/gtk-common-themes/1535
 loop7         7:7    0  15.7M  1 loop /snap/snap-store/1367
+loop8         7:8    0  50.3M  1 loop /snap/snapd/27738
 loop9         7:9    0  18.8M  1 loop /snap/prompting-client/204
-loop10        7:10   0  49.3M  1 loop /snap/snapd/26865
 loop11        7:11   0  16.5M  1 loop /snap/firmware-updater/226
 loop12        7:12   0  19.6M  1 loop /snap/desktop-security-center/150
 loop13        7:13   0  66.8M  1 loop /snap/core24/1643
@@ -100,21 +100,23 @@ loop18        7:18   0   402M  1 loop /snap/mesa-2404/1839
 loop19        7:19   0 221.1M  1 loop /snap/thunderbird/1228
 loop20        7:20   0  50.1M  1 loop /snap/snapd/27710
 loop21        7:21   0 221.5M  1 loop /snap/thunderbird/1240
+sda           8:0    0   3.6T  0 disk 
+└─sda1        8:1    0   3.6T  0 part /mnt/tethys
 nvme0n1     259:0    0   1.8T  0 disk 
 ├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
 └─nvme0n1p2 259:2    0   1.8T  0 part /
 
 COMMAND: df -hT
-Filesystem                                               Type        Size  Used Avail Use% Mounted on
-tmpfs                                                    tmpfs       6.2G  3.0M  6.2G   1% /run
-/dev/nvme0n1p2                                           ext4        1.8T  100G  1.7T   6% /
-tmpfs                                                    tmpfs        16G  8.0K   16G   1% /dev/shm
-none                                                     tmpfs       1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-none                                                     tmpfs       1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-tmpfs                                                    tmpfs        16G  5.1G   11G  33% /tmp
-/dev/nvme0n1p1                                           vfat        1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs                                                    tmpfs       3.1G  104K  3.1G   1% /run/user/1000
-dantopa@10.11.26.57:/mnt/tethys/spacktivity/spack_mirror fuse.sshfs  3.6T  3.3G  3.4T   1% /home/dantopa/spacktivity/isomer-spack-mirror
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  6.2G  2.7M  6.2G   1% /run
+/dev/nvme0n1p2 ext4   1.8T  112G  1.6T   7% /
+tmpfs          tmpfs   16G  8.0K   16G   1% /dev/shm
+none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs          tmpfs   16G  5.9G  9.6G  38% /tmp
+/dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs          tmpfs  3.1G  112K  3.1G   1% /run/user/1000
+/dev/sda1      ext4   3.6T  3.7G  3.4T   1% /mnt/tethys
 
 COMMAND: findmnt
 TARGET                                            SOURCE                                                   FSTYPE          OPTIONS
@@ -126,7 +128,6 @@ TARGET                                            SOURCE                        
 │ │ ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026532562]]                                   nsfs            rw
 │ │ ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532415]]                                   nsfs            rw
 │ │ ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532769]]                                   nsfs            rw
-│ │ ├─/run/snapd/ns/thunderbird.mnt               nsfs[mnt:[4026532836]]                                   nsfs            rw
 │ │ └─/run/snapd/ns/mesa-2404.mnt                 nsfs[mnt:[4026533275]]                                   nsfs            rw
 │ └─/run/user/1000                                tmpfs                                                    tmpfs           rw,nosuid,nodev,relatime,size=3217816k,nr_inodes=804454,mode=700,uid=1000,gid=1000,inode64
 │   ├─/run/user/1000/doc                          portal                                                   fuse.portal     rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
@@ -159,7 +160,7 @@ TARGET                                            SOURCE                        
 ├─/snap/mesa-2404/1165                            /dev/loop5                                               squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1367                           /dev/loop7                                               squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/desktop-security-center/150               /dev/loop12                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snapd/26865                               /dev/loop10                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/mnt/tethys                                     /dev/sda1                                                ext4            rw,relatime
 ├─/snap/firmware-updater/226                      /dev/loop11                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/prompting-client/204                      /dev/loop9                                               squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/boot/efi                                       /dev/nvme0n1p1                                           vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
@@ -172,4 +173,5 @@ TARGET                                            SOURCE                        
 ├─/snap/thunderbird/1240                          /dev/loop21                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd-desktop-integration/391             /dev/loop14                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd/27710                               /dev/loop20                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snapd/27738                               /dev/loop8                                               squashfs        ro,nodev,relatime,errors=continue,threads=single
 └─/snap/mesa-2404/1839                            /dev/loop18                                              squashfs        ro,nodev,relatime,errors=continue,threads=single
