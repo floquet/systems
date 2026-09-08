@@ -13,5 +13,5 @@ export pInit="${pSystems}/init"
 source "${pInit}/master.sh"
 
 # machine-specific configuration
-# source "${pScripts}/spack-${HOSTNAME}.sh"
+# source "${pInit}/spack-tethys.sh"
 
