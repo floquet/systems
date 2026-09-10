@@ -1,11 +1,11 @@
-Wed Sep  9 10:37:58 PM MDT 2026
+Thu Sep 10 08:27:29 AM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
        Icon name: computer-desktop
          Chassis: desktop 🖥️
       Machine ID: 97ea774c981495461d2745696a769745
-         Boot ID: 87e0bf5e140a4115b325de00216a7f7f
+         Boot ID: 639e4b1c64e04798b7bcae228711abc7
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 7.0.11-76070011-generic
     Architecture: x86-64
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      76%
+CPU(s) scaling MHz:                      69%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,86 +74,86 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        17Gi       6.9Gi       5.9Gi        12Gi        12Gi
-Swap:           15Gi       7.7Gi       8.3Gi
+Mem:            30Gi        10Gi        10Gi       4.5Gi        12Gi        19Gi
+Swap:           15Gi          0B        15Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0         7:0    0     4K  1 loop /snap/bare/5
 loop1         7:1    0 150.6M  1 loop /snap/bitwarden/167
-loop2         7:2    0 121.4M  1 loop /snap/sublime-text/229
-loop3         7:3    0   9.4M  1 loop /snap/chromium-ffmpeg/118
-loop4         7:4    0 208.9M  1 loop /snap/vivaldi/468
-loop5         7:5    0  55.5M  1 loop /snap/core18/2999
-loop6         7:6    0  63.8M  1 loop /snap/core20/2866
-loop7         7:7    0  59.6M  1 loop /snap/cmake/1562
-loop8         7:8    0    74M  1 loop /snap/core22/2437
-loop9         7:9    0  59.6M  1 loop /snap/cmake/1560
+loop2         7:2    0 214.4M  1 loop /snap/brave/676
+loop3         7:3    0 214.5M  1 loop /snap/brave/678
+loop4         7:4    0   9.4M  1 loop /snap/chromium-ffmpeg/118
+loop5         7:5    0  59.6M  1 loop /snap/cmake/1560
+loop6         7:6    0  59.6M  1 loop /snap/cmake/1562
+loop7         7:7    0  55.5M  1 loop /snap/core18/2999
+loop8         7:8    0  63.8M  1 loop /snap/core20/2866
+loop9         7:9    0    74M  1 loop /snap/core22/2437
 loop10        7:10   0  66.8M  1 loop /snap/core24/1587
 loop11        7:11   0  66.8M  1 loop /snap/core24/1643
 loop12        7:12   0  47.9M  1 loop /snap/cups/1238
 loop13        7:13   0  19.6M  1 loop /snap/desktop-security-center/150
 loop14        7:14   0    20M  1 loop /snap/desktop-security-center/151
-loop16        7:16   0 261.1M  1 loop /snap/firefox/8803
-loop17        7:17   0  16.5M  1 loop /snap/firmware-updater/226
+loop15        7:15   0 261.1M  1 loop /snap/firefox/8803
+loop16        7:16   0  16.5M  1 loop /snap/firmware-updater/226
+loop17        7:17   0 260.8M  1 loop /snap/firefox/8863
 loop18        7:18   0     6M  1 loop /snap/gedit/697
 loop19        7:19   0  62.2M  1 loop /snap/github-gui/2
 loop20        7:20   0 224.5M  1 loop /snap/gitkraken/319
-loop21        7:21   0    33M  1 loop /snap/glab/6667
-loop22        7:22   0 260.8M  1 loop /snap/firefox/8863
-loop23        7:23   0 164.8M  1 loop /snap/gnome-3-28-1804/198
-loop24        7:24   0 531.5M  1 loop /snap/gnome-42-2204/263
-loop25        7:25   0 606.1M  1 loop /snap/gnome-46-2404/153
-loop26        7:26   0   1.7M  1 loop /snap/gnome-system-monitor/193
-loop27        7:27   0 614.5M  1 loop /snap/gnome-46-2404/164
-loop28        7:28   0  91.7M  1 loop /snap/gtk-common-themes/1535
-loop29        7:29   0 208.5M  1 loop /snap/jabref/3232
-loop30        7:30   0 215.7M  1 loop /snap/julia/165
-loop31        7:31   0 413.7M  1 loop /snap/jupyterlab-desktop/35
-loop32        7:32   0 414.5M  1 loop /snap/jupyterlab-desktop/41
-loop33        7:33   0   1.6G  1 loop /snap/kf6-core24/64
-loop34        7:34   0   4.3M  1 loop /snap/lxqt-support-core24/16
-loop35        7:35   0   395M  1 loop /snap/mesa-2404/1165
-loop36        7:36   0   402M  1 loop /snap/mesa-2404/1839
-loop37        7:37   0  32.9M  1 loop /snap/glab/6617
-loop38        7:38   0 224.8M  1 loop /snap/gitkraken/323
-loop39        7:39   0  18.8M  1 loop /snap/prompting-client/204
-loop40        7:40   0  18.8M  1 loop /snap/prompting-client/222
+loop21        7:21   0 224.8M  1 loop /snap/gitkraken/323
+loop22        7:22   0  32.9M  1 loop /snap/glab/6617
+loop23        7:23   0    33M  1 loop /snap/glab/6667
+loop24        7:24   0 164.8M  1 loop /snap/gnome-3-28-1804/198
+loop25        7:25   0 531.5M  1 loop /snap/gnome-42-2204/263
+loop26        7:26   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop27        7:27   0   1.7M  1 loop /snap/gnome-system-monitor/193
+loop28        7:28   0 606.1M  1 loop /snap/gnome-46-2404/153
+loop29        7:29   0 614.5M  1 loop /snap/gnome-46-2404/164
+loop30        7:30   0 208.5M  1 loop /snap/jabref/3232
+loop31        7:31   0 215.7M  1 loop /snap/julia/165
+loop32        7:32   0 413.7M  1 loop /snap/jupyterlab-desktop/35
+loop33        7:33   0 414.5M  1 loop /snap/jupyterlab-desktop/41
+loop34        7:34   0   1.6G  1 loop /snap/kf6-core24/64
+loop35        7:35   0   4.3M  1 loop /snap/lxqt-support-core24/16
+loop36        7:36   0   395M  1 loop /snap/mesa-2404/1165
+loop37        7:37   0   402M  1 loop /snap/mesa-2404/1839
+loop39        7:39   0 186.2M  1 loop /snap/opera/492
+loop40        7:40   0  18.8M  1 loop /snap/prompting-client/204
 loop41        7:41   0 120.9M  1 loop /snap/proton-mail/39
-loop42        7:42   0   556K  1 loop /snap/quadrapassel/492
-loop43        7:43   0  15.7M  1 loop /snap/snap-store/1367
-loop44        7:44   0  11.8M  1 loop /snap/snap-store/1390
-loop45        7:45   0 186.2M  1 loop /snap/opera/492
-loop46        7:46   0  50.1M  1 loop /snap/snapd/27710
-loop47        7:47   0   580K  1 loop /snap/snapd-desktop-integration/361
-loop48        7:48   0   828K  1 loop /snap/snapd-desktop-integration/391
-loop49        7:49   0  64.7M  1 loop /snap/sublime-text/219
-loop50        7:50   0   209M  1 loop /snap/vivaldi/470
-loop51        7:51   0 221.1M  1 loop /snap/thunderbird/1228
-loop52        7:52   0 221.5M  1 loop /snap/thunderbird/1240
-loop53        7:53   0  50.3M  1 loop /snap/snapd/27738
-loop54        7:54   0     4M  1 loop /snap/webfortran/8
-loop55        7:55   0 214.5M  1 loop /snap/brave/678
-loop56        7:56   0 214.4M  1 loop /snap/brave/676
-loop57        7:57   0 186.2M  1 loop /snap/opera/490
-sdb           8:16   0   1.8T  0 disk 
-└─sdb1        8:17   0   1.8T  0 part /mnt/T7-Shield
+loop42        7:42   0  18.8M  1 loop /snap/prompting-client/222
+loop43        7:43   0   556K  1 loop /snap/quadrapassel/492
+loop44        7:44   0  15.7M  1 loop /snap/snap-store/1367
+loop45        7:45   0  11.8M  1 loop /snap/snap-store/1390
+loop46        7:46   0  50.3M  1 loop /snap/snapd/27738
+loop47        7:47   0  50.1M  1 loop /snap/snapd/27710
+loop48        7:48   0   580K  1 loop /snap/snapd-desktop-integration/361
+loop49        7:49   0   828K  1 loop /snap/snapd-desktop-integration/391
+loop50        7:50   0  64.7M  1 loop /snap/sublime-text/219
+loop51        7:51   0 121.4M  1 loop /snap/sublime-text/229
+loop52        7:52   0 221.1M  1 loop /snap/thunderbird/1228
+loop53        7:53   0 221.5M  1 loop /snap/thunderbird/1240
+loop54        7:54   0 208.9M  1 loop /snap/vivaldi/468
+loop55        7:55   0   209M  1 loop /snap/vivaldi/470
+loop56        7:56   0     4M  1 loop /snap/webfortran/8
+loop57        7:57   0 186.3M  1 loop /snap/opera/493
+sda           8:0    0   1.8T  0 disk 
+└─sda1        8:1    0   1.8T  0 part /mnt/T7-Shield
 nvme0n1     259:0    0 953.9G  0 disk 
 ├─nvme0n1p1 259:1    0   976M  0 part /boot/efi
 └─nvme0n1p2 259:2    0 952.9G  0 part /
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  4.7M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  214G  676G  24% /
-tmpfs          tmpfs      16G  478M   15G   4% /dev/shm
+tmpfs          tmpfs     6.1G  4.3M  6.1G   1% /run
+/dev/nvme0n1p2 ext4      937G  213G  677G  24% /
+tmpfs          tmpfs      16G   40M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-tmpfs          tmpfs      16G  2.6G   13G  17% /tmp
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs     3.1G  5.6M  3.1G   1% /run/user/1000
-/dev/sdb1      ext4      1.8T  220G  1.5T  13% /mnt/T7-Shield
+tmpfs          tmpfs      16G  3.8M   16G   1% /tmp
+/dev/sda1      ext4      1.8T  220G  1.5T  13% /mnt/T7-Shield
+tmpfs          tmpfs     3.1G  4.1M  3.1G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
@@ -165,26 +165,22 @@ TARGET                                            SOURCE                 FSTYPE 
 │ │ ├─/run/user/1000/doc                          portal                 fuse.portal     rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 │ │ └─/run/user/1000/gvfs                         gvfsd-fuse             fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 │ └─/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs           rw,nosuid,nodev,size=6325316k,nr_inodes=819200,mode=755,inode64
-│   ├─/run/snapd/ns/cups.mnt                      nsfs[mnt:[4026533047]] nsfs            rw
-│   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026533121]] nsfs            rw
-│   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532742]] nsfs            rw
-│   ├─/run/snapd/ns/bitwarden.mnt                 nsfs[mnt:[4026532744]] nsfs            rw
-│   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026533224]] nsfs            rw
-│   ├─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026533500]] nsfs            rw
-│   ├─/run/snapd/ns/jabref.mnt                    nsfs[mnt:[4026535806]] nsfs            rw
-│   ├─/run/snapd/ns/gnome-system-monitor.mnt      nsfs[mnt:[4026534867]] nsfs            rw
-│   └─/run/snapd/ns/opera.mnt                     nsfs[mnt:[4026534729]] nsfs            rw
-├─/tmp                                            tmpfs                  tmpfs           rw,nosuid,nodev,size=15813288k,nr_inodes=1048576,inode64,usrquota
-├─/snap/firefox/8863                              /dev/loop22            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15690032k,nr_inodes=3922508,mode=755,inode64
-│ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
+│   ├─/run/snapd/ns/cups.mnt                      nsfs[mnt:[4026533125]] nsfs            rw
+│   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026533126]] nsfs            rw
+│   ├─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026533330]] nsfs            rw
+│   ├─/run/snapd/ns/bitwarden.mnt                 nsfs[mnt:[4026533337]] nsfs            rw
+│   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532752]] nsfs            rw
+│   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026534033]] nsfs            rw
+│   └─/run/snapd/ns/opera.mnt                     nsfs[mnt:[4026533138]] nsfs            rw
+├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15690204k,nr_inodes=3922551,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime
+│ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
 │ ├─/dev/shm                                      tmpfs                  tmpfs           rw,nosuid,nodev,inode64,usrquota
 │ └─/dev/pts                                      devpts                 devpts          rw,nosuid,noexec,relatime,gid=5,mode=600,ptmxmode=000
 ├─/sys                                            sysfs                  sysfs           rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/fs/fuse/connections                      fusectl                fusectl         rw,nosuid,nodev,noexec,relatime
-│ ├─/sys/kernel/tracing                           tracefs                tracefs         rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/debug                             debugfs                debugfs         rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/tracing                           tracefs                tracefs         rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/security                          securityfs             securityfs      rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/fs/cgroup                                cgroup2                cgroup2         rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting
 │ ├─/sys/fs/pstore                                none                   pstore          rw,nosuid,nodev,noexec,relatime
@@ -192,63 +188,65 @@ TARGET                                            SOURCE                 FSTYPE 
 │ ├─/sys/fs/bpf                                   bpf                    bpf             rw,nosuid,nodev,noexec,relatime,mode=700
 │ └─/sys/kernel/config                            configfs               configfs        rw,nosuid,nodev,noexec,relatime
 ├─/proc                                           proc                   proc            rw,nosuid,nodev,noexec,relatime
-│ └─/proc/sys/fs/binfmt_misc                      systemd-1              autofs          rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=10650
+│ └─/proc/sys/fs/binfmt_misc                      systemd-1              autofs          rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=7083
 │   └─/proc/sys/fs/binfmt_misc                    binfmt_misc            binfmt_misc     rw,nosuid,nodev,noexec,relatime
 ├─/snap/bare/5                                    /dev/loop0             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/boot/efi                                       /dev/nvme0n1p1         vfat            rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
 ├─/snap/bitwarden/167                             /dev/loop1             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/chromium-ffmpeg/118                       /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/core18/2999                               /dev/loop5             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/core20/2866                               /dev/loop6             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/cmake/1562                                /dev/loop7             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/core22/2437                               /dev/loop8             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/cmake/1560                                /dev/loop9             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/brave/676                                 /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/brave/678                                 /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/chromium-ffmpeg/118                       /dev/loop4             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/boot/efi                                       /dev/nvme0n1p1         vfat            rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
+├─/snap/cmake/1560                                /dev/loop5             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/cmake/1562                                /dev/loop6             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/core18/2999                               /dev/loop7             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/core20/2866                               /dev/loop8             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/core22/2437                               /dev/loop9             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core24/1587                               /dev/loop10            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core24/1643                               /dev/loop11            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/cups/1238                                 /dev/loop12            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/desktop-security-center/150               /dev/loop13            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/desktop-security-center/151               /dev/loop14            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/firefox/8803                              /dev/loop16            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/firmware-updater/226                      /dev/loop17            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/desktop-security-center/150               /dev/loop13            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/firefox/8803                              /dev/loop15            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/firefox/8863                              /dev/loop17            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/firmware-updater/226                      /dev/loop16            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gedit/697                                 /dev/loop18            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/github-gui/2                              /dev/loop19            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gitkraken/319                             /dev/loop20            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gnome-3-28-1804/198                       /dev/loop23            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gnome-42-2204/263                         /dev/loop24            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gnome-46-2404/153                         /dev/loop25            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gnome-system-monitor/193                  /dev/loop26            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gnome-46-2404/164                         /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gtk-common-themes/1535                    /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/julia/165                                 /dev/loop30            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/jabref/3232                               /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/jupyterlab-desktop/35                     /dev/loop31            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/jupyterlab-desktop/41                     /dev/loop32            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/kf6-core24/64                             /dev/loop33            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/lxqt-support-core24/16                    /dev/loop34            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/mesa-2404/1839                            /dev/loop36            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/mesa-2404/1165                            /dev/loop35            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/prompting-client/204                      /dev/loop39            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gitkraken/323                             /dev/loop21            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/glab/6617                                 /dev/loop22            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/glab/6667                                 /dev/loop23            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gnome-3-28-1804/198                       /dev/loop24            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gnome-42-2204/263                         /dev/loop25            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gnome-46-2404/153                         /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gnome-system-monitor/193                  /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gnome-46-2404/164                         /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/gtk-common-themes/1535                    /dev/loop26            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/julia/165                                 /dev/loop31            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/jabref/3232                               /dev/loop30            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/jupyterlab-desktop/35                     /dev/loop32            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/jupyterlab-desktop/41                     /dev/loop33            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/kf6-core24/64                             /dev/loop34            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/lxqt-support-core24/16                    /dev/loop35            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/mesa-2404/1165                            /dev/loop36            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/mesa-2404/1839                            /dev/loop37            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/opera/492                                 /dev/loop39            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/prompting-client/204                      /dev/loop40            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/proton-mail/39                            /dev/loop41            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/prompting-client/222                      /dev/loop40            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/quadrapassel/492                          /dev/loop42            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snap-store/1367                           /dev/loop43            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snap-store/1390                           /dev/loop44            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snapd-desktop-integration/361             /dev/loop47            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snapd/27710                               /dev/loop46            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/sublime-text/219                          /dev/loop49            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snapd-desktop-integration/391             /dev/loop48            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/brave/678                                 /dev/loop55            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/thunderbird/1228                          /dev/loop51            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/webfortran/8                              /dev/loop54            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/opera/492                                 /dev/loop45            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/mnt/T7-Shield                                  /dev/sdb1              ext4            rw,relatime,stripe=8191
-├─/snap/vivaldi/468                               /dev/loop4             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/thunderbird/1240                          /dev/loop52            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gitkraken/323                             /dev/loop38            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/sublime-text/229                          /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/glab/6617                                 /dev/loop37            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/brave/676                                 /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/glab/6667                                 /dev/loop21            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snapd/27738                               /dev/loop53            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/opera/490                                 /dev/loop57            squashfs        ro,nodev,relatime,errors=continue,threads=single
-└─/snap/vivaldi/470                               /dev/loop50            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/prompting-client/222                      /dev/loop42            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snap-store/1367                           /dev/loop44            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/quadrapassel/492                          /dev/loop43            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snap-store/1390                           /dev/loop45            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snapd/27738                               /dev/loop46            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snapd/27710                               /dev/loop47            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snapd-desktop-integration/361             /dev/loop48            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snapd-desktop-integration/391             /dev/loop49            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/sublime-text/219                          /dev/loop50            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/sublime-text/229                          /dev/loop51            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/thunderbird/1228                          /dev/loop52            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/thunderbird/1240                          /dev/loop53            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/vivaldi/468                               /dev/loop54            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/vivaldi/470                               /dev/loop55            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/tmp                                            tmpfs                  tmpfs           rw,nosuid,nodev,size=15813288k,nr_inodes=1048576,inode64,usrquota
+├─/snap/webfortran/8                              /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/mnt/T7-Shield                                  /dev/sda1              ext4            rw,relatime,stripe=8191
+└─/snap/opera/493                                 /dev/loop57            squashfs        ro,nodev,relatime,errors=continue,threads=single
