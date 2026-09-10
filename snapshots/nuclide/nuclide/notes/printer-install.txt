@@ -1,0 +1,56 @@
+  sudo apt install cups
+
+  290  sudo systemctl enable cups
+  291  sudo systemctl start cups
+  292  sudo system control status cups
+  293  sudo systemctl status cups
+  294  sudo visudo
+  295  sudo lpadmin -p Hill_AFB_Printer -E -v ipp://10.86.24.2/printers/HILL-AFB-CLEARFIELD-888-1ST-FLOOR-138 -m everywhere
+  296  lpoptions -d Hill_AFB_Printer
+  297  lpstat -p -d
+  298  echo "Test print from WSL Ubuntu for Daniel" | lp
+  299  pwd
+  300  lss
+  301  mkdir -p $HOSTNAME/notes
+  302  cd nuclide/notes/
+  303  vim printer-install.txt
+  304  history
+dantopa@nuclide:~/nuclide/notes$ date
+Thu Sep  3 17:39:38 MDT 2026
+
+dantopa@nuclide:~$ sudo systemctl enable cups
+sudo systemctl start cups
+[sudo: authenticate] Password:
+Synchronizing state of cups.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable cups
+dantopa@nuclide:~$ sudo system control status cups
+sudo: 'system': command not found
+dantopa@nuclide:~$ sudo systemctl status cups
+● cups.service - CUPS Scheduler
+     Loaded: loaded (/usr/lib/systemd/system/cups.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-09-03 17:29:49 MDT; 1min 30s ago
+ Invocation: dbc3c07c301e403a9a4e15b400a9377c
+TriggeredBy: ● cups.path
+             ● cups.socket
+       Docs: man:cupsd(8)
+   Main PID: 415 (cupsd)
+     Status: "Scheduler is running..."
+      Tasks: 1 (limit: 9328)
+     Memory: 7.1M (peak: 7.1M)
+        CPU: 21ms
+     CGroup: /system.slice/system-cups.slice/cups.service
+             └─415 /usr/sbin/cupsd -l
+
+Sep 03 17:29:49 nuclide systemd[1]: Starting cups.service - CUPS Scheduler...
+Sep 03 17:29:49 nuclide systemd[1]: Started cups.service - CUPS Scheduler.
+dantopa@nuclide:~$ sudo visudo
+visudo: /tmp/sudoers-BvyIIK/sudoers unchanged
+dantopa@nuclide:~$ sudo lpadmin -p Hill_AFB_Printer -E -v ipp://10.86.24.2/printers/HILL-AFB-CLEARFIELD-888-1ST-FLOOR-138 -m everywhere
+dantopa@nuclide:~$ lpoptions -d Hill_AFB_Printer
+copies=1 device-uri=ipp://10.86.24.2/printers/HILL-AFB-CLEARFIELD-888-1ST-FLOOR-138 finishings=3 job-cancel-after=10800 job-hold-until=no-hold job-priority=50 job-sheets=none,none marker-change-time=0 number-up=1 print-color-mode=color printer-commands=none printer-info=Hill_AFB_Printer printer-is-accepting-jobs=true printer-is-shared=false printer-is-temporary=false printer-location='888 UNIVERSITY PARK' printer-make-and-model='EC8036 - IPP Everywhere' printer-state=3 printer-state-change-time=1788478636 printer-state-reasons=none printer-type=2142302 printer-uri-supported=ipp://localhost/printers/Hill_AFB_Printer
+dantopa@nuclide:~$ lpstat -p -d
+printer Hill_AFB_Printer is idle.  enabled since Thu Sep  3 17:37:16 2026
+system default destination: Hill_AFB_Printer
+dantopa@nuclide:~$ echo "Test print from WSL Ubuntu for Daniel" | lp
+request id is Hill_AFB_Printer-1 (0 file(s))
+dantopa@nuclide:~$
