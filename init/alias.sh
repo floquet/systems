@@ -8,5 +8,5 @@ alias nb="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
 
 # source/reload
 alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'
-alias refresh='echo "sudo bash ${pSystems}/setup/apt/apt-refresh.sh"; sudo bash ${pSystems}/setup/apt/apt-refresh.sh'
+# alias refresh='echo "sudo bash ${pSystems}/setup/apt/apt-refresh.sh"; sudo bash ${pSystems}/setup/apt/apt-refresh.sh'
 

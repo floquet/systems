@@ -31,11 +31,21 @@ alias goPresentations='cd "${pGitlab}/presentations" && pwd'
 alias goStrange='cd "${pGitlab}/strange" && pwd'
 alias goZazzle='cd "${pGitlab}/zazzle" && pwd'
 
-# Mathematica io/nb mirror
 function goio() {
-    cd "$(pwd | sed 's|/nb/|/io/|')"
+    local p
+    p="$(pwd | sed -E 's|/(nb|wl)/|/io/|')"
+    cd "${p}" && pwd
 }
 
 function gonb() {
-    cd "$(pwd | sed 's|/io/|/nb/|')"
+    local p
+    p="$(pwd | sed -E 's|/(io|wl)/|/nb/|')"
+    cd "${p}" && pwd
 }
+
+function gowl() {
+    local p
+    p="$(pwd | sed -E 's|/(io|nb)/|/wl/|')"
+    cd "${p}" && pwd
+}
+

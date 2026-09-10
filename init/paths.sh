@@ -18,6 +18,12 @@ export pShellLibrary="${pGithub}/shell-library"
 # Systems repository
 export pSnapshots="${pSystems}/snapshots"
 export pSnapshot="${pSnapshots}/${HOSTNAME}"
+dir_systems_bin="${pSystems}/bin"
+
+case ":${PATH}:" in
+    *":${dir_systems_bin}:"*) ;;
+    *) export PATH="${dir_systems_bin}:${PATH}" ;;
+esac
 
 # Build/system paths
 export pUbuntu="${pBuilds}/linux/ubuntu"

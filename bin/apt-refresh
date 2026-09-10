@@ -1,0 +1,94 @@
+#!/usr/bin/env bash
+printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+# Invocation: apt-refresh; writes results to ${pSystems}/snapshots/$(hostname -s)/apt/
+
+# Initialize counters
+counter=0
+subcounter=0
+start_time=${SECONDS}
+
+function new_step() {
+    counter=$((counter + 1))
+    subcounter=0
+
+    echo ""
+    echo "Step ${counter}: ${1}"
+}
+
+function sub_step() {
+    subcounter=$((subcounter + 1))
+
+    echo ""
+    echo "  Substep ${counter}.${subcounter}: ${1}"
+}
+
+new_step "Settings"
+
+machine=$(hostname -s)
+
+dir_systems=$(
+    cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." &&
+    pwd
+)
+
+dir_apt="${APT_RESULTS_DIR:-${dir_systems}/snapshots/${machine}/apt}"
+
+sub_step "machine=${machine}"
+sub_step "dir_systems=${dir_systems}"
+sub_step "dir_apt=${dir_apt}"
+
+new_step "Create results directory"
+
+echo "mkdir -p ${dir_apt}"
+mkdir -p "${dir_apt}"
+
+new_step "sudo apt-get update"
+
+file_update="${dir_apt}/results-update.txt"
+
+date > "${file_update}"
+echo "sudo apt-get update 2>&1 | tee -a ${file_update}" \
+    >> "${file_update}"
+
+sudo apt-get update 2>&1 |
+    tee -a "${file_update}"
+
+new_step "sudo apt-get upgrade -y"
+
+file_upgrade="${dir_apt}/results-upgrade.txt"
+
+date > "${file_upgrade}"
+echo "sudo apt-get upgrade -y 2>&1 | tee -a ${file_upgrade}" \
+    >> "${file_upgrade}"
+
+sudo apt-get upgrade -y 2>&1 |
+    tee -a "${file_upgrade}"
+
+new_step "sudo apt-get autoremove -y"
+
+file_autoremove="${dir_apt}/results-autoremove.txt"
+
+date > "${file_autoremove}"
+echo "sudo apt-get autoremove -y 2>&1 | tee -a ${file_autoremove}" \
+    >> "${file_autoremove}"
+
+sudo apt-get autoremove -y 2>&1 |
+    tee -a "${file_autoremove}"
+
+new_step "Show output"
+
+echo "results posted to:"
+echo "  ${file_update}"
+echo "  ${file_upgrade}"
+echo "  ${file_autoremove}"
+echo ""
+
+echo "end: $(date)"
+
+elapsed=$((${SECONDS} - ${start_time}))
+
+printf 'elapsed time: %dh:%dm:%ds\n' \
+    $((${elapsed} / 3600)) \
+    $((${elapsed} % 3600 / 60)) \
+    $((${elapsed} % 60))
+
