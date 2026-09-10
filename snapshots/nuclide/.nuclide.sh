@@ -13,5 +13,6 @@ export pInit="${pSystems}/init"
 source "${pInit}/master.sh"
 
 # machine-specific configuration
-source "${pInit}/spack-tethys.sh"
+# source "${pInit}/spack-tethys.sh"
+alias hot='goPres; cd uq-smith-alpha/main; pwd'
 
