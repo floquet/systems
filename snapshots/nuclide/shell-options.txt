@@ -1,4 +1,4 @@
-Thu Sep 10 10:13:53 MDT 2026
+Thu Sep 10 10:33:14 MDT 2026
 
 COMMAND: set -o
 allexport      	off
@@ -47,7 +47,7 @@ shopt -u compat41
 shopt -u compat42
 shopt -u compat43
 shopt -u compat44
-shopt -u complete_fullquote
+shopt -s complete_fullquote
 shopt -u direxpand
 shopt -u dirspell
 shopt -u dotglob
@@ -73,7 +73,7 @@ shopt -u lastpipe
 shopt -u lithist
 shopt -u localvar_inherit
 shopt -u localvar_unset
-shopt -u login_shell
+shopt -s login_shell
 shopt -u mailwarn
 shopt -u no_empty_cmd_completion
 shopt -u nocaseglob
