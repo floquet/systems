@@ -1,4 +1,4 @@
-Thu Sep 10 17:21:36 MDT 2026
+Fri Sep 11 09:46:51 MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       1.1Gi       5.9Gi       6.3Mi       875Mi       6.5Gi
+Mem:           7.6Gi       921Mi       6.0Gi       6.3Mi       884Mi       6.7Gi
 Swap:          2.0Gi          0B       2.0Gi
 
 COMMAND: lsblk
@@ -83,17 +83,17 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
-drivers        9p       236G  228G  7.6G  97% /usr/lib/wsl/drivers
+drivers        9p       236G  225G   11G  96% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G   68G  889G   8% /
-none           tmpfs    3.9G   60K  3.9G   1% /mnt/wslg
+none           tmpfs    3.9G   64K  3.9G   1% /mnt/wslg
 none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   3.8G  2.8M  3.8G   1% /init
-none           tmpfs    3.9G  872K  3.9G   1% /run
+none           tmpfs    3.9G  868K  3.9G   1% /run
 none           tmpfs    3.9G     0  3.9G   0% /run/lock
 none           tmpfs    3.9G     0  3.9G   0% /run/shm
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/versions.txt
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/doc
-C:\            9p       236G  228G  7.6G  97% /mnt/c
+C:\            9p       236G  225G   11G  96% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
