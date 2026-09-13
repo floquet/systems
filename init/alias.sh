@@ -6,6 +6,8 @@ alias wolf="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
 alias wolfram="/usr/local/Wolfram/Wolfram/15.0/Executables/wolfram"
 alias nb="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
 
+alias hot="cd ${pFramework}/pres/spherical-harmonics/main; pwd"
+
 # source/reload
 alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'
 # alias refresh='echo "sudo bash ${pSystems}/setup/apt/apt-refresh.sh"; sudo bash ${pSystems}/setup/apt/apt-refresh.sh'
