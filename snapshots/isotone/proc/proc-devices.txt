@@ -1,4 +1,4 @@
-Tue Sep  8 12:23:06 AM MDT 2026
+Sun Sep 13 07:29:20 PM MDT 2026
 
 COMMAND: cat /proc/devices
 DESCRIPTION: Configured character and block device major numbers
@@ -32,13 +32,13 @@ Character devices:
 204 ttyMAX
 216 rfcomm
 226 drm
-234 aux
-235 cec
-236 lirc
+234 hidraw
+235 aux
+236 cec
 237 mei
-238 nvme-generic
-239 nvme
-240 hidraw
+238 lirc
+239 nvme-generic
+240 nvme
 241 ttyDBC
 242 bsg
 243 watchdog

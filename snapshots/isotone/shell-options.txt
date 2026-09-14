@@ -1,19 +1,19 @@
-Tue Sep  8 12:23:06 AM MDT 2026
+Sun Sep 13 07:29:20 PM MDT 2026
 
 COMMAND: set -o
 allexport      	off
 braceexpand    	on
-emacs          	on
+emacs          	off
 errexit        	off
 errtrace       	off
 functrace      	off
 hashall        	on
-histexpand     	on
-history        	on
+histexpand     	off
+history        	off
 ignoreeof      	off
 interactive-comments	on
 keyword        	off
-monitor        	on
+monitor        	off
 noclobber      	off
 noexec         	off
 noglob         	off
@@ -52,9 +52,9 @@ shopt -u direxpand
 shopt -u dirspell
 shopt -u dotglob
 shopt -u execfail
-shopt -s expand_aliases
+shopt -u expand_aliases
 shopt -u extdebug
-shopt -s extglob
+shopt -u extglob
 shopt -s extquote
 shopt -u failglob
 shopt -s force_fignore
@@ -62,10 +62,10 @@ shopt -s globasciiranges
 shopt -s globskipdots
 shopt -u globstar
 shopt -u gnu_errfmt
-shopt -s histappend
+shopt -u histappend
 shopt -u histreedit
 shopt -u histverify
-shopt -u hostcomplete
+shopt -s hostcomplete
 shopt -u huponexit
 shopt -u inherit_errexit
 shopt -s interactive_comments
@@ -73,7 +73,7 @@ shopt -u lastpipe
 shopt -u lithist
 shopt -u localvar_inherit
 shopt -u localvar_unset
-shopt -s login_shell
+shopt -u login_shell
 shopt -u mailwarn
 shopt -u no_empty_cmd_completion
 shopt -u nocaseglob
@@ -99,7 +99,7 @@ core file size              (blocks, -c) 0
 data seg size               (kbytes, -d) unlimited
 scheduling priority                 (-e) 0
 file size                   (blocks, -f) unlimited
-pending signals                     (-i) 125516
+pending signals                     (-i) 125511
 max locked memory           (kbytes, -l) 8192
 max memory size             (kbytes, -m) unlimited
 open files                          (-n) 1024
@@ -108,6 +108,6 @@ POSIX message queues         (bytes, -q) 819200
 real-time priority                  (-r) 0
 stack size                  (kbytes, -s) 8192
 cpu time                   (seconds, -t) unlimited
-max user processes                  (-u) 125516
+max user processes                  (-u) 125511
 virtual memory              (kbytes, -v) unlimited
 file locks                          (-x) unlimited

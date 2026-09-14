@@ -1,4 +1,4 @@
-Tue Sep  8 12:23:06 AM MDT 2026
+Sun Sep 13 07:29:20 PM MDT 2026
 
 COMMAND: cat /proc/iomem
 DESCRIPTION: Physical memory and device address map
@@ -11,10 +11,6 @@ DESCRIPTION: Physical memory and device address map
     00000000-00000000 : System ROM
 00000000-00000000 : System RAM
   00000000-00000000 : Crash kernel
-  00000000-00000000 : Kernel code
-  00000000-00000000 : Kernel rodata
-  00000000-00000000 : Kernel data
-  00000000-00000000 : Kernel bss
 00000000-00000000 : Reserved
   00000000-00000000 : PNP0C02:01
 00000000-00000000 : System RAM
@@ -128,6 +124,10 @@ DESCRIPTION: Physical memory and device address map
 00000000-00000000 : INT0800:00
   00000000-00000000 : Reserved
 00000000-00000000 : System RAM
+  00000000-00000000 : Kernel code
+  00000000-00000000 : Kernel rodata
+  00000000-00000000 : Kernel data
+  00000000-00000000 : Kernel bss
 00000000-00000000 : RAM buffer
 00000000-00000000 : PCI Bus 0000:00
   00000000-00000000 : 0000:00:1f.3

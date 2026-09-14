@@ -1,11 +1,10 @@
-Tue Sep  8 12:23:06 AM MDT 2026
+Sun Sep 13 07:29:20 PM MDT 2026
 
 COMMAND: cat /proc/filesystems
 DESCRIPTION: Filesystem types supported by the kernel
 
 nodev	sysfs
 nodev	tmpfs
-nodev	bdev
 nodev	proc
 nodev	cgroup
 nodev	cgroup2
