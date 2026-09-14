@@ -14,4 +14,6 @@ source "${pInit}/master.sh"
 
 # machine-specific configuration
 # source "${pInit}/spack-tethys.sh"
+echo "$WolframKernel"
+
 

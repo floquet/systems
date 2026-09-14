@@ -1,16 +1,15 @@
-Sun Sep  6 02:22:45 PM MDT 2026
+Sun Sep 13 07:20:34 PM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
 
 major minor  #blocks  name
 
-   7        0     219588 loop0
+   7        0      75756 loop0
    7        1          4 loop1
    7        2      13444 loop2
    7        3     219644 loop3
    7        4      75768 loop4
-   7        5      68452 loop5
    7        6      68408 loop6
    7        7      20120 loop7
  259        0 1953514584 nvme0n1
@@ -27,8 +26,12 @@ major minor  #blocks  name
    7       16      19284 loop16
    7       17      16064 loop17
    7       18      12092 loop18
-   7       19      50444 loop19
+   7       19     411628 loop19
    7       20      51304 loop20
    7       21        580 loop21
    7       22        828 loop22
    7       23     213528 loop23
+   7       24      51476 loop24
+   7       25     629280 loop25
+   7       26     220028 loop26
+   7       27      68392 loop27
