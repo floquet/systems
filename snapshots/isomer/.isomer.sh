@@ -15,3 +15,8 @@ source "${pInit}/master.sh"
 # machine-specific configuration
 # source "${pInit}/spack-tethys.sh"
 
+#   echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+#   source ~/.bashrc
+#To run Zed now, '~/.local/bin/zed'
+
+

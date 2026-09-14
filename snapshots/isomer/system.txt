@@ -1,4 +1,4 @@
-Sun Sep 13 01:41:05 PM MDT 2026
+Sun Sep 13 09:19:58 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      71%
+CPU(s) scaling MHz:                      73%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        19Gi       4.3Gi       5.2Gi       9.5Gi        10Gi
-Swap:           15Gi       6.6Gi       9.4Gi
+Mem:            30Gi        21Gi       2.5Gi       5.8Gi        10Gi       8.5Gi
+Swap:           15Gi       7.3Gi       8.7Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -146,13 +146,13 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  5.5M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  269G  622G  31% /
-tmpfs          tmpfs      16G  265M   15G   2% /dev/shm
+/dev/nvme0n1p2 ext4      937G  269G  621G  31% /
+tmpfs          tmpfs      16G  294M   15G   2% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  154M   15G   1% /tmp
+tmpfs          tmpfs      16G  298M   15G   2% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  5.5M  3.1G   1% /run/user/1000
 
