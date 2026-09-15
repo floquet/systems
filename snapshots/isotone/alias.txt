@@ -1,4 +1,4 @@
-Sun Sep 13 07:32:52 PM MDT 2026
+Mon Sep 14 06:19:40 PM MDT 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias echoff='echo "$fflags"'
@@ -35,6 +35,7 @@ alias goStrange='cd "${pGitlab}/strange" && pwd'
 alias goSystems='cd "${pGithub}/systems" && pwd'
 alias goUbuntu='cd "${pUbuntu}" && pwd'
 alias goZazzle='cd "${pGitlab}/zazzle" && pwd'
+alias gof='cd "${pGithub}/f" && pwd'
 alias grep='grep --color=auto'
 alias hot='cd /home/dantopa/repos-isotone/github/framework/pres/spherical-harmonics/main; pwd'
 alias l='ls -CF'

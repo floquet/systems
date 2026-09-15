@@ -1,4 +1,4 @@
-Sun Sep 13 07:32:52 PM MDT 2026
+Mon Sep 14 06:19:40 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isotone
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
 Hardware Version: 1.0
 Firmware Version: 2103.160.2.0.0 (iBridge: 23.16.16068.0.0,0)
    Firmware Date: Sat 2026-07-11
-    Firmware Age: 2month 4d
+    Firmware Age: 2month 5d
 
 COMMAND: uname -a
 Linux isotone 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026 x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      6
 Socket(s):                               1
 Stepping:                                10
-CPU(s) scaling MHz:                      81%
+CPU(s) scaling MHz:                      74%
 CPU max MHz:                             4600.0000
 CPU min MHz:                             800.0000
 BogoMIPS:                                6399.96
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       1.2Gi        27Gi        12Mi       2.2Gi        29Gi
+Mem:            30Gi       1.4Gi        24Gi        12Mi       5.0Gi        29Gi
 Swap:          8.0Gi          0B       8.0Gi
 
 COMMAND: lsblk
@@ -109,7 +109,7 @@ nvme0n1     259:0    0   1.8T  0 disk
 
 COMMAND: df -hT
 Filesystem     Type   Size  Used Avail Use% Mounted on
-tmpfs          tmpfs  6.2G  5.7M  6.2G   1% /run
+tmpfs          tmpfs  6.2G  5.9M  6.2G   1% /run
 /dev/nvme0n1p2 ext4   1.8T  112G  1.6T   7% /
 tmpfs          tmpfs   16G   12K   16G   1% /dev/shm
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
@@ -132,7 +132,8 @@ TARGET                                            SOURCE                 FSTYPE 
 │ └─/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs       rw,nosuid,nodev,size=6435632k,nr_inodes=819200,mode=755,inode64
 │   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026532768]] nsfs        rw
 │   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532832]] nsfs        rw
-│   └─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026532516]] nsfs        rw
+│   ├─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026532516]] nsfs        rw
+│   └─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532577]] nsfs        rw
 ├─/dev                                            devtmpfs               devtmpfs    rw,nosuid,size=15985684k,nr_inodes=3996421,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue      rw,nosuid,nodev,noexec,relatime
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M

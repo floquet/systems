@@ -17,7 +17,7 @@
     <info name="DMIBIOSDate" value="07/11/2026"/>
     <info name="DMISysVendor" value="Apple Inc."/>
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/session-2.scope"/>
+    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/session-44.scope"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="7.0.0-31-generic"/>
     <info name="OSVersion" value="#31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026"/>

@@ -1,4 +1,4 @@
-Sun Sep 13 07:32:52 PM MDT 2026
+Mon Sep 14 06:19:40 PM MDT 2026
 
 COMMAND: cat /proc/cpuinfo
 DESCRIPTION: Processor and logical CPU information
@@ -10,7 +10,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.010
+cpu MHz		: 4200.008
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -38,7 +38,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.000
+cpu MHz		: 4199.996
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -66,7 +66,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.029
+cpu MHz		: 4199.994
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -94,7 +94,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3199.984
+cpu MHz		: 4199.949
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -122,7 +122,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.023
+cpu MHz		: 4200.004
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -150,7 +150,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.010
+cpu MHz		: 4199.996
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -178,7 +178,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3199.954
+cpu MHz		: 4199.983
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -206,7 +206,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.011
+cpu MHz		: 4200.012
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -234,7 +234,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3199.993
+cpu MHz		: 4199.985
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -262,7 +262,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3199.992
+cpu MHz		: 4200.018
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -290,7 +290,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3199.973
+cpu MHz		: 4199.995
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
@@ -318,7 +318,7 @@ model		: 158
 model name	: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 stepping	: 10
 microcode	: 0xfa
-cpu MHz		: 3200.000
+cpu MHz		: 4200.075
 cache size	: 12288 KB
 physical id	: 0
 siblings	: 12
