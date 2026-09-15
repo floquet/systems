@@ -1,4 +1,4 @@
-Sun Sep 13 09:19:58 PM MDT 2026
+Mon Sep 14 06:29:48 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -75,7 +75,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop50 /snap/sublime-text/219 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop51 /snap/sublime-text/229 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop53 /snap/thunderbird/1240 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop55 /snap/vivaldi/470 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 tmpfs /tmp tmpfs rw,nosuid,nodev,size=15813288k,nr_inodes=1048576,inode64,usrquota 0 0
 /dev/loop56 /snap/webfortran/8 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/sda1 /mnt/T7-Shield ext4 rw,relatime,stripe=8191 0 0
@@ -95,10 +94,13 @@ nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
 /dev/loop52 /snap/vivaldi/476 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
 /dev/loop54 /snap/core18/3084 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop58 /snap/opera/494 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
 /dev/loop39 /snap/brave/680 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0
+/dev/loop2 /snap/proton-mail/40 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/proton-mail.mnt nsfs rw 0 0
+/dev/loop59 /snap/vivaldi/484 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0

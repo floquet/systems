@@ -1,4 +1,4 @@
-Sun Sep 13 09:19:58 PM MDT 2026
+Mon Sep 14 06:29:48 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -61,7 +61,7 @@ udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                              
 udp   UNCONN 0      0                              10.10.10.4:49656      0.0.0.0:*    users:(("Socket Process",pid=10691,fd=33))
 udp   UNCONN 0      0                                 0.0.0.0:49970      0.0.0.0:*    users:(("python3",pid=29847,fd=12))       
-udp   UNCONN 1920   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=6199,fd=77))        
+udp   UNCONN 2880   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=6199,fd=77))        
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=13))       
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=11))       
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=10))       
@@ -99,10 +99,11 @@ COMMAND: ip neigh
 10.11.26.47 dev enp87s0 lladdr 78:8c:77:79:9d:da STALE 
 10.11.26.161 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.150 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
+10.11.26.164 dev enp87s0 lladdr 6c:1f:f7:cc:02:43 STALE 
 10.11.26.150 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.223 dev enp87s0 lladdr d8:be:65:4a:f0:70 STALE 
 10.11.26.223 dev enp86s0 lladdr d8:be:65:4a:f0:70 STALE 
-10.11.26.121 dev enp87s0 lladdr cc:2d:b7:04:84:d4 STALE 
+10.11.26.121 dev enp87s0 lladdr cc:2d:b7:04:84:d4 REACHABLE 
 10.11.26.87 dev enp87s0 lladdr 74:da:78:27:5c:87 STALE 
 10.11.26.159 dev enp86s0 lladdr f0:a6:54:4c:c8:71 STALE 
 10.11.26.159 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
