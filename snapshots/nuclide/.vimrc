@@ -20,6 +20,13 @@ set cursorline          " Underline the current line
 set termguicolors       " Enable 24-bit RGB colors (works in Windows Terminal)
 set background=dark     " Optimize colors for dark backgrounds
 
+" Disable background colors for common LaTeX highlight groups
+highlight texComment guibg=NONE ctermbg=NONE
+highlight texStatement guibg=NONE ctermbg=NONE
+highlight texSpecial guibg=NONE ctermbg=NONE
+highlight texTodo guibg=NONE ctermbg=NONE
+highlight texExample guibg=NONE ctermbg=NONE
+
 " --- STATUS LINE (File name, path, and cursor location) ---
 " This creates a custom status bar at the bottom
 set statusline=%f\ %y\ %m%r\ %=%l.%c\ %p%%
@@ -47,3 +54,4 @@ inoremap jk <Esc>
 " Clear search highlighting with <Leader>n
 let mapleader = " "
 nnoremap <leader>n :nohlsearch<CR>
+
