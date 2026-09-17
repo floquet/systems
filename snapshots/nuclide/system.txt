@@ -1,11 +1,11 @@
-Wed Sep 16 13:20:14 MDT 2026
+Thu Sep 17 14:15:05 MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 79b675cd7a964d489b5a63765c421a96
+         Boot ID: 3be9fe070fe04699b08cf3abd0e515bc
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -35,7 +35,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      10
 Socket(s):                               1
 Stepping:                                2
-BogoMIPS:                                4992.00
+BogoMIPS:                                4991.99
 Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni vnmi umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt flush_l1d arch_capabilities
 Virtualization:                          VT-x
 Hypervisor vendor:                       Microsoft
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       1.1Gi       5.3Gi       7.2Mi       1.3Gi       6.5Gi
+Mem:           7.6Gi       877Mi       5.2Gi       6.3Mi       1.7Gi       6.7Gi
 Swap:          2.0Gi          0B       2.0Gi
 
 COMMAND: lsblk
@@ -83,22 +83,22 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
-drivers        9p       236G  232G  3.7G  99% /usr/lib/wsl/drivers
+drivers        9p       236G  222G   14G  95% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G   68G  889G   8% /
-none           tmpfs    3.9G  108K  3.9G   1% /mnt/wslg
+none           tmpfs    3.9G   60K  3.9G   1% /mnt/wslg
 none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   3.8G  2.8M  3.8G   1% /init
-none           tmpfs    3.9G  892K  3.9G   1% /run
+none           tmpfs    3.9G  860K  3.9G   1% /run
 none           tmpfs    3.9G     0  3.9G   0% /run/lock
 none           tmpfs    3.9G     0  3.9G   0% /run/shm
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/versions.txt
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/doc
-C:\            9p       236G  232G  3.7G  99% /mnt/c
-none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+C:\            9p       236G  222G   14G  95% /mnt/c
 tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
-tmpfs          tmpfs    779M   20K  779M   1% /run/user/1000
+tmpfs          tmpfs    779M   12K  779M   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                               SOURCE                  FSTYPE      OPTIONS
@@ -111,18 +111,17 @@ TARGET                                               SOURCE                  FST
 │ ├─/mnt/wslg/versions.txt                           none[/etc/versions.txt] overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
 │ ├─/mnt/wslg/doc                                    none[/usr/share/doc]    overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
 │ └─/mnt/wslg/run/user/1000                          tmpfs                   tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
-│   └─/mnt/wslg/run/user/1000/doc                    portal                  fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 ├─/usr/lib/wsl/lib                                   none                    overlay     rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work,uuid=on
-├─/init                                              rootfs[/init]           rootfs      ro,size=3979988k,nr_inodes=994997
-├─/dev                                               none                    devtmpfs    rw,nosuid,relatime,size=3979988k,nr_inodes=994997,mode=755
+├─/init                                              rootfs[/init]           rootfs      ro,size=3979992k,nr_inodes=994998
+├─/dev                                               none                    devtmpfs    rw,nosuid,relatime,size=3979992k,nr_inodes=994998,mode=755
 │ ├─/dev/pts                                         devpts                  devpts      rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000
 │ ├─/dev/shm                                         none                    tmpfs       rw,nosuid,nodev,noatime
 │ ├─/dev/mqueue                                      mqueue                  mqueue      rw,nosuid,nodev,noexec,relatime
 │ └─/dev/hugepages                                   hugetlbfs               hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
 ├─/sys                                               sysfs                   sysfs       rw,nosuid,nodev,noexec,noatime
 │ ├─/sys/fs/cgroup                                   cgroup2                 cgroup2     rw,nosuid,nodev,noexec,relatime,nsdelegate
-│ ├─/sys/kernel/tracing                              tracefs                 tracefs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/debug                                debugfs                 debugfs     rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/tracing                              tracefs                 tracefs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/config                               configfs                configfs    rw,nosuid,nodev,noexec,relatime
 │ └─/sys/fs/fuse/connections                         fusectl                 fusectl     rw,nosuid,nodev,noexec,relatime
 ├─/proc                                              proc                    proc        rw,nosuid,nodev,noexec,noatime
@@ -133,11 +132,10 @@ TARGET                                               SOURCE                  FST
 │ ├─/run/user                                        none                    tmpfs       rw,nosuid,nodev,noexec,noatime,mode=755
 │ │ └─/run/user                                      none[/run/user]         tmpfs       rw,relatime
 │ │   └─/run/user/1000                               tmpfs                   tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
-│ │     └─/run/user/1000/doc                         portal                  fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 │ ├─/run/credentials/systemd-journald.service        none                    tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 │ ├─/run/credentials/systemd-resolved.service        none                    tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 │ └─/run/credentials/getty@tty1.service              none                    tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 ├─/tmp/.X11-unix                                     none[/.X11-unix]        tmpfs       ro,relatime
 ├─/mnt/c                                             C:\                     9p          rw,noatime,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=6,wfd=6
-└─/tmp                                               tmpfs                   tmpfs       rw,nosuid,nodev,nr_inodes=1048576
+└─/tmp                                               tmpfs                   tmpfs       rw,nosuid,nodev,size=3985752k,nr_inodes=1048576
   └─/tmp/.X11-unix                                   none[/.X11-unix]        tmpfs       ro,relatime
