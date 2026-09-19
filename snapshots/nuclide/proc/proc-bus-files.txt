@@ -1,4 +1,4 @@
-Thu Sep 17 14:15:04 MDT 2026
+Fri Sep 18 18:53:27 MDT 2026
 
 COMMAND: find /proc/bus -maxdepth 2 -print
 
@@ -7,7 +7,7 @@ COMMAND: find /proc/bus -maxdepth 2 -print
 /proc/bus/input/devices
 /proc/bus/input/handlers
 /proc/bus/pci
-/proc/bus/pci/1764:00
+/proc/bus/pci/4588:00
 /proc/bus/pci/5582:00
-/proc/bus/pci/6a65:00
 /proc/bus/pci/devices
+/proc/bus/pci/f7c6:00
