@@ -1,4 +1,4 @@
-Mon Sep 14 06:30:27 PM MDT 2026
+Sun Sep 20 05:19:00 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isotope
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
 Hardware Version: 1.0
 Firmware Version: 481.0.0.0.0
    Firmware Date: Sat 2023-10-07
-    Firmware Age: 2y 11month 1w 1d
+    Firmware Age: 2y 11month 2w
 
 COMMAND: uname -a
 Linux isotope 7.0.0-30-generic #30-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 18:22:54 UTC 2026 x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      12
 Socket(s):                               1
 Stepping:                                4
-CPU(s) scaling MHz:                      52%
+CPU(s) scaling MHz:                      53%
 CPU max MHz:                             3500.0000
 CPU min MHz:                             1200.0000
 BogoMIPS:                                5399.87
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           121Gi        19Gi        62Gi       6.9Gi        47Gi       101Gi
+Mem:           121Gi        12Gi        68Gi        70Mi        41Gi       108Gi
 Swap:          8.0Gi          0B       8.0Gi
 
 COMMAND: lsblk
@@ -82,7 +82,7 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0         7:0    0    74M  1 loop /snap/core22/2955
 loop1         7:1    0     4K  1 loop /snap/bare/5
 loop2         7:2    0  13.1M  1 loop /snap/canonical-livepatch/414
-loop3         7:3    0 214.5M  1 loop /snap/brave/678
+loop3         7:3    0 214.9M  1 loop /snap/brave/684
 loop4         7:4    0    74M  1 loop /snap/core22/2437
 loop5         7:5    0 260.8M  1 loop /snap/firefox/8863
 loop6         7:6    0  66.8M  1 loop /snap/core24/1643
@@ -105,8 +105,8 @@ loop22        7:22   0   828K  1 loop /snap/snapd-desktop-integration/391
 loop23        7:23   0 208.5M  1 loop /snap/jabref/3232
 loop24        7:24   0  50.3M  1 loop /snap/snapd/27738
 loop25        7:25   0 614.5M  1 loop /snap/gnome-46-2404/164
-loop26        7:26   0 214.9M  1 loop /snap/brave/680
 loop27        7:27   0  66.8M  1 loop /snap/core24/2124
+loop28        7:28   0 214.9M  1 loop /snap/brave/682
 nvme0n1     259:0    0   1.8T  0 disk 
 ├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
 └─nvme0n1p2 259:2    0   1.8T  0 part /
@@ -114,11 +114,11 @@ nvme0n1     259:0    0   1.8T  0 disk
 COMMAND: df -hT
 Filesystem     Type   Size  Used Avail Use% Mounted on
 tmpfs          tmpfs   25G  3.5M   25G   1% /run
-/dev/nvme0n1p2 ext4   1.8T  290G  1.5T  17% /
+/dev/nvme0n1p2 ext4   1.8T  291G  1.5T  17% /
 tmpfs          tmpfs   61G  7.9M   61G   1% /dev/shm
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-tmpfs          tmpfs   61G  6.9G   54G  12% /tmp
+tmpfs          tmpfs   61G  6.5M   61G   1% /tmp
 /dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
 tmpfs          tmpfs   13G  4.2M   13G   1% /run/user/1000
 
@@ -136,7 +136,7 @@ TARGET                                            SOURCE                 FSTYPE 
 │   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026533451]] nsfs            rw
 │   ├─/run/snapd/ns/mesa-2404.mnt                 nsfs[mnt:[4026534111]] nsfs            rw
 │   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026533949]] nsfs            rw
-│   ├─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026533947]] nsfs            rw
+│   ├─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026533945]] nsfs            rw
 │   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026533569]] nsfs            rw
 │   └─/run/snapd/ns/snap-store.mnt                nsfs[mnt:[4026534351]] nsfs            rw
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=63558548k,nr_inodes=15889637,mode=755,inode64
@@ -159,7 +159,6 @@ TARGET                                            SOURCE                 FSTYPE 
 │   └─/proc/sys/fs/binfmt_misc                    binfmt_misc            binfmt_misc     rw,nosuid,nodev,noexec,relatime
 ├─/snap/bare/5                                    /dev/loop1             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/canonical-livepatch/414                   /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/brave/678                                 /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core22/2437                               /dev/loop4             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core24/1643                               /dev/loop6             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/desktop-security-center/150               /dev/loop7             squashfs        ro,nodev,relatime,errors=continue,threads=single
@@ -179,11 +178,12 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/tmp                                            tmpfs                  tmpfs           rw,nosuid,nodev,nr_inodes=1048576,inode64,usrquota
 ├─/snap/snapd-desktop-integration/391             /dev/loop22            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/boot/efi                                       /dev/nvme0n1p1         vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
+├─/snap/brave/684                                 /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/brave/682                                 /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-46-2404/164                         /dev/loop25            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/mesa-2404/1839                            /dev/loop19            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/firefox/8863                              /dev/loop5             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/jabref/3232                               /dev/loop23            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core22/2955                               /dev/loop0             squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/brave/680                                 /dev/loop26            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core24/2124                               /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
 └─/snap/snapd/27738                               /dev/loop24            squashfs        ro,nodev,relatime,errors=continue,threads=single
