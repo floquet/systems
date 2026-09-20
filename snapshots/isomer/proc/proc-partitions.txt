@@ -1,4 +1,4 @@
-Mon Sep 14 06:29:48 PM MDT 2026
+Sat Sep 19 09:18:09 PM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -8,7 +8,7 @@ major minor  #blocks  name
    7        0          4 loop0
    7        1     154208 loop1
    7        2     132908 loop2
-   7        3     219644 loop3
+   7        3     214004 loop3
    7        4       9616 loop4
    7        5      61008 loop5
    7        6      61008 loop6
@@ -20,7 +20,7 @@ major minor  #blocks  name
    8        1 1953467280 sda1
    7        8      65312 loop8
    7        9      75768 loop9
-   7       10      68452 loop10
+   7       10     220056 loop10
    7       11      68408 loop11
    7       12      49056 loop12
    7       13      20120 loop13
@@ -30,9 +30,9 @@ major minor  #blocks  name
    7       17     267096 loop17
    7       18       6112 loop18
    7       19      63672 loop19
-   7       20     229864 loop20
+   7       20      75756 loop20
    7       21     230208 loop21
-   7       22      33652 loop22
+   7       22     190712 loop22
    7       23      33772 loop23
    7       24     168780 loop24
    7       25     544248 loop25
@@ -49,23 +49,25 @@ major minor  #blocks  name
    7       36     404460 loop36
    7       37     411628 loop37
    7       38     226760 loop38
-   7       39     220028 loop39
+   7       39     124452 loop39
    7       40      19276 loop40
    7       42      19284 loop42
    7       41     123804 loop41
    7       43        556 loop43
-   7       44      16064 loop44
+   7       44     214020 loop44
    7       45      12092 loop45
    7       46      51476 loop46
    7       47      51304 loop47
    7       48        580 loop48
    7       49        828 loop49
-   7       50      66236 loop50
    7       51     124284 loop51
-   7       52     214024 loop52
-   7       53     226796 loop53
+   7       52     189504 loop52
+   7       53      12116 loop53
    7       54      56836 loop54
+   7       55      33836 loop55
    7       56       4088 loop56
-   7       57     190732 loop57
-   7       58     190736 loop58
-   7       59     213996 loop59
+   7       57      65316 loop57
+   7       58     227436 loop58
+   7       59     220048 loop59
+   7       60     230324 loop60
+   7       61      68392 loop61
