@@ -1,8 +1,8 @@
-Fri Sep 18 18:53:27 MDT 2026
+Mon Sep 21 09:07:00 MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
-eth0             UP             172.21.106.91/20 fe80::215:5dff:fede:54e0/64 
+eth0             UP             172.21.106.91/20 fe80::215:5dff:fe3b:1bfa/64 
 
 COMMAND: ip route
 default via 172.21.96.1 dev eth0 proto kernel 
@@ -44,13 +44,13 @@ udp   UNCONN 0      0             0.0.0.0:5353      0.0.0.0:*
 udp   UNCONN 0      0               [::1]:323          [::]:*          
 udp   UNCONN 0      0               [::1]:323          [::]:*          
 udp   UNCONN 0      0                [::]:5353         [::]:*          
-tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
 tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
 tcp   LISTEN 0      4096        127.0.0.1:631       0.0.0.0:*          
-tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
 tcp   LISTEN 0      4096          0.0.0.0:22        0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
 tcp   LISTEN 0      4096            [::1]:631          [::]:*          
 tcp   LISTEN 0      4096             [::]:22           [::]:*          
 
 COMMAND: ip neigh
-172.21.96.1 dev eth0 lladdr 00:15:5d:39:ed:d2 DELAY 
+172.21.96.1 dev eth0 lladdr 00:15:5d:dc:aa:6a REACHABLE 
