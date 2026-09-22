@@ -1,4 +1,4 @@
-Mon Sep 14 06:19:40 PM MDT 2026
+Sun Sep 20 05:16:15 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -32,8 +32,6 @@ tmpfs /tmp tmpfs rw,nosuid,nodev,size=16089080k,nr_inodes=1048576,inode64,usrquo
 /dev/loop4 /snap/desktop-security-center/150 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop5 /snap/desktop-security-center/151 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop6 /snap/firmware-updater/226 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop7 /snap/firefox/8107 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop9 /snap/snap-store/1367 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop8 /snap/thunderbird/1240 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop13 /snap/snapd-desktop-integration/361 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop10 /snap/gtk-common-themes/1535 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -43,7 +41,6 @@ tmpfs /tmp tmpfs rw,nosuid,nodev,size=16089080k,nr_inodes=1048576,inode64,usrquo
 /dev/loop11 /snap/snap-store/1390 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop12 /snap/prompting-client/222 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop18 /snap/prompting-client/204 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop14 /snap/thunderbird/1228 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop20 /snap/gnome-46-2404/153 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop15 /snap/mesa-2404/1839 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/nvme0n1p1 /boot/efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
@@ -53,8 +50,13 @@ portal /run/user/60578/doc fuse.portal rw,nosuid,nodev,relatime,user_id=60578,gr
 tmpfs /run/snapd/ns tmpfs rw,nosuid,nodev,size=6435632k,nr_inodes=819200,mode=755,inode64 0 0
 nsfs /run/snapd/ns/snapd-desktop-integration.mnt nsfs rw 0 0
 /dev/loop21 /snap/firefox/8863 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=3217812k,nr_inodes=804453,mode=700,uid=1000,gid=1000,inode64 0 0
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+/dev/loop22 /snap/thunderbird/1255 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0
+/dev/loop14 /snap/snap-store/1419 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
+/dev/loop9 /snap/firefox/8929 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0

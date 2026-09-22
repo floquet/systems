@@ -1,4 +1,4 @@
-Sun Sep 13 07:22:45 PM MDT 2026
+Sun Sep 20 05:19:00 PM MDT 2026
 
 COMMAND: cat /proc/cpuinfo
 DESCRIPTION: Processor and logical CPU information
@@ -10,7 +10,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.939
+cpu MHz		: 2507.003
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -38,7 +38,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.937
+cpu MHz		: 2507.001
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -66,7 +66,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.958
+cpu MHz		: 2509.521
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -94,7 +94,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.958
+cpu MHz		: 2691.047
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -122,7 +122,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.938
+cpu MHz		: 2690.979
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -150,7 +150,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.936
+cpu MHz		: 2691.022
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -178,7 +178,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.941
+cpu MHz		: 2691.018
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -206,7 +206,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.942
+cpu MHz		: 2691.028
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -234,7 +234,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.913
+cpu MHz		: 2691.013
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -262,7 +262,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.870
+cpu MHz		: 2691.009
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -290,7 +290,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.943
+cpu MHz		: 2691.006
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -318,7 +318,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.922
+cpu MHz		: 2690.986
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -346,7 +346,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.960
+cpu MHz		: 2691.010
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -374,7 +374,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.942
+cpu MHz		: 2691.024
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -402,7 +402,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.932
+cpu MHz		: 2691.040
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -430,7 +430,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.934
+cpu MHz		: 2689.561
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -458,7 +458,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.912
+cpu MHz		: 2691.011
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -486,7 +486,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.908
+cpu MHz		: 2691.014
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -514,7 +514,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2700.102
+cpu MHz		: 2699.943
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -542,7 +542,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.961
+cpu MHz		: 2699.943
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -570,7 +570,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.941
+cpu MHz		: 2699.939
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -598,7 +598,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.939
+cpu MHz		: 2699.937
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -626,7 +626,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.956
+cpu MHz		: 2699.931
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24
@@ -654,7 +654,7 @@ model		: 62
 model name	: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
 stepping	: 4
 microcode	: 0x42e
-cpu MHz		: 2699.958
+cpu MHz		: 2699.937
 cache size	: 30720 KB
 physical id	: 0
 siblings	: 24

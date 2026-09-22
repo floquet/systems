@@ -1,4 +1,4 @@
-Mon Sep 14 06:19:40 PM MDT 2026
+Sun Sep 20 05:16:15 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isotone
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
 Hardware Version: 1.0
 Firmware Version: 2103.160.2.0.0 (iBridge: 23.16.16068.0.0,0)
    Firmware Date: Sat 2026-07-11
-    Firmware Age: 2month 5d
+    Firmware Age: 2month 1w 4d
 
 COMMAND: uname -a
 Linux isotone 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026 x86_64 GNU/Linux
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       1.4Gi        24Gi        12Mi       5.0Gi        29Gi
+Mem:            30Gi       1.4Gi        23Gi        13Mi       6.3Gi        29Gi
 Swap:          8.0Gi          0B       8.0Gi
 
 COMMAND: lsblk
@@ -86,14 +86,13 @@ loop3         7:3    0   828K  1 loop /snap/snapd-desktop-integration/391
 loop4         7:4    0  19.6M  1 loop /snap/desktop-security-center/150
 loop5         7:5    0    20M  1 loop /snap/desktop-security-center/151
 loop6         7:6    0  16.5M  1 loop /snap/firmware-updater/226
-loop7         7:7    0 273.7M  1 loop /snap/firefox/8107
 loop8         7:8    0 221.5M  1 loop /snap/thunderbird/1240
-loop9         7:9    0  15.7M  1 loop /snap/snap-store/1367
+loop9         7:9    0 261.3M  1 loop /snap/firefox/8929
 loop10        7:10   0  91.7M  1 loop /snap/gtk-common-themes/1535
 loop11        7:11   0  11.8M  1 loop /snap/snap-store/1390
 loop12        7:12   0  18.8M  1 loop /snap/prompting-client/222
 loop13        7:13   0   580K  1 loop /snap/snapd-desktop-integration/361
-loop14        7:14   0 221.1M  1 loop /snap/thunderbird/1228
+loop14        7:14   0  11.8M  1 loop /snap/snap-store/1419
 loop15        7:15   0   402M  1 loop /snap/mesa-2404/1839
 loop16        7:16   0   395M  1 loop /snap/mesa-2404/1165
 loop17        7:17   0  50.3M  1 loop /snap/snapd/27738
@@ -101,6 +100,7 @@ loop18        7:18   0  18.8M  1 loop /snap/prompting-client/204
 loop19        7:19   0  50.1M  1 loop /snap/snapd/27710
 loop20        7:20   0 606.1M  1 loop /snap/gnome-46-2404/153
 loop21        7:21   0 260.8M  1 loop /snap/firefox/8863
+loop22        7:22   0 221.4M  1 loop /snap/thunderbird/1255
 sda           8:0    0   3.6T  0 disk 
 └─sda1        8:1    0   3.6T  0 part 
 nvme0n1     259:0    0   1.8T  0 disk 
@@ -109,8 +109,8 @@ nvme0n1     259:0    0   1.8T  0 disk
 
 COMMAND: df -hT
 Filesystem     Type   Size  Used Avail Use% Mounted on
-tmpfs          tmpfs  6.2G  5.9M  6.2G   1% /run
-/dev/nvme0n1p2 ext4   1.8T  112G  1.6T   7% /
+tmpfs          tmpfs  6.2G  6.6M  6.2G   1% /run
+/dev/nvme0n1p2 ext4   1.8T  113G  1.6T   7% /
 tmpfs          tmpfs   16G   12K   16G   1% /dev/shm
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
@@ -131,9 +131,11 @@ TARGET                                            SOURCE                 FSTYPE 
 │ ├─/run/credentials/systemd-resolved.service     none                   tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap
 │ └─/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs       rw,nosuid,nodev,size=6435632k,nr_inodes=819200,mode=755,inode64
 │   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026532768]] nsfs        rw
-│   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532832]] nsfs        rw
 │   ├─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026532516]] nsfs        rw
-│   └─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532577]] nsfs        rw
+│   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532577]] nsfs        rw
+│   ├─/run/snapd/ns/thunderbird.mnt               nsfs[mnt:[4026532581]] nsfs        rw
+│   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532584]] nsfs        rw
+│   └─/run/snapd/ns/snap-store.mnt                nsfs[mnt:[4026532586]] nsfs        rw
 ├─/dev                                            devtmpfs               devtmpfs    rw,nosuid,size=15985684k,nr_inodes=3996421,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue      rw,nosuid,nodev,noexec,relatime
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
@@ -160,8 +162,7 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/desktop-security-center/150               /dev/loop4             squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/desktop-security-center/151               /dev/loop5             squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/firmware-updater/226                      /dev/loop6             squashfs    ro,nodev,relatime,errors=continue,threads=single
-├─/snap/firefox/8107                              /dev/loop7             squashfs    ro,nodev,relatime,errors=continue,threads=single
-├─/snap/snap-store/1367                           /dev/loop9             squashfs    ro,nodev,relatime,errors=continue,threads=single
+├─/snap/firefox/8929                              /dev/loop9             squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/thunderbird/1240                          /dev/loop8             squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd-desktop-integration/361             /dev/loop13            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gtk-common-themes/1535                    /dev/loop10            squashfs    ro,nodev,relatime,errors=continue,threads=single
@@ -171,8 +172,9 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/snap-store/1390                           /dev/loop11            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/prompting-client/222                      /dev/loop12            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/prompting-client/204                      /dev/loop18            squashfs    ro,nodev,relatime,errors=continue,threads=single
-├─/snap/thunderbird/1228                          /dev/loop14            squashfs    ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snap-store/1419                           /dev/loop14            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-46-2404/153                         /dev/loop20            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/mesa-2404/1839                            /dev/loop15            squashfs    ro,nodev,relatime,errors=continue,threads=single
 ├─/boot/efi                                       /dev/nvme0n1p1         vfat        rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
-└─/snap/firefox/8863                              /dev/loop21            squashfs    ro,nodev,relatime,errors=continue,threads=single
+├─/snap/firefox/8863                              /dev/loop21            squashfs    ro,nodev,relatime,errors=continue,threads=single
+└─/snap/thunderbird/1255                          /dev/loop22            squashfs    ro,nodev,relatime,errors=continue,threads=single
