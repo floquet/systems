@@ -1,4 +1,4 @@
-Sat Sep 19 09:18:08 PM MDT 2026
+Mon Sep 21 12:00:25 AM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -66,13 +66,12 @@ udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=11))       
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=10))       
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=8))        
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=1491944,fd=459))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=1491944,fd=458))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=1492003,fd=170))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=1492003,fd=140))     
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552430,fd=481))     
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552430,fd=474))     
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552374,fd=521))     
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552374,fd=520))     
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                              
 udp   UNCONN 0      0                                 0.0.0.0:39889      0.0.0.0:*    users:(("python3",pid=29847,fd=9))        
-udp   UNCONN 0      0                                 0.0.0.0:40067      0.0.0.0:*    users:(("firefox",pid=10434,fd=228))      
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                              
 udp   UNCONN 0      0                                       *:52716            *:*    users:(("python3",pid=29847,fd=15))       
 udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=29847,fd=16))       
@@ -82,7 +81,6 @@ tcp   LISTEN 0      5                               127.0.0.1:23116      0.0.0.0
 tcp   LISTEN 0      37                              127.0.0.1:23119      0.0.0.0:*    users:(("zotero-bin",pid=357375,fd=70))   
 tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*                                              
 tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                              
-tcp   LISTEN 0      511                             127.0.0.1:33403      0.0.0.0:*    users:(("codium",pid=2148789,fd=52))      
 tcp   LISTEN 0      128                             127.0.0.1:17600      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=91))     
 tcp   LISTEN 0      128                             127.0.0.1:17603      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=102))    
 tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                              
