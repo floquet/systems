@@ -1,8 +1,17 @@
-Mon Sep 21 16:45:51 MDT 2026
+Wed Sep 23 12:29:37 MDT 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
 
+nf_conntrack_netlink 45056 0 - Live 0x0000000000000000
+xt_conntrack 12288 1 - Live 0x0000000000000000
+xt_MASQUERADE 16384 1 - Live 0x0000000000000000
+xfrm_user 53248 1 - Live 0x0000000000000000
+xfrm_algo 16384 1 xfrm_user, Live 0x0000000000000000
+xt_set 20480 0 - Live 0x0000000000000000
+ip_set 53248 1 xt_set, Live 0x0000000000000000
+xt_addrtype 12288 4 - Live 0x0000000000000000
+nft_compat 16384 6 - Live 0x0000000000000000
 intel_rapl_msr 16384 0 - Live 0x0000000000000000
 intel_rapl_common 40960 1 intel_rapl_msr, Live 0x0000000000000000
 kvm_intel 368640 0 - Live 0x0000000000000000

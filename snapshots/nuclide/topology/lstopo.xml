@@ -3,7 +3,7 @@
 <topology version="2.0">
   <object type="Machine" os_index="0" cpuset="0x000fffff" complete_cpuset="0x000fffff" allowed_cpuset="0x000fffff" nodeset="0x00000001" complete_nodeset="0x00000001" allowed_nodeset="0x00000001" gp_index="1">
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/"/>
+    <info name="LinuxCgroup" value="/init.scope"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="6.18.33.2-microsoft-standard-WSL2"/>
     <info name="OSVersion" value="#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026"/>

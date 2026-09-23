@@ -1,20 +1,24 @@
-Mon Sep 21 16:45:51 MDT 2026
+Wed Sep 23 12:29:37 MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
 eth0             UP             172.21.106.91/20 fe80::215:5dff:fe3b:1bfa/64 
+docker0          DOWN           172.17.0.1/16 fe80::502f:2bff:fe40:f8b5/64 
 
 COMMAND: ip route
 default via 172.21.96.1 dev eth0 proto kernel 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
 172.21.96.0/20 dev eth0 proto kernel scope link src 172.21.106.91 
 
 COMMAND: ip -6 route
 fe80::/64 dev eth0 proto kernel metric 256 pref medium
+fe80::/64 dev docker0 proto kernel metric 256 linkdown pref medium
 
 COMMAND: nmcli device status
-DEVICE  TYPE      STATE      CONNECTION 
-eth0    ethernet  unmanaged  --         
-lo      loopback  unmanaged  --         
+DEVICE   TYPE      STATE      CONNECTION 
+docker0  bridge    unmanaged  --         
+eth0     ethernet  unmanaged  --         
+lo       loopback  unmanaged  --         
 
 COMMAND: nmcli connection show
 
@@ -29,6 +33,11 @@ Current DNS Server: 10.255.255.254
                     bae-it.na.baesystems.com nosc.us.baesystems.com rootlnka.net
 
 Link 2 (eth0)
+    Current Scopes: none
+         Protocols: -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+     Default Route: no
+
+Link 3 (docker0)
     Current Scopes: none
          Protocols: -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
      Default Route: no
