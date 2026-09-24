@@ -1,4 +1,4 @@
-Mon Sep 21 12:00:25 AM MDT 2026
+Wed Sep 23 07:56:28 PM MDT 2026
 
 COMMAND: cat /proc/cpuinfo
 DESCRIPTION: Processor and logical CPU information
@@ -10,7 +10,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1688.713
+cpu MHz		: 4407.297
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -38,7 +38,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1704.948
+cpu MHz		: 1705.670
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -66,7 +66,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1537.285
+cpu MHz		: 1757.036
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -94,7 +94,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1600.000
+cpu MHz		: 2951.942
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -122,7 +122,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 4301.257
+cpu MHz		: 1549.695
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -150,7 +150,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 4301.378
+cpu MHz		: 1633.294
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -178,7 +178,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 4301.250
+cpu MHz		: 1265.352
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -206,7 +206,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 4301.283
+cpu MHz		: 1634.220
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -234,7 +234,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 3253.352
+cpu MHz		: 4213.322
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -262,7 +262,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 3253.575
+cpu MHz		: 4217.207
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -290,7 +290,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 3253.329
+cpu MHz		: 4232.781
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -318,7 +318,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 3253.345
+cpu MHz		: 4214.354
 cache size	: 18432 KB
 physical id	: 0
 siblings	: 14
@@ -346,7 +346,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1799.868
+cpu MHz		: 799.988
 cache size	: 2048 KB
 physical id	: 0
 siblings	: 14
@@ -374,7 +374,7 @@ model		: 197
 model name	: Intel(R) Core(TM) Ultra 5 225H
 stepping	: 2
 microcode	: 0x11b
-cpu MHz		: 1799.841
+cpu MHz		: 800.000
 cache size	: 2048 KB
 physical id	: 0
 siblings	: 14
