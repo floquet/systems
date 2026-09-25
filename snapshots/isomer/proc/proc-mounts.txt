@@ -1,4 +1,4 @@
-Wed Sep 23 07:56:28 PM MDT 2026
+Thu Sep 24 09:56:08 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -74,7 +74,6 @@ nsfs /run/snapd/ns/snapd-desktop-integration.mnt nsfs rw 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=3162656k,nr_inodes=790664,mode=700,uid=1000,gid=1000,inode64 0 0
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
-nsfs /run/snapd/ns/bitwarden.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop38 /snap/thunderbird/1255 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -84,20 +83,16 @@ nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0
 /dev/loop2 /snap/proton-mail/40 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/proton-mail.mnt nsfs rw 0 0
 /dev/loop55 /snap/glab/6713 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop22 /snap/opera/495 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop60 /snap/gitkraken/325 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop20 /snap/core22/2955 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop57 /snap/core20/2922 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop61 /snap/core24/2124 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop10 /snap/brave/682 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop52 /snap/opera/496 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop58 /snap/thunderbird/1259 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0
 /dev/loop53 /snap/snap-store/1419 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop44 /snap/vivaldi/491 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/loop59 /snap/brave/684 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop39 /snap/sublime-text/239 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop50 /snap/chromium-ffmpeg/120 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop62 /snap/prompting-client/228 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -107,4 +102,10 @@ nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/desktop-security-center.mnt nsfs rw 0 0
 /dev/loop40 /snap/glab/6773 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop23 /snap/vivaldi/495 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop3 /snap/vivaldi/497 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop51 /snap/opera/497 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
+/dev/loop22 /snap/bitwarden/171 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop44 /snap/brave/686 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0

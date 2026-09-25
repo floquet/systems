@@ -1,4 +1,4 @@
-Wed Sep 23 07:56:28 PM MDT 2026
+Thu Sep 24 09:56:08 PM MDT 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
@@ -93,7 +93,7 @@ intel_rapl_msr 20480 0 - Live 0x0000000000000000
 intel_cstate 20480 0 - Live 0x0000000000000000
 snd_pcm 208896 15 snd_usb_audio,snd_hda_codec_hdmi,snd_hda_intel,snd_sof_intel_hda_generic,soundwire_intel,snd_sof_intel_hda_common,snd_sof,snd_sof_utils,snd_hda_codec,snd_hda_core,snd_soc_sdca,snd_soc_core,snd_compress,snd_pcm_dmaengine, Live 0x0000000000000000
 asus_armoury 110592 0 - Live 0x0000000000000000
-i915 5099520 309 - Live 0x0000000000000000
+i915 5099520 328 - Live 0x0000000000000000
 iwlmld 454656 0 - Live 0x0000000000000000
 snd_seq_midi 24576 0 - Live 0x0000000000000000
 snd_seq_midi_event 16384 1 snd_seq_midi, Live 0x0000000000000000
