@@ -11,6 +11,7 @@ function commit-builds() {
     git config pull.rebase false
     git add linux/ubuntu
     # git diff --cached
+    git add -A
     git commit -m "${message}"
 
     popd > /dev/null
