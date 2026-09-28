@@ -1,9 +1,8 @@
-Wed Sep 23 17:37:13 MDT 2026
+Mon Sep 28 10:06:34 MDT 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
 
-nf_conntrack_netlink 45056 0 - Live 0x0000000000000000
 xt_conntrack 12288 1 - Live 0x0000000000000000
 xt_MASQUERADE 16384 1 - Live 0x0000000000000000
 xfrm_user 53248 1 - Live 0x0000000000000000
