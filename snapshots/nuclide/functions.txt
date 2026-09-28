@@ -1,4 +1,4 @@
-Mon Sep 28 10:06:34 MDT 2026
+Mon Sep 28 10:08:32 MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -3020,6 +3020,7 @@ commit-builds ()
     pushd "${pBuilds}" > /dev/null || return 1;
     git config pull.rebase false;
     git add linux/ubuntu;
+    git add -A;
     git commit -m "${message}";
     popd > /dev/null
 }
