@@ -30,3 +30,5 @@ export pUbuntu="${pBuilds}/linux/ubuntu"
 export pScripts="${pUbuntu}/scripts"
 export pInfo="${pUbuntu}/info"
 
+export pZebra="${pFramework}/pres/zebra"
+

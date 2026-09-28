@@ -1,4 +1,4 @@
-Fri Sep 25 09:14:06 PM MDT 2026
+Sun Sep 27 08:09:46 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -74,7 +74,6 @@ tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=3162656k,nr_inodes=7906
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
-/dev/loop38 /snap/thunderbird/1255 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
 /dev/loop54 /snap/core18/3084 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0
@@ -105,3 +104,5 @@ nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop64 /snap/sublime-text/251 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop39 /snap/gnome-46-2404/168 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+/dev/loop28 /snap/thunderbird/1274 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0

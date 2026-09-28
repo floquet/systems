@@ -1,4 +1,4 @@
-Fri Sep 25 09:14:06 PM MDT 2026
+Sun Sep 27 08:09:46 PM MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -32,6 +32,9 @@ declare -f _comp__split_longopt
 declare -f _comp_abspath
 declare -f _comp_as_root
 declare -f _comp_awk
+declare -f _comp_cmd_cd
+declare -f _comp_cmd_python
+declare -f _comp_cmd_python__compgen_modules
 declare -f _comp_command
 declare -f _comp_command_offset
 declare -f _comp_compgen
@@ -115,6 +118,8 @@ declare -f _comp_upvars
 declare -f _comp_userland
 declare -f _comp_variable_assignments
 declare -f _comp_xfunc
+declare -f _comp_xfunc_python_compgen_modules
+declare -f _comp_xfunc_python_compgen_warning_actions
 declare -f _complete_as_root
 declare -f _completion_loader
 declare -f _configured_interfaces
@@ -147,6 +152,8 @@ declare -f _pci_ids
 declare -f _pgids
 declare -f _pids
 declare -f _pnames
+declare -f _python_modules
+declare -f _python_warning_actions
 declare -f _quote_readline_by_ref
 declare -f _realcommand
 declare -f _rl_enabled
@@ -874,6 +881,126 @@ _comp_as_root ()
 _comp_awk () 
 { 
     command awk "$@"
+}
+_comp_cmd_cd () 
+{ 
+    local cur prev words cword comp_args;
+    _comp_initialize -- "$@" || return;
+    if [[ $cur == -* ]]; then
+        _comp_compgen_help -c help "$1";
+        compopt +o nospace;
+        return;
+    fi;
+    local i j k;
+    compopt -o filenames;
+    if [[ ! -n ${CDPATH-} || $cur == ?(.)?(.)/* ]]; then
+        _comp_compgen_filedir -d;
+        return;
+    fi;
+    local mark_dirs="" mark_symdirs="";
+    _comp_readline_variable_on mark-directories && mark_dirs=set;
+    _comp_readline_variable_on mark-symlinked-directories && mark_symdirs=set;
+    local paths dirs;
+    _comp_split -F : paths "$CDPATH";
+    for i in "${paths[@]}";
+    do
+        k=${#COMPREPLY[@]};
+        _comp_compgen -v dirs -c "$i/$cur" -- -d;
+        for j in "${dirs[@]}";
+        do
+            if [[ ( -n $mark_symdirs && -L $j || -n $mark_dirs && ! -L $j ) && ! -d ${j#"$i/"} ]]; then
+                j+="/";
+            fi;
+            COMPREPLY[k++]=${j#"$i/"};
+        done;
+    done;
+    _comp_compgen -a filedir -d;
+    if ((${#COMPREPLY[@]} == 1)); then
+        i=${COMPREPLY[0]};
+        if [[ $i == "$cur" && $i != "*/" ]]; then
+            COMPREPLY[0]="${i}/";
+        fi;
+    fi
+}
+_comp_cmd_python () 
+{ 
+    local cur prev words cword comp_args prefix;
+    _comp_initialize -- "$@" || return;
+    case $cur in 
+        -[QWX]?*)
+            prefix=${cur:0:2};
+            prev=$prefix;
+            cur=${cur:2}
+        ;;
+    esac;
+    local noargopts='!(-*|*[cmQWX]*)';
+    local i has_command="";
+    for ((i = 1; i < cword; i++))
+    do
+        case ${words[i]} in 
+            -${noargopts}[QWX])
+                ((i++))
+            ;;
+            -${noargopts}[cm]?*)
+                has_command=set;
+                break
+            ;;
+            -- | -${noargopts}[cm])
+                if ((i + 1 < cword)); then
+                    has_command=set;
+                    break;
+                fi
+            ;;
+            -*)
+
+            ;;
+            *)
+                has_command=set;
+                break
+            ;;
+        esac;
+    done;
+    if [[ -n $has_command ]]; then
+        _comp_compgen_filedir;
+        return;
+    fi;
+    case $prev in 
+        --help | --version | -${noargopts}[?hVc])
+            return
+        ;;
+        -${noargopts}m)
+            _comp_cmd_python__compgen_modules "$1";
+            return
+        ;;
+        -${noargopts}Q)
+            _comp_compgen -- -W 'old new warn warnall' -P "$prefix";
+            return
+        ;;
+        -${noargopts}W)
+            _comp_xfunc_python_compgen_warning_actions;
+            return
+        ;;
+        -${noargopts}X)
+            _comp_compgen_split -- "$("$1" -h 2>&1 | _comp_awk '$1 == "-X" && $2 ~ /:$/ {
+                    sub(":$","",$2); sub("=.*","=",$2); print $2
+                }')";
+            [[ ${COMPREPLY-} == *= ]] && compopt -o nospace;
+            return
+        ;;
+        --jit)
+            _comp_compgen -- -W "help off";
+            return
+        ;;
+    esac;
+    if [[ $prev == -- || $cur != -* ]]; then
+        _comp_compgen_filedir '@(py?([cowz])|zip)';
+    else
+        _comp_compgen_help - <<< "$("$1" -h | _comp_awk '{ sub("\\(-bb:","\n-bb "); print }')";
+    fi
+}
+_comp_cmd_python__compgen_modules () 
+{ 
+    _comp_compgen_split -- "$("$1" "${BASH_SOURCE[0]%/*}/../helpers/python" "$cur" 2> /dev/null)"
 }
 _comp_command () 
 { 
@@ -2727,6 +2854,16 @@ _comp_xfunc ()
     declare -F -- "$xfunc_name" &> /dev/null || _comp_load -- "$1";
     "$xfunc_name" "${@:3}"
 }
+_comp_xfunc_python_compgen_modules () 
+{ 
+    local _python=python;
+    [[ ${comp_args[0]##*/} == *3* ]] && _python=python3;
+    _comp_cmd_python__compgen_modules "$_python"
+}
+_comp_xfunc_python_compgen_warning_actions () 
+{ 
+    _comp_compgen -- -W "ignore default all module once error" ${prefix:+-P "$prefix"}
+}
 _complete_as_root () 
 { 
     _comp_as_root "$@"
@@ -2950,6 +3087,14 @@ _pids ()
 _pnames () 
 { 
     _comp_compgen_pnames "$@"
+}
+_python_modules () 
+{ 
+    _comp_compgen -a -i python modules "${1:-python}"
+}
+_python_warning_actions () 
+{ 
+    _comp_compgen -a -i python warning_actions "${1:-python}"
 }
 _quote_readline_by_ref () 
 { 
