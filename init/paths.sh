@@ -30,5 +30,6 @@ export pUbuntu="${pBuilds}/linux/ubuntu"
 export pScripts="${pUbuntu}/scripts"
 export pInfo="${pUbuntu}/info"
 
+export pHyperion="${pGitlab}/hyperion"
 export pZebra="${pFramework}/pres/zebra"
 
