@@ -1,4 +1,4 @@
-Sun Sep 27 08:09:46 PM MDT 2026
+Tue Sep 29 06:58:13 PM MDT 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias echoff='echo "$fflags"'

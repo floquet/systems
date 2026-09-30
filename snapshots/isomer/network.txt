@@ -1,4 +1,4 @@
-Sun Sep 27 08:09:46 PM MDT 2026
+Tue Sep 29 06:58:13 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -7,9 +7,9 @@ enp87s0          UP             10.11.26.57/24 fe80::5d6:4641:7d3d:f0b3/64
 wlo1             DOWN           
 
 COMMAND: ip route
-default via 10.11.26.1 dev enp87s0 proto dhcp src 10.11.26.57 metric 101 
-10.10.10.0/24 dev enp86s0 proto kernel scope link src 10.10.10.4 metric 100 
-10.11.26.0/24 dev enp87s0 proto kernel scope link src 10.11.26.57 metric 101 
+default via 10.11.26.1 dev enp87s0 proto dhcp src 10.11.26.57 metric 100 
+10.10.10.0/24 dev enp86s0 proto kernel scope link src 10.10.10.4 metric 101 
+10.11.26.0/24 dev enp87s0 proto kernel scope link src 10.11.26.57 metric 100 
 
 COMMAND: ip -6 route
 fe80::/64 dev enp87s0 proto kernel metric 1024 pref medium
@@ -25,7 +25,7 @@ COMMAND: nmcli connection show
 NAME                UUID                                  TYPE      DEVICE  
 Wired connection 1  f3592f4e-dde2-3def-8efc-47648390fbf0  ethernet  enp87s0 
 DanLan              d92b6cf9-7be8-45ae-93a8-0a6028e0c1d0  ethernet  enp86s0 
-lo                  b94c70c0-2124-437b-8dd0-db1bbc2d2dd1  loopback  lo      
+lo                  26d6bfc6-2608-437a-8228-c0ccd6613fef  loopback  lo      
 106                 d425575c-21c4-4e87-b089-d5ff333310b6  wifi      --      
 System76            fc0ab5ad-2143-43bb-b6b3-bae845f76609  wifi      --      
 
@@ -52,67 +52,52 @@ Link 4 (wlo1)
      Default Route: no
 
 COMMAND: ss -tulpn
-Netid State  Recv-Q Send-Q                      Local Address:Port  Peer Address:PortProcess                                    
-udp   UNCONN 0      0                             10.11.26.57:43276      0.0.0.0:*    users:(("Socket Process",pid=10691,fd=34))
-udp   UNCONN 0      0                              10.10.10.4:60896      0.0.0.0:*    users:(("Socket Process",pid=10691,fd=31))
-udp   UNCONN 0      0                             10.11.26.57:46503      0.0.0.0:*    users:(("Socket Process",pid=10691,fd=32))
-udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                              
-udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                              
-udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                              
-udp   UNCONN 0      0                              10.10.10.4:49656      0.0.0.0:*    users:(("Socket Process",pid=10691,fd=33))
-udp   UNCONN 0      0                                 0.0.0.0:49970      0.0.0.0:*    users:(("python3",pid=29847,fd=12))       
-udp   UNCONN 1920   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=76))     
-udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=13))       
-udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=11))       
-udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=10))       
-udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=29847,fd=8))        
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552430,fd=481))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552430,fd=474))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552374,fd=521))     
-udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2552374,fd=520))     
-udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                              
-udp   UNCONN 0      0                                 0.0.0.0:39889      0.0.0.0:*    users:(("python3",pid=29847,fd=9))        
-udp   UNCONN 0      0                                   [::1]:323           [::]:*                                              
-udp   UNCONN 0      0                                       *:52716            *:*    users:(("python3",pid=29847,fd=15))       
-udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=29847,fd=16))       
-udp   UNCONN 0      0                       [ff02::c]%enp87s0:3702          [::]:*    users:(("python3",pid=29847,fd=14))       
-udp   UNCONN 0      0                                    [::]:5353          [::]:*                                              
-tcp   LISTEN 0      5                               127.0.0.1:23116      0.0.0.0:*    users:(("zotero-bin",pid=357375,fd=85))   
-tcp   LISTEN 0      37                              127.0.0.1:23119      0.0.0.0:*    users:(("zotero-bin",pid=357375,fd=70))   
-tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*                                              
-tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                              
-tcp   LISTEN 0      128                             127.0.0.1:17600      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=91))     
-tcp   LISTEN 0      128                             127.0.0.1:17603      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=102))    
-tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                              
-tcp   LISTEN 0      5                               127.0.0.1:19876      0.0.0.0:*    users:(("zotero-bin",pid=357375,fd=86))   
-tcp   LISTEN 0      4096                              0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=2821341,fd=75))     
-tcp   LISTEN 0      4096                              0.0.0.0:22         0.0.0.0:*                                              
-tcp   LISTEN 0      1                      [::ffff:127.0.0.1]:6050             *:*    users:(("java",pid=109904,fd=37))         
-tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                              
-tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                              
+Netid State  Recv-Q Send-Q                      Local Address:Port  Peer Address:PortProcess                              
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=9058,fd=768))  
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=9058,fd=718))  
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=9116,fd=107))  
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=9116,fd=106))  
+udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                        
+udp   UNCONN 0      0                                 0.0.0.0:46762      0.0.0.0:*    users:(("python3",pid=8521,fd=9))   
+udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                        
+udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                        
+udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                        
+udp   UNCONN 5760   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=48903,fd=76)) 
+udp   UNCONN 0      0                                 0.0.0.0:34565      0.0.0.0:*    users:(("python3",pid=8521,fd=12))  
+udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=13))  
+udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=11))  
+udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=10))  
+udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=8))   
+udp   UNCONN 0      0                                    [::]:5353          [::]:*                                        
+udp   UNCONN 0      0                                       *:48531            *:*    users:(("python3",pid=8521,fd=15))  
+udp   UNCONN 0      0                                   [::1]:323           [::]:*                                        
+udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=8521,fd=16))  
+udp   UNCONN 0      0                       [ff02::c]%enp87s0:3702          [::]:*    users:(("python3",pid=8521,fd=14))  
+tcp   LISTEN 0      4096                              0.0.0.0:22         0.0.0.0:*                                        
+tcp   LISTEN 0      4096                              0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=48903,fd=75)) 
+tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*                                        
+tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                        
+tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                        
+tcp   LISTEN 0      128                             127.0.0.1:17600      0.0.0.0:*    users:(("dropbox",pid=48903,fd=93)) 
+tcp   LISTEN 0      128                             127.0.0.1:17603      0.0.0.0:*    users:(("dropbox",pid=48903,fd=102))
+tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                        
+tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                        
 
 COMMAND: ip neigh
-10.11.26.194 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
-10.11.26.164 dev enp87s0 lladdr 6c:1f:f7:cc:02:43 STALE 
-10.11.26.1 dev enp87s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
-10.11.26.177 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
-10.11.26.202 dev enp87s0 FAILED 
-10.11.26.172 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
-10.11.26.167 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
-10.11.26.157 dev enp87s0 lladdr f0:35:75:3e:66:a8 STALE 
-10.11.26.210 dev enp87s0 FAILED 
-10.11.26.180 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
-10.11.26.192 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
-10.11.26.223 dev enp87s0 lladdr d8:be:65:4a:f0:70 STALE 
-10.11.26.121 dev enp87s0 lladdr cc:2d:b7:04:84:d4 STALE 
-10.11.26.161 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
+10.11.26.219 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.195 dev enp87s0 lladdr f0:35:75:3e:66:a8 STALE 
-10.11.26.159 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
-10.11.26.150 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
+10.11.26.223 dev enp86s0 lladdr d8:be:65:4a:f0:70 STALE 
+10.11.26.217 dev enp87s0 lladdr 96:22:3c:0b:34:6f STALE 
 10.11.26.87 dev enp87s0 lladdr 74:da:78:27:5c:87 STALE 
-10.11.26.115 dev enp87s0 lladdr 00:3e:e1:ca:cc:92 STALE 
-10.11.26.213 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
-10.11.26.208 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
-10.11.26.47 dev enp87s0 lladdr 78:8c:77:79:9d:da REACHABLE 
+10.11.26.223 dev enp87s0 lladdr d8:be:65:4a:f0:70 STALE 
+10.11.26.1 dev enp87s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
+10.11.26.222 dev enp86s0 lladdr f0:a6:54:4c:c8:71 STALE 
+10.11.26.221 dev enp87s0 lladdr 68:6c:e6:05:85:84 STALE 
+10.11.26.217 dev enp86s0 lladdr 96:22:3c:0b:34:6f STALE 
+10.11.26.47 dev enp87s0 lladdr 78:8c:77:79:9d:da STALE 
+10.11.26.222 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
+10.11.26.219 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
+10.11.26.195 dev enp86s0 lladdr f0:35:75:3e:66:a8 STALE 
+10.11.26.221 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 
 fe80::76da:78ff:fe27:5c87 dev enp87s0 lladdr 74:da:78:27:5c:87 STALE 
 fe80::7a8c:77ff:fe79:9dda dev enp87s0 lladdr 78:8c:77:79:9d:da STALE 
