@@ -1,4 +1,4 @@
-Tue Sep 29 06:58:13 PM MDT 2026
+Tue Sep 29 09:57:20 PM MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -186,6 +186,7 @@ declare -f gowl
 declare -f goyaml
 declare -f initspack
 declare -f l-spack
+declare -f open-file
 declare -f pt
 declare -f q-caf
 declare -f q-compiler
@@ -3187,6 +3188,14 @@ initspack ()
 l-spack () 
 { 
     source "${spack_bootstrap_dir}/spack-tools.sh"
+}
+open-file () 
+{ 
+    if (( $# != 1 )); then
+        printf 'Usage: open-file FILE\n' 1>&2;
+        return 1;
+    fi;
+    xdg-open "$1" > /dev/null 2>&1 & disown
 }
 pt () 
 { 
