@@ -3,6 +3,9 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 recorderStart=$SECONDS
 
+# turn of shell bell in WSL
+bind "set bell-style none"
+
 # Paths must be established before any dependent init scripts.
 source "${pInit}/paths.sh"
 
