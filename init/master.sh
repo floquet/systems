@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 recorderStart=$SECONDS
@@ -29,8 +29,8 @@ source "${pInit}/recorder.sh"
 commit-builds
 
 #changes in systems repo
-git add -A -- "$pSystem"
-git commit -m "master.sh by $USER on $(hostname) $(date '+%Y-%m-%d %H:%M:%S')" -- "$pSystem"
+git add -A -- "$pSystems"
+git commit -m "master.sh by $USER on $(hostname) $(date '+%Y-%m-%d %H:%M:%S')" -- "$pSystems"
 
 echo "time used: $((SECONDS - recorderStart)) seconds"
 

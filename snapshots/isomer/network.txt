@@ -1,4 +1,4 @@
-Wed Sep 30 08:17:17 PM MDT 2026
+Sat Oct  3 04:55:33 AM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -62,9 +62,8 @@ udp   UNCONN 0      0                                 0.0.0.0:46762      0.0.0.0
 udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                          
 udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                          
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                          
-udp   UNCONN 5760   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=48903,fd=76))   
+udp   UNCONN 1920   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=48903,fd=76))   
 udp   UNCONN 0      0                                 0.0.0.0:34565      0.0.0.0:*    users:(("python3",pid=8521,fd=12))    
-udp   UNCONN 0      0                                 0.0.0.0:52724      0.0.0.0:*    users:(("chrome",pid=9116,fd=155))    
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=13))    
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=11))    
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=8521,fd=10))    
@@ -72,7 +71,6 @@ udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0
 udp   UNCONN 0      0                                    [::]:5353          [::]:*                                          
 udp   UNCONN 0      0                                       *:48531            *:*    users:(("python3",pid=8521,fd=15))    
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                          
-udp   UNCONN 0      0                                       *:33500            *:*    users:(("chrome",pid=9116,fd=158))    
 udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=8521,fd=16))    
 udp   UNCONN 0      0                       [ff02::c]%enp87s0:3702          [::]:*    users:(("python3",pid=8521,fd=14))    
 tcp   LISTEN 0      5                               127.0.0.1:23116      0.0.0.0:*    users:(("zotero-bin",pid=81031,fd=89))
@@ -87,22 +85,25 @@ tcp   LISTEN 0      128                             127.0.0.1:17600      0.0.0.0
 tcp   LISTEN 0      128                             127.0.0.1:17603      0.0.0.0:*    users:(("dropbox",pid=48903,fd=102))  
 tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                          
 tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                          
-tcp   LISTEN 0      1                      [::ffff:127.0.0.1]:6050             *:*    users:(("java",pid=82149,fd=39))      
 
 COMMAND: ip neigh
 10.11.26.225 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 
 10.11.26.219 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.195 dev enp87s0 lladdr f0:35:75:3e:66:a8 STALE 
 10.11.26.223 dev enp86s0 lladdr d8:be:65:4a:f0:70 STALE 
+10.11.26.227 dev enp86s0 lladdr f0:a6:54:4c:c8:71 STALE 
 10.11.26.217 dev enp87s0 lladdr 96:22:3c:0b:34:6f STALE 
 10.11.26.87 dev enp87s0 lladdr 74:da:78:27:5c:87 STALE 
 10.11.26.223 dev enp87s0 lladdr d8:be:65:4a:f0:70 STALE 
+10.11.26.227 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
 10.11.26.1 dev enp87s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
+10.11.26.231 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 
 10.11.26.222 dev enp86s0 lladdr f0:a6:54:4c:c8:71 STALE 
 10.11.26.221 dev enp87s0 lladdr 68:6c:e6:05:85:84 STALE 
-10.11.26.225 dev enp87s0 FAILED 
+10.11.26.225 dev enp87s0 lladdr 68:6c:e6:05:85:84 STALE 
 10.11.26.217 dev enp86s0 lladdr 96:22:3c:0b:34:6f STALE 
 10.11.26.47 dev enp87s0 lladdr 78:8c:77:79:9d:da STALE 
+10.11.26.231 dev enp87s0 FAILED 
 10.11.26.222 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
 10.11.26.219 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.195 dev enp86s0 lladdr f0:35:75:3e:66:a8 STALE 
