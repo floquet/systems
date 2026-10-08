@@ -1,4 +1,4 @@
-Sat Oct  3 04:55:33 AM MDT 2026
+Thu Oct  8 01:11:28 PM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -10,8 +10,8 @@ major minor  #blocks  name
    7        2     163812 loop2
    7        3      60992 loop3
    7        4      14580 loop4
-   7        5       9616 loop5
    7        6       4364 loop6
+   7        7     227592 loop7
  259        0 1000204632 nvme0n1
  259        1     999424 nvme0n1p1
  259        2  999203840 nvme0n1p2
@@ -31,13 +31,13 @@ major minor  #blocks  name
    7       18     232140 loop18
    7       21     267096 loop21
    7       20     267656 loop20
-   7       22      16896 loop22
+   7       22      33936 loop22
    7       23      13004 loop23
    7       24       6112 loop24
    7       25      63672 loop25
    7       26     230324 loop26
-   7       27     189592 loop27
-   7       28      33876 loop28
+   7       27       5488 loop27
+   7       28       4348 loop28
    7       29     168780 loop29
    7       30     544248 loop30
    7       31     221320 loop31
@@ -54,7 +54,7 @@ major minor  #blocks  name
    7       42     404460 loop42
    7       43     411628 loop43
    7       44      12116 loop44
-   7       45     214048 loop45
+   7       45     223168 loop45
    7       46      19284 loop46
    7       47      18844 loop47
    7       48     123804 loop48
@@ -63,16 +63,19 @@ major minor  #blocks  name
    7       51     189596 loop51
    7       52      12116 loop52
    7       53      51476 loop53
-   7       54     221224 loop54
+   7       54     191796 loop54
    7       55        580 loop55
    7       56     131304 loop56
    7       57        828 loop57
    7       58     131308 loop58
    7       59      45784 loop59
-   7       60     227436 loop60
-   7       61     214048 loop61
+   7       60     214028 loop60
+   7       61      13008 loop61
    7       62       4088 loop62
    7       63     227424 loop63
    7       64      61492 loop64
    7       65      51960 loop65
    7       66      33932 loop66
+   7       67    2115856 loop67
+   7       68     105664 loop68
+   7       69     214028 loop69
