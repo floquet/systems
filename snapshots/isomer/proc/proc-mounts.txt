@@ -1,4 +1,4 @@
-Thu Oct  8 01:11:28 PM MDT 2026
+Thu Oct  8 08:37:01 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -113,3 +113,4 @@ nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop54 /snap/opera/501 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop27 /snap/chromium-ffmpeg/123 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/gedit.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/gnome-system-monitor.mnt nsfs rw 0 0

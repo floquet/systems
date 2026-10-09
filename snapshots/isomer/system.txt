@@ -1,4 +1,4 @@
-Thu Oct  8 01:11:29 PM MDT 2026
+Thu Oct  8 08:37:01 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      72%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        22Gi       3.4Gi       4.8Gi       9.5Gi       7.6Gi
-Swap:           15Gi       7.0Gi       9.0Gi
+Mem:            30Gi        21Gi       3.3Gi       5.0Gi        10Gi       9.1Gi
+Swap:           15Gi       6.3Gi       9.7Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -156,16 +156,16 @@ nvme0n1     259:0    0 953.9G  0 disk
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  5.3M  6.1G   1% /run
+tmpfs          tmpfs     6.1G  5.6M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  273G  617G  31% /
 tmpfs          tmpfs      16G   14M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  466M   15G   4% /tmp
+tmpfs          tmpfs      16G  360M   15G   3% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
-tmpfs          tmpfs     3.1G  184K  3.1G   1% /run/user/1000
+tmpfs          tmpfs     3.1G  4.2M  3.1G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
@@ -188,7 +188,8 @@ TARGET                                            SOURCE                 FSTYPE 
 │   ├─/run/snapd/ns/thunderbird.mnt               nsfs[mnt:[4026533230]] nsfs            rw
 │   ├─/run/snapd/ns/gedit.mnt                     nsfs[mnt:[4026533229]] nsfs            rw
 │   ├─/run/snapd/ns/master-pdf-editor-5.mnt       nsfs[mnt:[4026533267]] nsfs            rw
-│   └─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026533273]] nsfs            rw
+│   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026533273]] nsfs            rw
+│   └─/run/snapd/ns/gnome-system-monitor.mnt      nsfs[mnt:[4026534264]] nsfs            rw
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15689816k,nr_inodes=3922454,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
