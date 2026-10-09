@@ -10,11 +10,15 @@ function commit-builds() {
 
     # git status
     # git diff --stat
-    git config pull.rebase false
-    git add linux/ubuntu
-    # git diff --cached
+    git config pull.rebase falsei
     git add -A
-    git commit -m "${message}"
+    if ! git diff --cached --quiet; then
+        git commit -m "${message}"
+    fi
+    #git add linux/ubuntu
+    # git diff --cached
+    #git add -A
+    #git commit -m "${message}"
 
     popd > /dev/null
 }
