@@ -1,4 +1,4 @@
-Thu Oct  8 09:58:29 PM MDT 2026
+Thu Oct  8 10:01:25 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -56,7 +56,7 @@ Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
 udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*                                              
 udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*                                              
 udp   UNCONN 0      0          127.0.0.1:323        0.0.0.0:*                                              
-udp   UNCONN 0      0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=6054,fd=49))        
+udp   UNCONN 960    0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=6054,fd=49))        
 udp   UNCONN 0      0         10.10.10.4:34067      0.0.0.0:*    users:(("Socket Process",pid=15164,fd=26))
 udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*                                              
 udp   UNCONN 0      0        10.11.26.57:56325      0.0.0.0:*    users:(("Socket Process",pid=15164,fd=28))

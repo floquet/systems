@@ -1,4 +1,4 @@
-Thu Oct  8 09:58:29 PM MDT 2026
+Thu Oct  8 10:01:25 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      72%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       5.1Gi        20Gi       1.7Gi       6.9Gi        25Gi
+Mem:            30Gi       5.1Gi        19Gi       1.7Gi       6.9Gi        25Gi
 Swap:           15Gi          0B        15Gi
 
 COMMAND: lsblk
