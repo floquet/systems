@@ -1,4 +1,4 @@
-Fri Oct  9 11:53:05 AM MDT 2026
+Fri Oct  9 11:55:24 AM MDT 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
@@ -103,7 +103,7 @@ asus_wmi 106496 2 asus_nb_wmi,asus_armoury, Live 0x0000000000000000
 wmi_bmof 12288 0 - Live 0x0000000000000000
 btusb 81920 0 - Live 0x0000000000000000
 snd_rawmidi 57344 3 snd_usbmidi_lib,snd_ump,snd_seq_midi, Live 0x0000000000000000
-i915 5099520 86 - Live 0x0000000000000000
+i915 5099520 78 - Live 0x0000000000000000
 btmtk 36864 1 btusb, Live 0x0000000000000000
 processor_thermal_device_pci 16384 0 - Live 0x0000000000000000
 btrtl 36864 1 btusb, Live 0x0000000000000000
