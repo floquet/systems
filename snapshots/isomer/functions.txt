@@ -1,4 +1,4 @@
-Thu Oct  8 10:01:25 PM MDT 2026
+Thu Oct  8 10:02:59 PM MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -3068,7 +3068,7 @@ commit-builds ()
 { 
     local message="${1:-Update Ubuntu configuration: $HOSTNAME}";
     pushd "${pBuilds}" > /dev/null || return 1;
-    git config pull.rebase falsei;
+    git config pull.rebase false;
     git add -A;
     if ! git diff --cached --quiet; then
         git commit -m "${message}";

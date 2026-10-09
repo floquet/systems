@@ -10,7 +10,7 @@ function commit-builds() {
 
     # git status
     # git diff --stat
-    git config pull.rebase falsei
+    git config pull.rebase false
     git add -A
     if ! git diff --cached --quiet; then
         git commit -m "${message}"
