@@ -1,4 +1,4 @@
-Fri Oct  9 09:44:07 PM MDT 2026
+Fri Oct  9 09:44:20 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      69%
+CPU(s) scaling MHz:                      72%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       4.8Gi        21Gi       1.3Gi       5.5Gi        25Gi
+Mem:            30Gi       4.8Gi        21Gi       1.2Gi       5.8Gi        25Gi
 Swap:           15Gi          0B        15Gi
 
 COMMAND: lsblk
@@ -165,7 +165,7 @@ none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
 tmpfs          tmpfs      16G  360K   16G   1% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
-tmpfs          tmpfs     3.1G  144K  3.1G   1% /run/user/1000
+tmpfs          tmpfs     3.1G  148K  3.1G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS

@@ -17,7 +17,7 @@
     <info name="DMIBIOSDate" value="09/18/2025"/>
     <info name="DMISysVendor" value="System76"/>
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/user@1000.service/app.slice/ptyxis-spawn-e76ecbea-f741-473f-8cad-e6991860ad3a.scope"/>
+    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/user@1000.service/app.slice/ptyxis-spawn-6a94927b-65ac-4827-8f5e-3b1b7ec8c400.scope"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="7.0.11-76070011-generic"/>
     <info name="OSVersion" value="#202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T"/>
