@@ -1,4 +1,4 @@
-Fri Oct  9 09:44:26 PM MDT 2026
+Sun Oct 11 06:20:12 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -81,7 +81,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop53 /snap/proton-mail/39 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop54 /snap/proton-mail/40 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop55 /snap/quadrapassel/492 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop56 /snap/snap-store/1419 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop57 /snap/snap-store/1427 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop58 /snap/snapd/27738 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop60 /snap/snapd-desktop-integration/361 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -104,6 +103,9 @@ portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,grou
 nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/bitwarden.mnt nsfs rw 0 0
-nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/loop69 /snap/thunderbird/1282 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+/dev/loop63 /snap/snap-store/1447 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
