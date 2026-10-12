@@ -1,4 +1,4 @@
-Mon Oct 12 10:06:57 AM MDT 2026
+Mon Oct 12 04:34:03 PM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      70%
+CPU(s) scaling MHz:                      74%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        11Gi       6.3Gi       5.1Gi        16Gi        18Gi
-Swap:           15Gi       928Ki        15Gi
+Mem:            30Gi        15Gi       7.6Gi       6.7Gi        13Gi        14Gi
+Swap:           15Gi       216Mi        15Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -156,14 +156,14 @@ nvme0n1     259:0    0 953.9G  0 disk
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  5.0M  6.1G   1% /run
+tmpfs          tmpfs     6.1G  5.1M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  272G  618G  31% /
 tmpfs          tmpfs      16G   14M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  887M   15G   6% /tmp
+tmpfs          tmpfs      16G  907M   15G   6% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  4.2M  3.1G   1% /run/user/1000
 
@@ -185,7 +185,8 @@ TARGET                                            SOURCE                 FSTYPE 
 │   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026533147]] nsfs            rw
 │   ├─/run/snapd/ns/thunderbird.mnt               nsfs[mnt:[4026532759]] nsfs            rw
 │   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026533144]] nsfs            rw
-│   └─/run/snapd/ns/vivaldi.mnt                   nsfs[mnt:[4026533996]] nsfs            rw
+│   ├─/run/snapd/ns/vivaldi.mnt                   nsfs[mnt:[4026533996]] nsfs            rw
+│   └─/run/snapd/ns/jabref.mnt                    nsfs[mnt:[4026534496]] nsfs            rw
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15689808k,nr_inodes=3922452,mode=755,inode64
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
 │ ├─/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime

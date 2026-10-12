@@ -1,8 +1,8 @@
-Mon Oct 12 10:06:57 AM MDT 2026
+Mon Oct 12 04:34:02 PM MDT 2026
 
 COMMAND: cat /proc/buddyinfo
 DESCRIPTION: Memory fragmentation information
 
 Node 0, zone      DMA      0      0      0      0      0      0      0      0      1      1      2 
-Node 0, zone    DMA32   1587   1136    816    625    393    252    165    100     58     28    105 
-Node 0, zone   Normal 224611 162199  72136  24410   6617    996    572    449    219     26    138 
+Node 0, zone    DMA32    451    575    355    259    172    135     98     62     32     52     91 
+Node 0, zone   Normal 294632 182025  54606  16197   8127   5465   1659    864    409    201    112 

@@ -1,4 +1,4 @@
-Mon Oct 12 10:06:57 AM MDT 2026
+Mon Oct 12 04:34:02 PM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -110,3 +110,4 @@ nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/loop56 /snap/vivaldi/505 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0

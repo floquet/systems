@@ -1,7 +1,7 @@
-Mon Oct 12 10:06:57 AM MDT 2026
+Mon Oct 12 04:34:02 PM MDT 2026
 
 COMMAND: cat /proc/swaps
 DESCRIPTION: Configured swap devices and utilization
 
 Filename				Type		Size		Used		Priority
-/swapfile                               file		16777212	928		-1
+/swapfile                               file		16777212	221272		-1
