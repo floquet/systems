@@ -1,4 +1,4 @@
-Mon Oct 12 09:38:00 PM MDT 2026
+Tue Oct 13 03:47:33 AM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
     Hardware SKU: meer10
 Firmware Version: CRARL579.0027.2025.0918.1706
    Firmware Date: Thu 2025-09-18
-    Firmware Age: 1y 3w 3d
+    Firmware Age: 1y 3w 4d
 
 COMMAND: uname -a
 Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      72%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        18Gi       1.2Gi       6.7Gi        15Gi        11Gi
-Swap:           15Gi       212Mi        15Gi
+Mem:            30Gi        19Gi       1.6Gi       7.3Gi        15Gi        10Gi
+Swap:           15Gi       3.3Gi        12Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -145,6 +145,7 @@ loop62        7:62   0 128.2M  1 loop /snap/sublime-text/245
 loop63        7:63   0    12M  1 loop /snap/snap-store/1447
 loop64        7:64   0 128.2M  1 loop /snap/sublime-text/251
 loop65        7:65   0 222.3M  1 loop /snap/thunderbird/1279
+loop66        7:66   0  60.6M  1 loop /snap/core26/646
 loop67        7:67   0   209M  1 loop /snap/vivaldi/503
 loop68        7:68   0     4M  1 loop /snap/webfortran/8
 loop69        7:69   0 222.3M  1 loop /snap/thunderbird/1282
@@ -157,13 +158,13 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  5.1M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  272G  618G  31% /
+/dev/nvme0n1p2 ext4      937G  276G  614G  32% /
 tmpfs          tmpfs      16G   16M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  930M   15G   7% /tmp
+tmpfs          tmpfs      16G  1.1G   15G   7% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  4.2M  3.1G   1% /run/user/1000
 
@@ -276,4 +277,5 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/mnt/T7-Shield                                  /dev/sda1              ext4            rw,relatime,stripe=8191
 ├─/snap/thunderbird/1282                          /dev/loop69            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1447                           /dev/loop63            squashfs        ro,nodev,relatime,errors=continue,threads=single
-└─/snap/vivaldi/505                               /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/vivaldi/505                               /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
+└─/snap/core26/646                                /dev/loop66            squashfs        ro,nodev,relatime,errors=continue,threads=single
