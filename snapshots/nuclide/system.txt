@@ -1,4 +1,4 @@
-Wed Oct  7 13:15:35 MDT 2026
+Mon Oct 19 15:34:58 MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       1.1Gi       6.1Gi       116Mi       662Mi       6.5Gi
+Mem:           7.6Gi       905Mi       5.6Gi       6.7Mi       1.4Gi       6.7Gi
 Swap:          2.0Gi          0B       2.0Gi
 
 COMMAND: lsblk
@@ -84,18 +84,18 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
-drivers        9p       236G  210G   26G  90% /usr/lib/wsl/drivers
-/dev/sdd       ext4    1007G   70G  886G   8% /
-none           tmpfs    3.9G   80K  3.9G   1% /mnt/wslg
+drivers        9p       236G  216G   21G  92% /usr/lib/wsl/drivers
+/dev/sdd       ext4    1007G   71G  886G   8% /
+none           tmpfs    3.9G   92K  3.9G   1% /mnt/wslg
 none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   3.8G  2.8M  3.8G   1% /init
-none           tmpfs    3.9G  904K  3.9G   1% /run
+none           tmpfs    3.9G  908K  3.9G   1% /run
 none           tmpfs    3.9G     0  3.9G   0% /run/lock
 none           tmpfs    3.9G     0  3.9G   0% /run/shm
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/versions.txt
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/doc
-C:\            9p       236G  210G   26G  90% /mnt/c
-tmpfs          tmpfs    3.9G  444K  3.9G   1% /tmp
+C:\            9p       236G  216G   21G  92% /mnt/c
+tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
