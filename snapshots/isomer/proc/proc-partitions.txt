@@ -1,4 +1,4 @@
-Tue Oct 13 03:47:33 AM MDT 2026
+Tue Oct 20 07:55:27 AM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -7,9 +7,9 @@ major minor  #blocks  name
 
    7        0          4 loop0
    7        1     163812 loop1
-   7        2     154208 loop2
+   7        2     228204 loop2
    7        3       4364 loop3
-   7        4     221320 loop4
+   7        4     166304 loop4
    7        5       5488 loop5
    7        6      61008 loop6
    7        7      60992 loop7
@@ -18,7 +18,7 @@ major minor  #blocks  name
  259        2  999203840 nvme0n1p2
    8        0 1953514584 sda
    8        1 1953467280 sda1
-   7        8     223168 loop8
+   7        8     214088 loop8
    7        9      56820 loop9
    7       10      56836 loop10
    7       11      65312 loop11
@@ -30,7 +30,6 @@ major minor  #blocks  name
    7       17      61492 loop17
    7       18      14552 loop18
    7       20      51960 loop20
-   7       19      49056 loop19
    7       21      14580 loop21
    7       22     267656 loop22
    7       23     268580 loop23
@@ -41,7 +40,7 @@ major minor  #blocks  name
    7       28     230324 loop28
    7       29     232140 loop29
    7       31      34028 loop31
-   7       30      33936 loop30
+   7       30     191792 loop30
    7       32     168780 loop32
    7       33     544248 loop33
    7       34     629280 loop34
@@ -60,13 +59,13 @@ major minor  #blocks  name
    7       47     404460 loop47
    7       48     191796 loop48
    7       50     411628 loop50
-   7       49     189596 loop49
+   7       49     223448 loop49
    7       51      19284 loop51
    7       52      18844 loop52
    7       53     123804 loop53
    7       54     132908 loop54
    7       55        556 loop55
-   7       56     214028 loop56
+   7       56      50440 loop56
    7       57      12116 loop57
    7       58      51476 loop58
    7       60        580 loop60
@@ -75,8 +74,9 @@ major minor  #blocks  name
    7       62     131304 loop62
    7       64     131308 loop64
    7       63      12244 loop63
-   7       65     227592 loop65
    7       66      62076 loop66
-   7       67     214028 loop67
+   7       67     224036 loop67
    7       68       4088 loop68
    7       69     227592 loop69
+   7       70      34040 loop70
+   7       71     214056 loop71
