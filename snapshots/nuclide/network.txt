@@ -1,4 +1,4 @@
-Wed Oct 21 11:22:38 MDT 2026
+Wed Oct 21 12:46:36 MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
@@ -42,23 +42,24 @@ Link 3 (docker0)
      Default Route: no
 
 COMMAND: ss -tulpn
-Netid State  Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
-udp   UNCONN 0      0          127.0.0.54:53        0.0.0.0:*          
-udp   UNCONN 0      0       127.0.0.53%lo:53        0.0.0.0:*          
-udp   UNCONN 0      0      10.255.255.254:53        0.0.0.0:*          
-udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
-udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
-udp   UNCONN 0      0             0.0.0.0:5353      0.0.0.0:*          
-udp   UNCONN 0      0               [::1]:323          [::]:*          
-udp   UNCONN 0      0               [::1]:323          [::]:*          
-udp   UNCONN 0      0                [::]:5353         [::]:*          
-tcp   LISTEN 0      4096          0.0.0.0:22        0.0.0.0:*          
-tcp   LISTEN 0      4096        127.0.0.1:631       0.0.0.0:*          
-tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
-tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
-tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
-tcp   LISTEN 0      4096             [::]:22           [::]:*          
-tcp   LISTEN 0      4096            [::1]:631          [::]:*          
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess                          
+udp   UNCONN 0      0              127.0.0.54:53        0.0.0.0:*                                    
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*                                    
+udp   UNCONN 0      0          10.255.255.254:53        0.0.0.0:*                                    
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*                                    
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*                                    
+udp   UNCONN 0      0                 0.0.0.0:5353      0.0.0.0:*                                    
+udp   UNCONN 0      0                   [::1]:323          [::]:*                                    
+udp   UNCONN 0      0                   [::1]:323          [::]:*                                    
+udp   UNCONN 0      0                    [::]:5353         [::]:*                                    
+tcp   LISTEN 0      4096              0.0.0.0:22        0.0.0.0:*                                    
+tcp   LISTEN 0      4096            127.0.0.1:631       0.0.0.0:*                                    
+tcp   LISTEN 0      1000       10.255.255.254:53        0.0.0.0:*                                    
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*                                    
+tcp   LISTEN 0      4096           127.0.0.54:53        0.0.0.0:*                                    
+tcp   LISTEN 0      4096                 [::]:22           [::]:*                                    
+tcp   LISTEN 0      1      [::ffff:127.0.0.1]:6050            *:*    users:(("java",pid=11489,fd=63))
+tcp   LISTEN 0      4096                [::1]:631          [::]:*                                    
 
 COMMAND: ip neigh
 172.21.96.1 dev eth0 lladdr 00:15:5d:b9:5e:50 STALE 
