@@ -1,4 +1,4 @@
-Tue Oct 20 07:55:27 AM MDT 2026
+Sat Oct 24 08:29:51 PM MDT 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -18,7 +18,6 @@ major minor  #blocks  name
  259        2  999203840 nvme0n1p2
    8        0 1953514584 sda
    8        1 1953467280 sda1
-   7        8     214088 loop8
    7        9      56820 loop9
    7       10      56836 loop10
    7       11      65312 loop11
@@ -30,20 +29,21 @@ major minor  #blocks  name
    7       17      61492 loop17
    7       18      14552 loop18
    7       20      51960 loop20
+   7       19     195992 loop19
    7       21      14580 loop21
-   7       22     267656 loop22
+   7       22     214112 loop22
    7       23     268580 loop23
    7       24      13004 loop24
    7       25      13008 loop25
    7       26       6112 loop26
    7       27      63672 loop27
-   7       28     230324 loop28
+   7       28     630812 loop28
    7       29     232140 loop29
    7       31      34028 loop31
    7       30     191792 loop30
    7       32     168780 loop32
    7       33     544248 loop33
-   7       34     629280 loop34
+   7       34     290728 loop34
    7       35     630028 loop35
    7       36       1704 loop36
    7       37      93888 loop37
@@ -57,9 +57,9 @@ major minor  #blocks  name
    7       45       4392 loop45
    7       46     105664 loop46
    7       47     404460 loop47
-   7       48     191796 loop48
+   7       48     231864 loop48
    7       50     411628 loop50
-   7       49     223448 loop49
+   7       49       4376 loop49
    7       51      19284 loop51
    7       52      18844 loop52
    7       53     123804 loop53
@@ -74,9 +74,11 @@ major minor  #blocks  name
    7       62     131304 loop62
    7       64     131308 loop64
    7       63      12244 loop63
+   7       65     226304 loop65
    7       66      62076 loop66
    7       67     224036 loop67
    7       68       4088 loop68
    7       69     227592 loop69
    7       70      34040 loop70
-   7       71     214056 loop71
+   7       71       4428 loop71
+   7       72     214112 loop72
