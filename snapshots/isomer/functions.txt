@@ -1,4 +1,4 @@
-Sat Oct 24 08:29:51 PM MDT 2026
+Sun Oct 25 16:24:02 MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -33,6 +33,7 @@ declare -f _comp_abspath
 declare -f _comp_as_root
 declare -f _comp_awk
 declare -f _comp_cmd_cd
+declare -f _comp_cmd_tree
 declare -f _comp_command
 declare -f _comp_command_offset
 declare -f _comp_compgen
@@ -916,6 +917,40 @@ _comp_cmd_cd ()
         if [[ $i == "$cur" && $i != "*/" ]]; then
             COMPREPLY[0]="${i}/";
         fi;
+    fi
+}
+_comp_cmd_tree () 
+{ 
+    local cur prev words cword was_split comp_args;
+    _comp_initialize -s -- "$@" || return;
+    local noargopts='!(-*|*[LPIHTo]*)';
+    case $prev in 
+        -${noargopts}[LPIHT] | --filelimit | --timefmt | --help | --version)
+            return
+        ;;
+        --charset)
+            _comp_compgen -x iconv charsets;
+            return
+        ;;
+        -${noargopts}o)
+            _comp_compgen_filedir;
+            return
+        ;;
+        --sort)
+            _comp_compgen -- -W "name version size mtime ctime";
+            return
+        ;;
+    esac;
+    [[ -n $was_split ]] && return;
+    if [[ $cur == -* ]]; then
+        _comp_compgen_help;
+        return;
+    fi;
+    local line="${words[*]}";
+    if [[ $line == *\ --fromfile\ * ]]; then
+        _comp_compgen_filedir;
+    else
+        _comp_compgen_filedir -d;
     fi
 }
 _comp_command () 
