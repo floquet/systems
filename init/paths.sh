@@ -11,6 +11,7 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 # GitHub repositories
 export pBuilds="${pGithub}/builds"
 export pFramework="${pGithub}/framework"
+export pScaffold="${pGithub}/scaffold"
 export pNotes="${pGithub}/notes"
 export pSpacklandia="${pGithub}/spacklandia"
 export pShellLibrary="${pGithub}/shell-library"
