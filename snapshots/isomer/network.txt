@@ -1,4 +1,4 @@
-Sun Oct 25 09:15:30 PM MDT 2026
+Sun Oct 25 09:15:36 PM MDT 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -61,8 +61,10 @@ udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0
 udp   UNCONN 0      0                              10.10.10.4:49277      0.0.0.0:*    users:(("Socket Process",pid=927225,fd=37))
 udp   UNCONN 0      0                           192.168.1.100:49413      0.0.0.0:*    users:(("Socket Process",pid=927225,fd=38))
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                               
-udp   UNCONN 1920   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=472813,fd=77))       
+udp   UNCONN 960    0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=472813,fd=77))       
 udp   UNCONN 0      0                                 0.0.0.0:34148      0.0.0.0:*    users:(("python3",pid=17177,fd=12))        
+udp   UNCONN 0      0                              10.10.10.4:34847      0.0.0.0:*    users:(("chrome",pid=955593,fd=200))       
+udp   UNCONN 0      0                             10.11.26.57:35429      0.0.0.0:*    users:(("chrome",pid=955593,fd=224))       
 udp   UNCONN 0      0                           192.168.1.100:3702       0.0.0.0:*    users:(("python3",pid=17177,fd=21))        
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=17177,fd=19))        
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=17177,fd=13))        
