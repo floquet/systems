@@ -19,6 +19,7 @@ source "${pInit}/fortran-stack.sh"
 source "${pInit}/git.sh"
 source "${pInit}/go.sh"
 source "${pInit}/grep.sh"
+source "${pInit}/latex.sh"
 source "${pInit}/ptyxis.sh"
 source "${pInit}/spack-bootstrap.sh"
 source "${pInit}/ssh.sh"
@@ -43,6 +44,9 @@ source "${pInit}/recorder.sh"
     fi
 
 ) 200>"${HOME}/.git-init.lock"
+
+# use miltary time
+alias date="date '+%a %b %d %H:%M:%S %Z %Y'"
 
 # Report initialization time
 echo "time used: $((SECONDS - recorderStart)) seconds"

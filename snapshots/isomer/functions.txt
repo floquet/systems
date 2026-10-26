@@ -1,4 +1,4 @@
-Thu Oct  8 11:34:52 PM MDT 2026
+Sun Oct 25 09:15:36 PM MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -171,6 +171,7 @@ declare -f _xinetd_services
 declare -f command_not_found_handle
 declare -f commit-builds
 declare -f config_git
+declare -f create-pres
 declare -f dequote
 declare -f g-fortran
 declare -f g-general
@@ -3090,6 +3091,12 @@ config_git ()
     git config --global merge.tool meld;
     git config --global rerere.enabled true;
     echo "Git configuration for Daniel Topa is complete."
+}
+create-pres () 
+{ 
+    local project="${1:?Usage: create-pres PROJECT_NAME}";
+    "${pScaffold}/scripts/create-pres.sh" "$project" || return;
+    cd "${pScaffold}/projects/beamer/${project}/main" || return
 }
 dequote () 
 { 
