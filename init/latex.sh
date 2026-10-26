@@ -4,9 +4,18 @@
 create-pres() {
     local project="${1:?Usage: create-pres PROJECT_NAME}"
 
-    "${pFramework}/global/constructors/v2/create-pres.sh" \
+    "${pScaffold}/scripts/create-pres.sh" \
         "$project" || return
 
-    cd "${pFramework}/pres/${project}/main" || return
+    cd "${pScaffold}/projects/beamer/${project}/main" || return
 }
+
+#create-pres() {
+#    local project="${1:?Usage: create-pres PROJECT_NAME}"
+
+#    "${pFramework}/global/constructors/v2/create-pres.sh" \
+#        "$project" || return
+
+#    cd "${pFramework}/pres/${project}/main" || return
+#}
 

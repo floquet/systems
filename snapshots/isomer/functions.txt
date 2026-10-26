@@ -1,4 +1,4 @@
-Sun Oct 25 16:24:02 MDT 2026
+Sun Oct 25 20:27:23 MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -3171,8 +3171,8 @@ config_git ()
 create-pres () 
 { 
     local project="${1:?Usage: create-pres PROJECT_NAME}";
-    "${pFramework}/global/constructors/v2/create-pres.sh" "$project" || return;
-    cd "${pFramework}/pres/${project}/main" || return
+    "${pScaffold}/scripts/create-pres.sh" "$project" || return;
+    cd "${pScaffold}/projects/beamer/${project}/main" || return
 }
 dequote () 
 { 
