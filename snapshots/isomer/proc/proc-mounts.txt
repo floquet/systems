@@ -1,4 +1,4 @@
-Sun Oct 25 09:15:36 PM MDT 2026
+Mon Oct 26 11:58:38 AM MDT 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -93,7 +93,6 @@ nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
 /dev/loop66 /snap/core26/646 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop70 /snap/glab/6906 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop30 /snap/opera/504 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop4 /snap/bitwarden/175 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop2 /snap/thunderbird/1294 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop67 /snap/brave/696 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -112,3 +111,5 @@ nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop71 /snap/lxqt-support-core24/19 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop72 /snap/vivaldi/515 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
+/dev/loop8 /snap/opera/513 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
