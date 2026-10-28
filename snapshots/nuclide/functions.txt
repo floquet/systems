@@ -1,4 +1,4 @@
-Wed Oct 28 11:03:25 MDT 2026
+Wed Oct 28 11:04:19 MDT 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -3336,45 +3336,6 @@ q-selection ()
     echo;
     echo "Installed MPI / OpenCoarrays packages:";
     dpkg -l 2> /dev/null | grep --color=auto -Ei 'openmpi|mpich|coarray|caf|open-coarrays' || true
-}
-q-wrappers () 
-{ 
-    echo;
-    echo "=== WRAPPERS ===";
-    if command -v mpifort > /dev/null 2>&1; then
-        echo "mpifort --showme";
-        mpifort --showme 2> /dev/null || true;
-        echo;
-        echo "mpifort --showme:command";
-        mpifort --showme:command 2> /dev/null || true;
-        echo;
-        echo "mpifort --showme:compile";
-        mpifort --showme:compile 2> /dev/null || true;
-        echo;
-        echo "mpifort --showme:link";
-        mpifort --showme:link 2> /dev/null || true;
-    fi;
-    echo;
-    echo "caf wrapper contents:";
-    local caf_path;
-    caf_path="$(command -v caf 2> /dev/null)";
-    if [[ -n "$caf_path" ]]; then
-        echo "$caf_path";
-        head -n 40 "$caf_path" 2> /dev/null || true;
-    fi
-}
-quote () 
-{ 
-    local quoted=${1//\'/\'\\\'\'};
-    printf "'%s'" "$quoted"
-}
-quote_readline () 
-{ 
-    local REPLY;
-    _comp_quote_compgen "$1";
-    printf %s "$REPLY"
-}
-enmpi|mpich|coarray|caf|open-coarrays' || true
 }
 q-wrappers () 
 { 
