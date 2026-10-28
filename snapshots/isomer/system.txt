@@ -1,4 +1,4 @@
-Sun Oct 25 09:15:37 PM MDT 2026
+Mon Oct 26 11:58:39 AM MDT 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
     Hardware SKU: meer10
 Firmware Version: CRARL579.0027.2025.0918.1706
    Firmware Date: Thu 2025-09-18
-    Firmware Age: 1y 1month 1w
+    Firmware Age: 1y 1month 1w 1d
 
 COMMAND: uname -a
 Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      71%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        18Gi       4.5Gi       4.8Gi        10Gi        11Gi
+Mem:            30Gi        19Gi       3.2Gi       5.0Gi        11Gi        10Gi
 Swap:           15Gi       3.8Gi        12Gi
 
 COMMAND: lsblk
@@ -87,6 +87,7 @@ loop4         7:4    0 162.4M  1 loop /snap/bitwarden/175
 loop5         7:5    0   5.4M  1 loop /snap/chromium-ffmpeg/123
 loop6         7:6    0  59.6M  1 loop /snap/cmake/1562
 loop7         7:7    0  59.6M  1 loop /snap/cmake/1572
+loop8         7:8    0 189.3M  1 loop /snap/opera/513
 loop9         7:9    0  55.5M  1 loop /snap/core18/2999
 loop10        7:10   0  55.5M  1 loop /snap/core18/3084
 loop11        7:11   0  63.8M  1 loop /snap/core20/2866
@@ -108,7 +109,6 @@ loop26        7:26   0     6M  1 loop /snap/gedit/697
 loop27        7:27   0  62.2M  1 loop /snap/github-gui/2
 loop28        7:28   0   616M  1 loop /snap/gnome-46-2404/177
 loop29        7:29   0 226.7M  1 loop /snap/gitkraken/327
-loop30        7:30   0 187.3M  1 loop /snap/opera/504
 loop31        7:31   0  33.2M  1 loop /snap/glab/6879
 loop32        7:32   0 164.8M  1 loop /snap/gnome-3-28-1804/198
 loop33        7:33   0 531.5M  1 loop /snap/gnome-42-2204/263
@@ -159,14 +159,14 @@ nvme0n1     259:0    0 953.9G  0 disk
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  3.9M  6.1G   1% /run
+tmpfs          tmpfs     6.1G  4.0M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  273G  617G  31% /
 tmpfs          tmpfs      16G  5.7M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  152M   15G   1% /tmp
+tmpfs          tmpfs      16G  162M   15G   2% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  6.8M  3.1G   1% /run/user/1000
 
@@ -187,6 +187,7 @@ TARGET                                            SOURCE                 FSTYPE 
 │   ├─/run/snapd/ns/snap-store.mnt                nsfs[mnt:[4026532754]] nsfs            rw
 │   ├─/run/snapd/ns/vivaldi.mnt                   nsfs[mnt:[4026533556]] nsfs            rw
 │   ├─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026532759]] nsfs            rw
+│   ├─/run/snapd/ns/opera.mnt                     nsfs[mnt:[4026533334]] nsfs            rw
 │   └─/run/snapd/ns/jabref.mnt                    nsfs[mnt:[4026534496]] nsfs            rw
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15689808k,nr_inodes=3922452,mode=755,inode64
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
@@ -234,7 +235,6 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/github-gui/2                              /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-46-2404/177                         /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gitkraken/327                             /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/opera/504                                 /dev/loop30            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/glab/6879                                 /dev/loop31            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-3-28-1804/198                       /dev/loop32            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-42-2204/263                         /dev/loop33            squashfs        ro,nodev,relatime,errors=continue,threads=single
@@ -278,6 +278,7 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/glab/6906                                 /dev/loop70            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1447                           /dev/loop63            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/vivaldi/515                               /dev/loop72            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/opera/513                                 /dev/loop8             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/lxqt-support-core22/16                    /dev/loop49            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core26/646                                /dev/loop66            squashfs        ro,nodev,relatime,errors=continue,threads=single
 └─/snap/cups/1266                                 /dev/loop56            squashfs        ro,nodev,relatime,errors=continue,threads=single
