@@ -1,4 +1,4 @@
-Sun Nov  1 05:40:15 PM MST 2026
+Sun Nov  1 05:40:30 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      71%
+CPU(s) scaling MHz:                      73%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi       4.5Gi        21Gi       1.4Gi       5.8Gi        25Gi
+Mem:            30Gi       4.3Gi        18Gi       1.4Gi       9.6Gi        25Gi
 Swap:           15Gi          0B        15Gi
 
 COMMAND: lsblk
@@ -160,7 +160,7 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  3.9M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  273G  617G  31% /
+/dev/nvme0n1p2 ext4      937G  275G  615G  31% /
 tmpfs          tmpfs      16G   17M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
@@ -168,7 +168,7 @@ none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
 tmpfs          tmpfs      16G   60K   16G   1% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
-tmpfs          tmpfs     3.1G  148K  3.1G   1% /run/user/1000
+tmpfs          tmpfs     3.1G  152K  3.1G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
