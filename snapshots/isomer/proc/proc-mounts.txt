@@ -1,4 +1,4 @@
-Sun Nov  1 05:49:42 PM MST 2026
+Tue Nov  3 10:05:09 PM MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -56,8 +56,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop28 /snap/github-gui/2 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop29 /snap/gitkraken/327 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop30 /snap/gitkraken/329 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop31 /snap/glab/6879 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop32 /snap/glab/6906 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop33 /snap/gnome-3-28-1804/198 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop34 /snap/gnome-42-2204/263 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop35 /snap/gnome-46-2404/168 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -78,7 +76,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop50 /snap/master-pdf-editor-5/36 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop52 /snap/mesa-2404/1165 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop51 /snap/mesa-2404/1839 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop53 /snap/opera/514 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop54 /snap/opera/515 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop56 /snap/prompting-client/228 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop55 /snap/prompting-client/222 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -109,3 +106,9 @@ portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,grou
 nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/bitwarden.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
+/dev/loop73 /snap/glab/7095 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop74 /snap/opera/516 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
+/dev/loop31 /snap/glab/7114 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
