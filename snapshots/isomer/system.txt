@@ -1,4 +1,4 @@
-Tue Nov  3 10:05:09 PM MST 2026
+Wed Nov  4 08:52:15 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
     Hardware SKU: meer10
 Firmware Version: CRARL579.0027.2025.0918.1706
    Firmware Date: Thu 2025-09-18
-    Firmware Age: 1y 1month 2w 2d
+    Firmware Age: 1y 1month 2w 3d
 
 COMMAND: uname -a
 Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      69%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        10Gi       9.6Gi       2.5Gi        12Gi        19Gi
-Swap:           15Gi          0B        15Gi
+Mem:            30Gi        11Gi        11Gi       3.3Gi       9.8Gi        18Gi
+Swap:           15Gi        53Mi        15Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -108,9 +108,9 @@ loop25        7:25   0  12.7M  1 loop /snap/firmware-updater/258
 loop26        7:26   0  12.7M  1 loop /snap/firmware-updater/262
 loop27        7:27   0     6M  1 loop /snap/gedit/697
 loop28        7:28   0  62.2M  1 loop /snap/github-gui/2
-loop29        7:29   0 226.7M  1 loop /snap/gitkraken/327
 loop30        7:30   0 226.4M  1 loop /snap/gitkraken/329
 loop31        7:31   0  33.1M  1 loop /snap/glab/7114
+loop32        7:32   0   227M  1 loop /snap/gitkraken/331
 loop33        7:33   0 164.8M  1 loop /snap/gnome-3-28-1804/198
 loop34        7:34   0 531.5M  1 loop /snap/gnome-42-2204/263
 loop35        7:35   0 615.3M  1 loop /snap/gnome-46-2404/168
@@ -160,14 +160,14 @@ nvme0n1     259:0    0 953.9G  0 disk
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  4.0M  6.1G   1% /run
+tmpfs          tmpfs     6.1G  4.1M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  276G  615G  31% /
-tmpfs          tmpfs      16G   14M   16G   1% /dev/shm
+tmpfs          tmpfs      16G   16M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  5.7M   16G   1% /tmp
+tmpfs          tmpfs      16G   23M   16G   1% /tmp
 /dev/sda1      ext4      1.8T  216G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  5.5M  3.1G   1% /run/user/1000
 
@@ -187,7 +187,8 @@ TARGET                                            SOURCE                 FSTYPE 
 │   ├─/run/snapd/ns/bitwarden.mnt                 nsfs[mnt:[4026533148]] nsfs            rw
 │   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026532751]] nsfs            rw
 │   ├─/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532752]] nsfs            rw
-│   └─/run/snapd/ns/opera.mnt                     nsfs[mnt:[4026532755]] nsfs            rw
+│   ├─/run/snapd/ns/opera.mnt                     nsfs[mnt:[4026532755]] nsfs            rw
+│   └─/run/snapd/ns/jabref.mnt                    nsfs[mnt:[4026533717]] nsfs            rw
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=15689812k,nr_inodes=3922453,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
@@ -236,7 +237,6 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/firmware-updater/262                      /dev/loop26            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gedit/697                                 /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/github-gui/2                              /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
-├─/snap/gitkraken/327                             /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gitkraken/329                             /dev/loop30            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-3-28-1804/198                       /dev/loop33            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/gnome-42-2204/263                         /dev/loop34            squashfs        ro,nodev,relatime,errors=continue,threads=single
@@ -279,6 +279,7 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/webfortran/8                              /dev/loop70            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/vivaldi/515                               /dev/loop72            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/mnt/T7-Shield                                  /dev/sda1              ext4            rw,relatime,stripe=8191
+├─/snap/gitkraken/331                             /dev/loop32            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/glab/7095                                 /dev/loop73            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/opera/516                                 /dev/loop74            squashfs        ro,nodev,relatime,errors=continue,threads=single
 └─/snap/glab/7114                                 /dev/loop31            squashfs        ro,nodev,relatime,errors=continue,threads=single
