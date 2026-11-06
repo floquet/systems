@@ -1,4 +1,4 @@
-Sun Nov  1 05:40:30 PM MST 2026
+Thu Nov  5 08:52:52 PM MST 2026
 
 COMMAND: cat /proc/partitions
 DESCRIPTION: Known block-device partitions
@@ -6,48 +6,48 @@ DESCRIPTION: Known block-device partitions
 major minor  #blocks  name
 
    7        0          4 loop0
-   7        1     163812 loop1
-   7        2     226560 loop2
-   7        3     166304 loop3
+   7        1     166304 loop1
+   7        2     232568 loop2
    7        4     226552 loop4
    7        5       5488 loop5
-   7        6      60992 loop6
-   7        7       6620 loop7
+   7        6       6620 loop6
+   7        7      60992 loop7
  259        0 1000204632 nvme0n1
  259        1     999424 nvme0n1p1
  259        2  999203840 nvme0n1p2
    8        0 1953514584 sda
    8        1 1953467280 sda1
    7        8      61004 loop8
-   7        9      56820 loop9
-   7       10      56836 loop10
-   7       11      65312 loop11
+   7        9      56836 loop9
+   7       10      65312 loop10
+   7       11      56820 loop11
    7       12      65316 loop12
-   7       14      75756 loop14
+   7       13      75756 loop13
+   7       14      75800 loop14
    7       15      68408 loop15
    7       16      68392 loop16
-   7       17      61492 loop17
-   7       18      62076 loop18
-   7       19      14580 loop19
-   7       22      14552 loop22
-   7       21      51960 loop21
-   7       20      50440 loop20
-   7       24     290728 loop24
-   7       23      75800 loop23
+   7       17      62076 loop17
+   7       18      50440 loop18
+   7       20      61492 loop20
+   7       19      51960 loop19
+   7       21      14552 loop21
+   7       22      14580 loop22
+   7       23     290728 loop23
+   7       24     290228 loop24
    7       25      13004 loop25
    7       26      13008 loop26
    7       27       6112 loop27
    7       28      63672 loop28
-   7       29     232140 loop29
+   7       29     221244 loop29
    7       30     231864 loop30
-   7       31      34028 loop31
-   7       32      34040 loop32
+   7       31      33908 loop31
+   7       32     232436 loop32
    7       33     168780 loop33
    7       34     544248 loop34
    7       35     630028 loop35
-   7       36     630812 loop36
+   7       36      93888 loop36
    7       37       1704 loop37
-   7       38      93888 loop38
+   7       38     630812 loop38
    7       39     213528 loop39
    7       40     220908 loop40
    7       41     423644 loop41
@@ -55,30 +55,31 @@ major minor  #blocks  name
    7       43    2115856 loop43
    7       44    1710144 loop44
    7       45       4348 loop45
-   7       46       4376 loop46
-   7       47       4392 loop47
-   7       48       4428 loop48
-   7       49     105664 loop49
-   7       50     404460 loop50
+   7       46    1703304 loop46
+   7       47       4376 loop47
+   7       48       4392 loop48
+   7       49       4428 loop49
+   7       50     105664 loop50
+   7       52     404460 loop52
    7       51     411628 loop51
-   7       52     193884 loop52
-   7       53     193960 loop53
-   7       54      18844 loop54
-   7       56      19284 loop56
-   7       55     123804 loop55
-   7       57     132908 loop57
-   7       58      12116 loop58
+   7       53      33292 loop53
+   7       54     193960 loop54
+   7       55      19284 loop55
+   7       56      18844 loop56
+   7       57     123804 loop57
+   7       58     132908 loop58
    7       59        556 loop59
    7       60      12244 loop60
-   7       61      51476 loop61
-   7       62      45784 loop62
-   7       63        580 loop63
+   7       61      12116 loop61
+   7       62     228672 loop62
+   7       63      45784 loop63
    7       64        828 loop64
-   7       65     131304 loop65
-   7       66     131308 loop66
-   7       67     228204 loop67
-   7       68     228216 loop68
-   7       69     214112 loop69
-   7       70     214100 loop70
-   7       71       4088 loop71
-   7       72     290228 loop72
+   7       65        580 loop65
+   7       67     228216 loop67
+   7       69     131308 loop69
+   7       66     131304 loop66
+   7       68     228204 loop68
+   7       71     214100 loop71
+   7       70       4088 loop70
+   7       73      33896 loop73
+   7       74     194528 loop74
