@@ -1,4 +1,4 @@
-Thu Nov  5 08:52:52 PM MST 2026
+Fri Nov  6 07:53:11 PM MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -90,7 +90,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 tmpfs /tmp tmpfs rw,nosuid,nodev,size=15813284k,nr_inodes=1048576,inode64,usrquota 0 0
 /dev/loop66 /snap/sublime-text/245 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop68 /snap/thunderbird/1294 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop71 /snap/vivaldi/517 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop70 /snap/webfortran/8 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/sda1 /mnt/T7-Shield ext4 rw,relatime,stripe=8191 0 0
 binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0
@@ -112,3 +111,5 @@ nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
 /dev/loop62 /snap/brave/705 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+/dev/loop3 /snap/vivaldi/522 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
