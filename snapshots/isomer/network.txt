@@ -1,4 +1,4 @@
-Sun Nov  8 10:55:49 AM MST 2026
+Sun Nov  8 11:23:26 AM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -57,7 +57,7 @@ udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0
 udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                           
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                           
 udp   UNCONN 0      0                                 0.0.0.0:49653      0.0.0.0:*    users:(("python3",pid=12477,fd=12))    
-udp   UNCONN 2880   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=5969,fd=78))     
+udp   UNCONN 0      0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=5969,fd=78))     
 udp   UNCONN 0      0                                 0.0.0.0:51570      0.0.0.0:*    users:(("python3",pid=12477,fd=9))     
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=13))    
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=11))    
@@ -68,7 +68,6 @@ udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619930,fd=62))    
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619930,fd=61))    
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                           
-udp   UNCONN 0      0                                 0.0.0.0:55792      0.0.0.0:*    users:(("firefox",pid=122147,fd=101))  
 udp   UNCONN 0      0                                       *:48588            *:*    users:(("python3",pid=12477,fd=15))    
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                           
 udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=12477,fd=16))    
