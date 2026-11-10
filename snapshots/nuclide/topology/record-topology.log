@@ -1,6 +1,6 @@
-Tue Nov 10 10:04:06 MST 2026  lstopo-svg           OK       time=0 seconds
-Tue Nov 10 10:04:06 MST 2026  lstopo-physical      OK       time=0 seconds
-Tue Nov 10 10:04:06 MST 2026  lstopo               OK       time=0 seconds
-Tue Nov 10 10:04:06 MST 2026  lstopo-xml           OK       time=0 seconds
-Tue Nov 10 10:04:06 MST 2026  lstopo-verbose       OK       time=0 seconds
-Tue Nov 10 10:04:06 MST 2026  record-topology      COMPLETE  time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  lstopo-physical      OK       time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  lstopo-xml           OK       time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  lstopo               OK       time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  lstopo-svg           OK       time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  lstopo-verbose       OK       time=0 seconds
+Tue Nov 10 10:04:14 MST 2026  record-topology      COMPLETE  time=0 seconds
