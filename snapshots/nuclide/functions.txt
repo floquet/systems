@@ -1,4 +1,4 @@
-Tue Nov 10 10:04:01 MST 2026
+Tue Nov 10 10:04:05 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
