@@ -1,4 +1,4 @@
-Wed Nov 11 05:02:14 PM MST 2026
+Thu Nov 12 12:34:24 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -58,19 +58,17 @@ udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                           
 udp   UNCONN 0      0                                 0.0.0.0:49653      0.0.0.0:*    users:(("python3",pid=12477,fd=12))    
 udp   UNCONN 0      0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=1166702,fd=77))  
+udp   UNCONN 0      0                                 0.0.0.0:50416      0.0.0.0:*    users:(("firefox",pid=122147,fd=393))  
 udp   UNCONN 0      0                                 0.0.0.0:51570      0.0.0.0:*    users:(("python3",pid=12477,fd=9))     
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=13))    
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=11))    
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=10))    
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=12477,fd=8))     
-udp   UNCONN 0      0                                 0.0.0.0:36962      0.0.0.0:*    users:(("firefox",pid=122147,fd=74))   
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619872,fd=449))   
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619872,fd=284))   
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619930,fd=62))    
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=619930,fd=61))    
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                           
-udp   UNCONN 0      0                             10.11.26.57:39086      0.0.0.0:*    users:(("chrome",pid=619872,fd=481))   
-udp   UNCONN 0      0                              10.10.10.4:42037      0.0.0.0:*    users:(("chrome",pid=619872,fd=459))   
 udp   UNCONN 0      0                                       *:48588            *:*    users:(("python3",pid=12477,fd=15))    
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                           
 udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]:*    users:(("python3",pid=12477,fd=16))    
@@ -88,7 +86,6 @@ tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0
 tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                           
 tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                           
 tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                           
-tcp   LISTEN 0      1                      [::ffff:127.0.0.1]:6050             *:*    users:(("java",pid=1138129,fd=47))     
 
 COMMAND: ip neigh
 10.11.26.135 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 

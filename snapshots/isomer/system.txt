@@ -1,4 +1,4 @@
-Wed Nov 11 05:02:14 PM MST 2026
+Thu Nov 12 12:34:24 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
     Hardware SKU: meer10
 Firmware Version: CRARL579.0027.2025.0918.1706
    Firmware Date: Thu 2025-09-18
-    Firmware Age: 1y 1month 3w 3d
+    Firmware Age: 1y 1month 3w 4d
 
 COMMAND: uname -a
 Linux isomer 7.0.11-76070011-generic #202606011647~1784215337~26.04~57a4cdd~dev SMP PREEMPT_DYNAMIC T x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      70%
+CPU(s) scaling MHz:                      69%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        16Gi       3.7Gi       5.5Gi        15Gi        13Gi
-Swap:           15Gi        11Gi       4.8Gi
+Mem:            30Gi        15Gi       6.3Gi       5.0Gi        13Gi        14Gi
+Swap:           15Gi       7.2Gi       8.8Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -160,14 +160,14 @@ nvme0n1     259:0    0 953.9G  0 disk
 
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
-tmpfs          tmpfs     6.1G  4.4M  6.1G   1% /run
+tmpfs          tmpfs     6.1G  4.3M  6.1G   1% /run
 /dev/nvme0n1p2 ext4      937G  280G  610G  32% /
-tmpfs          tmpfs      16G   18M   16G   1% /dev/shm
+tmpfs          tmpfs      16G   17M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 /dev/nvme0n1p1 vfat      975M   92M  883M  10% /boot/efi
-tmpfs          tmpfs      16G  243M   15G   2% /tmp
+tmpfs          tmpfs      16G  167M   15G   2% /tmp
 /dev/sda1      ext4      1.8T  219G  1.5T  13% /mnt/T7-Shield
 tmpfs          tmpfs     3.1G  6.8M  3.1G   1% /run/user/1000
 
