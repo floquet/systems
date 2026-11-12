@@ -5,6 +5,7 @@ alias lss='ls -alh'
 alias wolf="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
 alias wolfram="/usr/local/Wolfram/Wolfram/15.0/Executables/wolfram"
 alias nb="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
+alias pdft='pdflatex -synctex=1 -halt-on-error'
 
 alias hot="cd ${pFramework}/pres/spherical-harmonics/main; pwd"
 

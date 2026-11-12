@@ -1,4 +1,4 @@
-Sun Nov  8 11:23:26 AM MST 2026
+Wed Nov 11 05:02:14 PM MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -27,7 +27,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop0 /snap/bare/5 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop2 /snap/bitwarden/177 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop1 /snap/bitwarden/175 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop4 /snap/brave/703 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop5 /snap/chromium-ffmpeg/123 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/nvme0n1p1 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
 /dev/loop6 /snap/chromium-ffmpeg/124 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -35,7 +34,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop7 /snap/cmake/1572 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop9 /snap/core18/3084 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop10 /snap/core20/2866 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop11 /snap/core18/2999 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop12 /snap/core20/2922 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop13 /snap/core22/2955 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop14 /snap/core22/2987 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -43,7 +41,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop16 /snap/core24/2124 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop17 /snap/core26/646 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop18 /snap/cups/1266 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop20 /snap/core26/462 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop19 /snap/cups/1277 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop21 /snap/desktop-security-center/188 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop22 /snap/desktop-security-center/206 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -74,10 +71,8 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop50 /snap/master-pdf-editor-5/36 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop52 /snap/mesa-2404/1165 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop51 /snap/mesa-2404/1839 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop54 /snap/opera/515 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop56 /snap/prompting-client/228 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop55 /snap/prompting-client/222 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop57 /snap/proton-mail/39 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop58 /snap/proton-mail/40 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop59 /snap/quadrapassel/492 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop61 /snap/snap-store/1427 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -86,7 +81,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop64 /snap/snapd-desktop-integration/391 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop65 /snap/snapd-desktop-integration/361 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop67 /snap/thunderbird/1312 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop69 /snap/sublime-text/251 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 tmpfs /tmp tmpfs rw,nosuid,nodev,size=15813284k,nr_inodes=1048576,inode64,usrquota 0 0
 /dev/loop68 /snap/thunderbird/1294 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop70 /snap/webfortran/8 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -100,16 +94,25 @@ portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,grou
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/bitwarden.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firefox.mnt nsfs rw 0 0
-/dev/loop73 /snap/glab/7095 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop74 /snap/opera/516 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop31 /snap/glab/7114 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop32 /snap/gitkraken/331 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/jabref.mnt nsfs rw 0 0
-/dev/loop29 /snap/vivaldi/521 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop53 /snap/snapd/28332 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop62 /snap/brave/705 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop3 /snap/vivaldi/522 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
 /dev/loop71 /snap/sublime-text/255 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/gedit.mnt nsfs rw 0 0
+/dev/loop66 /snap/core26/750 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop54 /snap/vivaldi/524 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
+/dev/loop29 /snap/core18/3267 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop11 /snap/glab/7178 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop72 /snap/opera/519 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop73 /snap/brave/708 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
+/dev/loop4 /snap/sublime-text/262 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+/dev/loop69 /snap/opera/520 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/opera.mnt nsfs rw 0 0
+/dev/loop20 /snap/proton-mail/43 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/proton-mail.mnt nsfs rw 0 0

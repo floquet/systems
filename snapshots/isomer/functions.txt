@@ -1,4 +1,4 @@
-Sun Nov  8 11:23:26 AM MST 2026
+Wed Nov 11 17:02:14 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -32,6 +32,8 @@ declare -f _comp__split_longopt
 declare -f _comp_abspath
 declare -f _comp_as_root
 declare -f _comp_awk
+declare -f _comp_cmd_cd
+declare -f _comp_cmd_tree
 declare -f _comp_command
 declare -f _comp_command_offset
 declare -f _comp_compgen
@@ -876,6 +878,80 @@ _comp_as_root ()
 _comp_awk () 
 { 
     command awk "$@"
+}
+_comp_cmd_cd () 
+{ 
+    local cur prev words cword comp_args;
+    _comp_initialize -- "$@" || return;
+    if [[ $cur == -* ]]; then
+        _comp_compgen_help -c help "$1";
+        compopt +o nospace;
+        return;
+    fi;
+    local i j k;
+    compopt -o filenames;
+    if [[ ! -n ${CDPATH-} || $cur == ?(.)?(.)/* ]]; then
+        _comp_compgen_filedir -d;
+        return;
+    fi;
+    local mark_dirs="" mark_symdirs="";
+    _comp_readline_variable_on mark-directories && mark_dirs=set;
+    _comp_readline_variable_on mark-symlinked-directories && mark_symdirs=set;
+    local paths dirs;
+    _comp_split -F : paths "$CDPATH";
+    for i in "${paths[@]}";
+    do
+        k=${#COMPREPLY[@]};
+        _comp_compgen -v dirs -c "$i/$cur" -- -d;
+        for j in "${dirs[@]}";
+        do
+            if [[ ( -n $mark_symdirs && -L $j || -n $mark_dirs && ! -L $j ) && ! -d ${j#"$i/"} ]]; then
+                j+="/";
+            fi;
+            COMPREPLY[k++]=${j#"$i/"};
+        done;
+    done;
+    _comp_compgen -a filedir -d;
+    if ((${#COMPREPLY[@]} == 1)); then
+        i=${COMPREPLY[0]};
+        if [[ $i == "$cur" && $i != "*/" ]]; then
+            COMPREPLY[0]="${i}/";
+        fi;
+    fi
+}
+_comp_cmd_tree () 
+{ 
+    local cur prev words cword was_split comp_args;
+    _comp_initialize -s -- "$@" || return;
+    local noargopts='!(-*|*[LPIHTo]*)';
+    case $prev in 
+        -${noargopts}[LPIHT] | --filelimit | --timefmt | --help | --version)
+            return
+        ;;
+        --charset)
+            _comp_compgen -x iconv charsets;
+            return
+        ;;
+        -${noargopts}o)
+            _comp_compgen_filedir;
+            return
+        ;;
+        --sort)
+            _comp_compgen -- -W "name version size mtime ctime";
+            return
+        ;;
+    esac;
+    [[ -n $was_split ]] && return;
+    if [[ $cur == -* ]]; then
+        _comp_compgen_help;
+        return;
+    fi;
+    local line="${words[*]}";
+    if [[ $line == *\ --fromfile\ * ]]; then
+        _comp_compgen_filedir;
+    else
+        _comp_compgen_filedir -d;
+    fi
 }
 _comp_command () 
 { 
@@ -3145,7 +3221,7 @@ gf ()
         return 1;
     fi;
     echo "gfortran ${allflags} ${stem}.f08 -o ${stem}";
-    gfortran ${allflags} "${stem}.f08" -o "${stem}"
+    gfortran-16 ${allflags} "${stem}.f08" -o "${stem}"
 }
 goio () 
 { 
@@ -3294,7 +3370,7 @@ q-compiler ()
     command -v gfortran || true;
     echo;
     echo "gfortran --version";
-    gfortran --version 2> /dev/null | head -n 2;
+    gfortran-16 --version 2> /dev/null | head -n 2;
     echo;
     echo "command -v caf";
     command -v caf || true;
