@@ -1,4 +1,4 @@
-Fri Nov 13 09:11:28 MST 2026
+Fri Nov 13 10:32:41 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -37,8 +37,6 @@ configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
 fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
 none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap 0 0
 none /tmp/.X11-unix tmpfs ro,relatime 0 0
-tmpfs /run/user/65534 tmpfs rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=65534,gid=65534 0 0
-tmpfs /mnt/wslg/run/user/65534 tmpfs rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=65534,gid=65534 0 0
 /dev/sdd /var/lib/docker ext4 rw,relatime,discard,errors=remount-ro,data=ordered 0 0
 none /run/credentials/getty@tty1.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000 0 0
