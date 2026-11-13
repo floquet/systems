@@ -5,6 +5,9 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 # Fortran compiler
 # ----------------------------------------------------------------------
 
+alias gcc=gcc-16
+alias gfortran=gfortran-16
+
 export FC=caf
 
 # ----------------------------------------------------------------------

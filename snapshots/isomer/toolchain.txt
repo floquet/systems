@@ -1,4 +1,4 @@
-Thu Nov  5 08:52:52 PM MST 2026
+Thu Nov 12 12:34:25 PM MST 2026
 
 COMMAND: bash --version
 GNU bash, version 5.3.9(1)-release (x86_64-pc-linux-gnu)
@@ -60,7 +60,7 @@ LuaJIT 2.1.1761786044
 Run "nvim -V1 -v" for more info
 
 COMMAND: vim --version
-VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Aug 24 2026 22:11:12)
+VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Oct 13 2026 12:47:02)
 Included patches: 1-948, 950-2141
 Modified by team+vim@tracker.debian.org
 Compiled by team+vim@tracker.debian.org
@@ -69,7 +69,7 @@ Huge version without GUI.  Features included (+) or not (-):
 COMMAND: perl --version
 
 This is perl 5, version 40, subversion 1 (v5.40.1) built for x86_64-linux-gnu-thread-multi
-(with 59 registered patches, see perl -V for more detail)
+(with 60 registered patches, see perl -V for more detail)
 
 Copyright 1987-2025, Larry Wall
 
@@ -77,6 +77,6 @@ COMMAND: ruby --version
 ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux-gnu]
 
 COMMAND: java --version
-openjdk 25.0.4.1 2026-08-18
-OpenJDK Runtime Environment (build 25.0.4.1+1-1-26.04.4-Ubuntu)
-OpenJDK 64-Bit Server VM (build 25.0.4.1+1-1-26.04.4-Ubuntu, mixed mode, sharing)
+openjdk 25.0.5.0.3 2026-10-24
+OpenJDK Runtime Environment (build 25.0.5.0.3+1-1-26.04.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 25.0.5.0.3+1-1-26.04.1-Ubuntu, mixed mode, sharing)
