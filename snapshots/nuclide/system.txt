@@ -1,11 +1,11 @@
-Thu Nov 12 18:16:56 MST 2026
+Fri Nov 13 09:11:28 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 96cbedf4c788415b822e5b4943c7e803
+         Boot ID: 62f5c5b1cc9940039ab6e5871eccf388
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -35,7 +35,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      10
 Socket(s):                               1
 Stepping:                                2
-BogoMIPS:                                4991.99
+BogoMIPS:                                4992.00
 Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni vnmi umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt flush_l1d arch_capabilities
 Virtualization:                          VT-x
 Hypervisor vendor:                       Microsoft
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       923Mi       5.8Gi       6.4Mi       1.1Gi       6.7Gi
+Mem:           7.6Gi       851Mi       5.7Gi       6.4Mi       1.3Gi       6.8Gi
 Swap:          2.0Gi          0B       2.0Gi
 
 COMMAND: lsblk
@@ -84,20 +84,21 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
-drivers        9p       236G  231G  5.4G  98% /usr/lib/wsl/drivers
+drivers        9p       236G  226G  9.7G  96% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G   85G  872G   9% /
-none           tmpfs    3.9G   68K  3.9G   1% /mnt/wslg
+none           tmpfs    3.9G   64K  3.9G   1% /mnt/wslg
 none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   3.8G  2.8M  3.8G   1% /init
-none           tmpfs    3.9G  900K  3.9G   1% /run
+none           tmpfs    3.9G  916K  3.9G   1% /run
 none           tmpfs    3.9G     0  3.9G   0% /run/lock
 none           tmpfs    3.9G     0  3.9G   0% /run/shm
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/versions.txt
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/doc
-C:\            9p       236G  231G  5.4G  98% /mnt/c
-tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
+C:\            9p       236G  226G  9.7G  96% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs          tmpfs    779M     0  779M   0% /run/user/65534
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs          tmpfs    779M   12K  779M   1% /run/user/1000
 
@@ -111,10 +112,11 @@ TARGET                                               SOURCE                    F
 │ ├─/mnt/wslg/distro                                 /dev/sdd                  ext4        ro,relatime,discard,errors=remount-ro,data=ordered
 │ ├─/mnt/wslg/versions.txt                           none[/etc/versions.txt]   overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
 │ ├─/mnt/wslg/doc                                    none[/usr/share/doc]      overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
-│ └─/mnt/wslg/run/user/1000                          tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
+│ ├─/mnt/wslg/run/user/1000                          tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
+│ └─/mnt/wslg/run/user/65534                         tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=65534,gid=65534
 ├─/usr/lib/wsl/lib                                   none                      overlay     rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work,uuid=on
-├─/init                                              rootfs[/init]             rootfs      ro,size=3979988k,nr_inodes=994997
-├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=3979988k,nr_inodes=994997,mode=755
+├─/init                                              rootfs[/init]             rootfs      ro,size=3979992k,nr_inodes=994998
+├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=3979992k,nr_inodes=994998,mode=755
 │ ├─/dev/pts                                         devpts                    devpts      rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000
 │ ├─/dev/shm                                         none                      tmpfs       rw,nosuid,nodev,noatime
 │ ├─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
@@ -132,12 +134,13 @@ TARGET                                               SOURCE                    F
 │ ├─/run/shm                                         none                      tmpfs       rw,nosuid,nodev,noatime
 │ ├─/run/user                                        none                      tmpfs       rw,nosuid,nodev,noexec,noatime,mode=755
 │ │ └─/run/user                                      none[/run/user]           tmpfs       rw,relatime
-│ │   └─/run/user/1000                               tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
+│ │   ├─/run/user/1000                               tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
+│ │   └─/run/user/65534                              tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=65534,gid=65534
 │ ├─/run/credentials/systemd-journald.service        none                      tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 │ ├─/run/credentials/systemd-resolved.service        none                      tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 │ └─/run/credentials/getty@tty1.service              none                      tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 ├─/tmp/.X11-unix                                     none[/.X11-unix]          tmpfs       ro,relatime
 ├─/mnt/c                                             C:\                       9p          rw,noatime,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=6,wfd=6
-├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,size=3985748k,nr_inodes=1048576
+├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,size=3985752k,nr_inodes=1048576
 │ └─/tmp/.X11-unix                                   none[/.X11-unix]          tmpfs       ro,relatime
 └─/var/lib/docker                                    /dev/sdd[/var/lib/docker] ext4        rw,relatime,discard,errors=remount-ro,data=ordered
