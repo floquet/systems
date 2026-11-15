@@ -1,4 +1,4 @@
-Sun Nov 15 10:00:55 AM MST 2026
+Sun Nov 15 10:02:26 AM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      77%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        10Gi        14Gi       5.0Gi       9.5Gi        19Gi
+Mem:            30Gi        11Gi        14Gi       5.2Gi       9.7Gi        19Gi
 Swap:           15Gi       765Mi        15Gi
 
 COMMAND: lsblk
@@ -161,7 +161,7 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 tmpfs          tmpfs     6.1G  4.7M  6.1G   1% /run
-/dev/nvme0n1p2 ext4      937G  281G  609G  32% /
+/dev/nvme0n1p2 ext4      937G  282G  609G  32% /
 tmpfs          tmpfs      16G   15M   16G   1% /dev/shm
 efivarfs       efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
