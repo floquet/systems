@@ -1,4 +1,4 @@
-Thu Nov 12 10:49:06 MST 2026
+Fri Nov 13 09:11:28 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -3096,7 +3096,7 @@ gf ()
         return 1;
     fi;
     echo "gfortran ${allflags} ${stem}.f08 -o ${stem}";
-    gfortran ${allflags} "${stem}.f08" -o "${stem}"
+    gfortran-16 ${allflags} "${stem}.f08" -o "${stem}"
 }
 goio () 
 { 
@@ -3245,7 +3245,7 @@ q-compiler ()
     command -v gfortran || true;
     echo;
     echo "gfortran --version";
-    gfortran --version 2> /dev/null | head -n 2;
+    gfortran-16 --version 2> /dev/null | head -n 2;
     echo;
     echo "command -v caf";
     command -v caf || true;
