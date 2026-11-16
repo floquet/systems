@@ -1,4 +1,4 @@
-Sun Nov 15 05:52:02 PM MST 2026
+Sun Nov 15 06:02:18 PM MST 2026
 
 COMMAND: cat /proc/ioports
 DESCRIPTION: Registered I/O port regions
@@ -14,7 +14,8 @@ DESCRIPTION: Registered I/O port regions
   0000-0000 : keyboard
   0000-0000 : PNP0C09:00
     0000-0000 : EC cmd
-  0000-0000 : rtc0
+  0000-0000 : PNP0B00:00
+    0000-0000 : rtc0
   0000-0000 : dma page reg
   0000-0000 : pic2
   0000-0000 : dma2
