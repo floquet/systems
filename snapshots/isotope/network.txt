@@ -1,4 +1,4 @@
-Sun Nov 15 05:50:07 PM MST 2026
+Sun Nov 15 05:51:54 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -35,14 +35,14 @@ Global
 Link 2 (enp11s0)
     Current Scopes: DNS
          Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 8.8.8.8
+Current DNS Server: 1.1.1.1
        DNS Servers: 8.8.8.8 1.1.1.1
      Default Route: yes
 
 Link 3 (enp12s0)
     Current Scopes: DNS
          Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 8.8.8.8
+Current DNS Server: 1.1.1.1
        DNS Servers: 8.8.8.8 1.1.1.1
      Default Route: yes
 
@@ -52,7 +52,7 @@ udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*
 udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*                                       
 udp   UNCONN 0      0          127.0.0.1:323        0.0.0.0:*                                       
 udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*                                       
-udp   UNCONN 4800   0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=14061,fd=75))
+udp   UNCONN 0      0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=14061,fd=75))
 udp   UNCONN 0      0              [::1]:323           [::]:*                                       
 udp   UNCONN 0      0               [::]:5353          [::]:*                                       
 tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*                                       
@@ -61,12 +61,10 @@ tcp   LISTEN 0      128        127.0.0.1:17600      0.0.0.0:*    users:(("dropbo
 tcp   LISTEN 0      128        127.0.0.1:17603      0.0.0.0:*    users:(("dropbox",pid=14061,fd=96))
 tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*                                       
 tcp   LISTEN 0      4096         0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=14061,fd=74))
-tcp   LISTEN 0      4096         0.0.0.0:22         0.0.0.0:*                                       
 tcp   LISTEN 0      4096           [::1]:631           [::]:*                                       
-tcp   LISTEN 0      4096            [::]:22            [::]:*                                       
 
 COMMAND: ip neigh
-10.11.26.1 dev enp12s0 lladdr 4c:00:82:41:af:d9 DELAY 
+10.11.26.1 dev enp12s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
 10.11.26.1 dev enp11s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
 10.11.26.87 dev enp11s0 lladdr 74:da:78:27:5c:87 STALE 
 10.11.26.5 dev enp11s0 lladdr 78:8c:77:79:9d:da STALE 
