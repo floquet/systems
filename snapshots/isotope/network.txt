@@ -1,4 +1,4 @@
-Sun Nov 15 05:51:57 PM MST 2026
+Sun Nov 15 05:52:01 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -52,7 +52,7 @@ udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*
 udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*                                       
 udp   UNCONN 0      0          127.0.0.1:323        0.0.0.0:*                                       
 udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*                                       
-udp   UNCONN 0      0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=14061,fd=75))
+udp   UNCONN 2880   0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=14061,fd=75))
 udp   UNCONN 0      0              [::1]:323           [::]:*                                       
 udp   UNCONN 0      0               [::]:5353          [::]:*                                       
 tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*                                       
