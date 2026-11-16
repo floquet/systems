@@ -1,45 +1,45 @@
-Sun Nov 15 06:39:31 PM MST 2026
+Sun Nov 15 06:40:55 PM MST 2026
 
 COMMAND: cat /proc/meminfo
 DESCRIPTION: Detailed memory statistics
 
 MemTotal:       127410748 kB
-MemFree:        119598704 kB
-MemAvailable:   124160856 kB
-Buffers:          282156 kB
-Cached:          5053656 kB
+MemFree:        119604704 kB
+MemAvailable:   124167400 kB
+Buffers:          282336 kB
+Cached:          5053940 kB
 SwapCached:            0 kB
-Active:          2123200 kB
-Inactive:        4232524 kB
-Active(anon):    1037520 kB
+Active:          2123432 kB
+Inactive:        4232940 kB
+Active(anon):    1037732 kB
 Inactive(anon):        0 kB
-Active(file):    1085680 kB
-Inactive(file):  4232524 kB
+Active(file):    1085700 kB
+Inactive(file):  4232940 kB
 Unevictable:          16 kB
 Mlocked:              16 kB
 SwapTotal:       8388604 kB
 SwapFree:        8388604 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:              1620 kB
+Dirty:               228 kB
 Writeback:             0 kB
-AnonPages:       1017488 kB
-Mapped:           582316 kB
-Shmem:             17828 kB
-KReclaimable:     390344 kB
-Slab:             694992 kB
-SReclaimable:     390344 kB
-SUnreclaim:       304648 kB
-KernelStack:       19216 kB
-PageTables:        32624 kB
+AnonPages:       1021092 kB
+Mapped:           580764 kB
+Shmem:             17844 kB
+KReclaimable:     390452 kB
+Slab:             695496 kB
+SReclaimable:     390452 kB
+SUnreclaim:       305044 kB
+KernelStack:       18816 kB
+PageTables:        31116 kB
 SecPageTables:      2060 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    72093976 kB
-Committed_AS:    7580776 kB
+Committed_AS:    7582428 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      209648 kB
+VmallocUsed:      209600 kB
 VmallocChunk:          0 kB
 Percpu:            48768 kB
 HardwareCorrupted:     0 kB
@@ -52,8 +52,8 @@ CmaTotal:              0 kB
 CmaFree:        18061312 kB
 Unaccepted:            0 kB
 Balloon:               0 kB
-GPUActive:         51624 kB
-GPUReclaim:        42640 kB
+GPUActive:         59816 kB
+GPUReclaim:        34448 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0
