@@ -17,7 +17,7 @@
     <info name="DMIBIOSDate" value="10/07/2023"/>
     <info name="DMISysVendor" value="Apple Inc."/>
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/session-13.scope"/>
+    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/user@1000.service/tmux-spawn-c7c7a455-b5d9-4518-bf33-1b0266ee711c.scope"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="7.0.0-43-generic"/>
     <info name="OSVersion" value="#43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026"/>
