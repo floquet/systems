@@ -1,4 +1,4 @@
-Sun Nov 15 05:08:00 PM MST 2026
+Sun Nov 15 06:33:59 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -64,9 +64,9 @@ udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0
 udp   UNCONN 0      0                                 0.0.0.0:36851      0.0.0.0:*    users:(("python3",pid=1910210,fd=12))       
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                                
 udp   UNCONN 0      0                             10.11.26.57:55846      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=35))
+udp   UNCONN 0      0                                 0.0.0.0:55922      0.0.0.0:*    users:(("firefox",pid=1910237,fd=243))      
 udp   UNCONN 0      0                              10.10.10.4:40829      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=34))
 udp   UNCONN 0      0                              10.10.10.4:41535      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=6)) 
-udp   UNCONN 0      0                                 0.0.0.0:42547      0.0.0.0:*    users:(("firefox",pid=1910237,fd=90))       
 udp   UNCONN 0      0                             10.11.26.57:45333      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=21))
 udp   UNCONN 0      0                                 0.0.0.0:46093      0.0.0.0:*    users:(("python3",pid=1910210,fd=9))        
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                                
@@ -86,6 +86,7 @@ tcp   LISTEN 0      4096                                [::1]:631           [::]
 
 COMMAND: ip neigh
 10.11.26.135 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
+10.11.26.150 dev enp87s0 lladdr 00:3e:e1:ca:cc:93 STALE 
 10.11.26.87 dev enp86s0 lladdr 74:da:78:27:5c:87 STALE 
 10.11.26.132 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.223 dev enp86s0 lladdr d8:be:65:4a:f0:70 STALE 
@@ -109,6 +110,7 @@ COMMAND: ip neigh
 10.11.26.105 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.37 dev enp87s0 lladdr e8:fc:af:e5:3b:d3 STALE 
 10.11.26.105 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
+10.11.26.149 dev enp87s0 lladdr 00:3e:e1:ca:cc:92 STALE 
 10.11.26.126 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 
 10.11.26.1 dev enp87s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
 10.11.26.116 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 

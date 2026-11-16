@@ -9,8 +9,9 @@ pt()
     local mode="${2:-tab}"
 
     local title
-    local path
+    local path="$HOME"
     local command=""
+    local profile=""
 
     case "$key" in
 
@@ -50,8 +51,32 @@ pt()
             path="$HOME/repos-$(hostname)/github/f"
             ;;
 
+        isotope)
+            title="🔴 ISOTOPE"
+            profile="e0b4e9a7-7630-4640-889f-9857523e2f8a"
+            command="ssh dantopa@isotope.local"
+            ;;
+
+        isotone)
+            title="🔵 ISOTONE"
+            profile="079beb87-5a12-43b1-946d-42f91ad90113"
+            command="ssh dantopa@isotone.local"
+            ;;
+
+        host3)
+            title="🟢 HOST3"
+            profile="ffc65a6e-b975-412e-8785-02cb6f1f9f4d"
+            command="ssh dantopa@host3.local"
+            ;;
+
+        host4)
+            title="🟣 HOST4"
+            profile="9709a692-8633-41fa-aba0-2f15d4521642"
+            command="ssh dantopa@host4.local"
+            ;;
+
         *)
-            echo "usage: pt {builds|framework|github|gitlab|jop|wolfram|f} [w]"
+            echo "usage: pt {builds|framework|github|gitlab|jop|wolfram|f|isotope|isotone|host3|host4} [w]"
             return 1
             ;;
 
@@ -62,35 +87,24 @@ pt()
         return 1
     fi
 
+    local -a args=(
+        --title="$title"
+        --working-directory="$path"
+    )
+
     if [[ "$mode" == "w" ]]; then
-
-        if [[ -n "$command" ]]; then
-            ptyxis \
-                --new-window \
-                --title="$title" \
-                --working-directory="$path" \
-                -- "$command"
-        else
-            ptyxis \
-                --new-window \
-                --title="$title" \
-                --working-directory="$path"
-        fi
-
+        args+=(--new-window)
     else
+        args+=(--tab)
+    fi
 
-        if [[ -n "$command" ]]; then
-            ptyxis \
-                --tab \
-                --title="$title" \
-                --working-directory="$path" \
-                -- "$command"
-        else
-            ptyxis \
-                --tab \
-                --title="$title" \
-                --working-directory="$path"
-        fi
+    if [[ -n "$profile" ]]; then
+        args+=(--profile="$profile")
+    fi
 
+    if [[ -n "$command" ]]; then
+        ptyxis "${args[@]}" -- $command
+    else
+        ptyxis "${args[@]}"
     fi
 }
