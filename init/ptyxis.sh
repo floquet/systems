@@ -3,6 +3,21 @@ printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # ptyxis.sh
 
+_pt_profile_uuid()
+{
+    local target_label="$1"
+    local raw_uuids uid label
+    raw_uuids=$(gsettings get org.gnome.Ptyxis profile-uuids 2>/dev/null | tr -d "[]',")
+    for uid in $raw_uuids; do
+        label=$(gsettings get "org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/${uid}/" label 2>/dev/null | tr -d "'")
+        if [[ "$label" == "$target_label" ]]; then
+            printf "%s" "$uid"
+            return 0
+        fi
+    done
+    return 1
+}
+
 pt()
 {
     local key="$1"
@@ -11,7 +26,7 @@ pt()
     local title
     local path="$HOME"
     local command=""
-    local profile=""
+    local profile_label=""
 
     case "$key" in
 
@@ -53,25 +68,25 @@ pt()
 
         isotope)
             title="🔴 ISOTOPE"
-            profile="e0b4e9a7-7630-4640-889f-9857523e2f8a"
+            profile_label="isotope (Crimson)"
             command="ssh dantopa@isotope.local"
             ;;
 
         isotone)
             title="🔵 ISOTONE"
-            profile="079beb87-5a12-43b1-946d-42f91ad90113"
+            profile_label="isotone (Navy)"
             command="ssh dantopa@isotone.local"
             ;;
 
         host3)
             title="🟢 HOST3"
-            profile="ffc65a6e-b975-412e-8785-02cb6f1f9f4d"
+            profile_label="host3 (Forest)"
             command="ssh dantopa@host3.local"
             ;;
 
         host4)
             title="🟣 HOST4"
-            profile="9709a692-8633-41fa-aba0-2f15d4521642"
+            profile_label="host4 (Plum)"
             command="ssh dantopa@host4.local"
             ;;
 
@@ -87,19 +102,23 @@ pt()
         return 1
     fi
 
+    local profile_uuid=""
+    if [[ -n "$profile_label" ]]; then
+        profile_uuid=$(_pt_profile_uuid "$profile_label")
+    fi
+
     local -a args=(
         --title="$title"
         --working-directory="$path"
     )
 
-    if [[ "$mode" == "w" ]]; then
+    if [[ -n "$profile_uuid" ]]; then
+        [[ "$mode" == "w" ]] && args+=(--new-window)
+        args+=(--tab-with-profile="$profile_uuid")
+    elif [[ "$mode" == "w" ]]; then
         args+=(--new-window)
     else
         args+=(--tab)
-    fi
-
-    if [[ -n "$profile" ]]; then
-        args+=(--profile="$profile")
     fi
 
     if [[ -n "$command" ]]; then
