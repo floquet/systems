@@ -1,0 +1,77 @@
+================================================================================
+HARDWARE & SUBSYSTEM CHARACTERIZATION PROBE: isotope
+Timestamp: 2026-11-15T20:17:07-07:00
+Kernel:    Linux 7.0.0-43-generic x86_64 GNU/Linux
+================================================================================
+
+1. PROCESSOR TOPOLOGY, CACHES & FREQUENCY
+--------------------------------------------------------------------------------
+Architecture:                            x86_64
+CPU(s):                                  24
+On-line CPU(s) list:                     0-23
+Model name:                              Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU(s) scaling MHz:                      52%
+CPU max MHz:                             3500.0000
+CPU min MHz:                             1200.0000
+Virtualization:                          VT-x
+L1d cache:                               384 KiB (12 instances)
+L1i cache:                               384 KiB (12 instances)
+L2 cache:                                3 MiB (12 instances)
+L3 cache:                                30 MiB (1 instance)
+NUMA node0 CPU(s):                       0-23
+Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
++ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+schedutil
+
+2. MEMORY (RAM) CAPACITY & DIMM TOPOLOGY
+--------------------------------------------------------------------------------
+
++ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           121Gi       3.2Gi       111Gi        17Mi       7.8Gi       118Gi
+Swap:          8.0Gi          0B       8.0Gi
++ lshw -short -C memory
+H/W path            Device        Class          Description
+============================================================
+/0/0                              memory         128GiB System memory
+
+3. PHYSICAL STORAGE (EXCLUDING LOOP DEVICES)
+--------------------------------------------------------------------------------
+
++ lsblk -d -e 7 -o NAME,MODEL,SIZE,ROTA,TRAN,SCHED,MOUNTPOINTS
+NAME    MODEL             SIZE ROTA TRAN   SCHED MOUNTPOINTS
+nvme0n1 Aura Pro X2 Gen4  1.8T    0 nvme   none  
+
++ df -h / /home/dantopa
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  1.8T  299G  1.5T  18% /
+/dev/nvme0n1p2  1.8T  299G  1.5T  18% /
+
+4. SEQUENTIAL STORAGE THROUGHPUT (DIRECT I/O SCRATCH TEST)
+--------------------------------------------------------------------------------
+
++ dd if=/dev/zero of=./.probe_io_tmp_isotope.bin bs=1M count=1024 oflag=direct status=none
+Sequential Write (1 GiB O_DIRECT): 1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.929405 s, 1.2 GB/s
+Sequential Read  (1 GiB O_DIRECT): 1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.862414 s, 1.2 GB/s
+
+5. PCIe / GPU / NETWORK INTERCONNECTS
+--------------------------------------------------------------------------------
+02:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Curacao XT / Trinidad XT [Radeon R7 370 / R9 270X/370X]
+06:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Curacao XT / Trinidad XT [Radeon R7 370 / R9 270X/370X]
+0b:00.0 Ethernet controller: Broadcom Inc. and subsidiaries NetXtreme BCM57762 Gigabit Ethernet PCIe
+0c:00.0 Ethernet controller: Broadcom Inc. and subsidiaries NetXtreme BCM57762 Gigabit Ethernet PCIe
+0d:00.0 Network controller: Broadcom Inc. and subsidiaries BCM4360 802.11ac Dual Band Wireless Network Adapter (rev 03)
+0e:00.0 Non-Volatile memory controller: INNOGRIT Corporation NVMe SSD Controller IG5220 [RainierQX] (DRAM-less) (rev 01)
+
+6. THERMALS & SUSTAINED LOAD CHECK
+--------------------------------------------------------------------------------
+Baseline Package Temp: 54.0 C
+Launching 24 worker threads for 15s (watch htop)...
+Under 24-Thread Load -> Avg Core Clock: 2999.9 MHz | Package Temp: 66.0 C
+
+================================================================================
+PROBE COMPLETE — Saved to hardware-probe_isotope.log
+================================================================================
