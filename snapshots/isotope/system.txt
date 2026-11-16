@@ -1,4 +1,4 @@
-Sun Nov 15 05:51:54 PM MST 2026
+Sun Nov 15 05:51:57 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isotope
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      12
 Socket(s):                               1
 Stepping:                                4
-CPU(s) scaling MHz:                      65%
+CPU(s) scaling MHz:                      62%
 CPU max MHz:                             3500.0000
 CPU min MHz:                             1200.0000
 BogoMIPS:                                5399.91
@@ -115,13 +115,13 @@ nvme0n1     259:0    0   1.8T  0 disk
 COMMAND: df -hT
 Filesystem     Type   Size  Used Avail Use% Mounted on
 tmpfs          tmpfs   25G  3.2M   25G   1% /run
-/dev/nvme0n1p2 ext4   1.8T  295G  1.5T  17% /
+/dev/nvme0n1p2 ext4   1.8T  296G  1.5T  17% /
 tmpfs          tmpfs   61G     0   61G   0% /dev/shm
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 tmpfs          tmpfs   61G  2.7M   61G   1% /tmp
 /dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs          tmpfs   13G  128K   13G   1% /run/user/1000
+tmpfs          tmpfs   13G  132K   13G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
