@@ -1,45 +1,45 @@
-Sun Nov 15 06:52:02 PM MST 2026
+Sun Nov 15 06:53:31 PM MST 2026
 
 COMMAND: cat /proc/meminfo
 DESCRIPTION: Detailed memory statistics
 
 MemTotal:       127410748 kB
-MemFree:        119591616 kB
-MemAvailable:   124164004 kB
-Buffers:          283896 kB
-Cached:          5060784 kB
+MemFree:        119586864 kB
+MemAvailable:   124159652 kB
+Buffers:          283976 kB
+Cached:          5060988 kB
 SwapCached:            0 kB
-Active:          2124492 kB
-Inactive:        4238060 kB
-Active(anon):    1035432 kB
+Active:          2124136 kB
+Inactive:        4238280 kB
+Active(anon):    1035076 kB
 Inactive(anon):        0 kB
 Active(file):    1089060 kB
-Inactive(file):  4238060 kB
+Inactive(file):  4238280 kB
 Unevictable:          16 kB
 Mlocked:              16 kB
 SwapTotal:       8388604 kB
 SwapFree:        8388604 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:               296 kB
+Dirty:               160 kB
 Writeback:             0 kB
-AnonPages:       1019796 kB
-Mapped:           582352 kB
+AnonPages:       1016536 kB
+Mapped:           581072 kB
 Shmem:             17840 kB
-KReclaimable:     391664 kB
-Slab:             698064 kB
-SReclaimable:     391664 kB
-SUnreclaim:       306400 kB
-KernelStack:       18832 kB
-PageTables:        31008 kB
+KReclaimable:     391844 kB
+Slab:             698368 kB
+SReclaimable:     391844 kB
+SUnreclaim:       306524 kB
+KernelStack:       18720 kB
+PageTables:        31276 kB
 SecPageTables:      2068 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    72093976 kB
-Committed_AS:    7583456 kB
+Committed_AS:    7584736 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      209632 kB
+VmallocUsed:      209696 kB
 VmallocChunk:          0 kB
 Percpu:            49056 kB
 HardwareCorrupted:     0 kB
