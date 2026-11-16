@@ -1,4 +1,4 @@
-Sun Nov 15 06:54:33 PM MST 2026
+Sun Nov 15 07:36:38 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -66,8 +66,8 @@ tcp   LISTEN 0      4096           [::1]:631           [::]:*
 tcp   LISTEN 0      4096            [::]:22            [::]:*                                        
 
 COMMAND: ip neigh
-10.11.26.57 dev enp11s0 lladdr 88:ae:dd:76:cb:89 DELAY 
-10.11.26.1 dev enp11s0 lladdr 4c:00:82:41:af:d9 REACHABLE 
+10.11.26.57 dev enp11s0 lladdr 88:ae:dd:76:cb:89 REACHABLE 
+10.11.26.1 dev enp11s0 lladdr 4c:00:82:41:af:d9 DELAY 
 10.11.26.87 dev enp11s0 lladdr 74:da:78:27:5c:87 STALE 
 10.11.26.57 dev enp12s0 lladdr 88:ae:dd:76:cb:89 STALE 
 10.11.26.1 dev enp12s0 lladdr 4c:00:82:41:af:d9 DELAY 

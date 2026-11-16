@@ -1,4 +1,4 @@
-Sun Nov 15 06:54:33 PM MST 2026
+Sun Nov 15 07:36:38 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isotope
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      12
 Socket(s):                               1
 Stepping:                                4
-CPU(s) scaling MHz:                      57%
+CPU(s) scaling MHz:                      54%
 CPU max MHz:                             3500.0000
 CPU min MHz:                             1200.0000
 BogoMIPS:                                5399.87
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           121Gi       3.1Gi       114Gi        17Mi       5.5Gi       118Gi
+Mem:           121Gi       3.1Gi       113Gi        17Mi       5.5Gi       118Gi
 Swap:          8.0Gi          0B       8.0Gi
 
 COMMAND: lsblk
@@ -121,7 +121,7 @@ none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.se
 none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 tmpfs          tmpfs   61G   60K   61G   1% /tmp
 /dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs          tmpfs   13G  108K   13G   1% /run/user/1000
+tmpfs          tmpfs   13G  112K   13G   1% /run/user/1000
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
