@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 *.tar.gz
 *.tgz
 *.zip
+
+# Keep intentional machine provenance logs under snapshots/
+!snapshots/**/*.log
