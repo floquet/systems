@@ -1,6 +1,7 @@
-Sun Nov 15 06:44:28 PM MST 2026
+Sun Nov 15 18:44:39 MST 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias date='date '\''+%a %b %d %H:%M:%S %Z %Y'\'''
 alias echoff='echo "$fflags"'
 alias echogf='echo "$allflags"'
 alias echoof='echo "$oflags"'
