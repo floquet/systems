@@ -1,0 +1,40 @@
+dantopa@isotope:~/repos-isotope/github/spacklandia/scripts/gemini$ df -hT -x tmpfs -x devtmpfs -x squashfs && lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINT,MODEL && find / -maxdepth 4 -name "setup-env.sh" -path "*spack*" 2>/dev/null
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2 ext4  1.8T  300G  1.5T  18% /
+/dev/nvme0n1p1 vfat  1.1G  6.4M  1.1G   1% /boot/efi
+NAME          SIZE FSTYPE   MOUNTPOINT                          MODEL
+loop0           4K squashfs /snap/bare/5                        
+loop1       217.9M squashfs /snap/brave/692                     
+loop2        13.1M squashfs /snap/canonical-livepatch/414       
+loop3        13.2M squashfs /snap/canonical-livepatch/418       
+loop4          74M squashfs /snap/core22/2437                   
+loop5          74M squashfs /snap/core22/2955                   
+loop6        66.8M squashfs /snap/core24/1643                   
+loop7        66.8M squashfs /snap/core24/2124                   
+loop8        14.2M squashfs /snap/desktop-security-center/188   
+loop9        14.2M squashfs /snap/desktop-security-center/206   
+loop10      260.8M squashfs /snap/firefox/8863                  
+loop11       12.7M squashfs /snap/firmware-updater/258          
+loop12       16.5M squashfs /snap/firmware-updater/226          
+loop13      262.2M squashfs /snap/firefox/8995                  
+loop14      531.5M squashfs /snap/gnome-42-2204/263             
+loop15      614.5M squashfs /snap/gnome-46-2404/164             
+loop16      615.3M squashfs /snap/gnome-46-2404/168             
+loop17       91.7M squashfs /snap/gtk-common-themes/1535        
+loop18      208.5M squashfs /snap/jabref/3232                   
+loop19        395M squashfs /snap/mesa-2404/1165                
+loop20        402M squashfs /snap/mesa-2404/1839                
+loop21       18.8M squashfs /snap/prompting-client/222          
+loop22       18.4M squashfs /snap/prompting-client/228          
+loop23       11.8M squashfs /snap/snap-store/1390               
+loop24       11.8M squashfs /snap/snap-store/1427               
+loop25       50.3M squashfs /snap/snapd/27738                   
+loop26        580K squashfs /snap/snapd-desktop-integration/361 
+loop27       44.7M squashfs /snap/snapd/28254                   
+loop28        828K squashfs /snap/snapd-desktop-integration/391 
+loop29      223.1M squashfs /snap/brave/709                     
+nvme0n1       1.8T                                              Aura Pro X2 Gen4
+├─nvme0n1p1     1G vfat     /boot/efi                           
+└─nvme0n1p2   1.8T ext4     /                              
+
+
