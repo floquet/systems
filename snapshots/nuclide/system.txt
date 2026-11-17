@@ -1,11 +1,11 @@
-Tue Nov 17 15:44:14 MST 2026
+Tue Nov 17 15:52:09 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 52d9879f9c8c4dcf86a55c655a690ce5
+         Boot ID: e9190363081744c5bc33f692a11fe1b4
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -68,8 +68,8 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       917Mi       5.4Gi       6.2Mi       1.5Gi       6.7Gi
-Swap:          2.0Gi       2.9Mi       2.0Gi
+Mem:           7.6Gi       870Mi       5.4Gi       6.4Mi       1.5Gi       6.8Gi
+Swap:          2.0Gi          0B       2.0Gi
 
 COMMAND: lsblk
 NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -84,9 +84,9 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
-drivers        9p       236G  234G  2.1G 100% /usr/lib/wsl/drivers
+drivers        9p       236G  232G  4.0G  99% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G   89G  867G  10% /
-none           tmpfs    3.9G   48K  3.9G   1% /mnt/wslg
+none           tmpfs    3.9G   68K  3.9G   1% /mnt/wslg
 none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   3.8G  2.8M  3.8G   1% /init
 none           tmpfs    3.9G  908K  3.9G   1% /run
@@ -94,9 +94,9 @@ none           tmpfs    3.9G     0  3.9G   0% /run/lock
 none           tmpfs    3.9G     0  3.9G   0% /run/shm
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/versions.txt
 none           overlay  3.9G  2.6M  3.8G   1% /mnt/wslg/doc
-C:\            9p       236G  234G  2.1G 100% /mnt/c
-none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+C:\            9p       236G  232G  4.0G  99% /mnt/c
 tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs          tmpfs    779M   12K  779M   1% /run/user/1000
@@ -113,8 +113,8 @@ TARGET                                               SOURCE                    F
 │ ├─/mnt/wslg/doc                                    none[/usr/share/doc]      overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
 │ └─/mnt/wslg/run/user/1000                          tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=797148k,nr_inodes=199287,mode=700,uid=1000,gid=1000
 ├─/usr/lib/wsl/lib                                   none                      overlay     rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work,uuid=on
-├─/init                                              rootfs[/init]             rootfs      ro,size=3979984k,nr_inodes=994996
-├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=3979984k,nr_inodes=994996,mode=755
+├─/init                                              rootfs[/init]             rootfs      ro,size=3979988k,nr_inodes=994997
+├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=3979988k,nr_inodes=994997,mode=755
 │ ├─/dev/pts                                         devpts                    devpts      rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000
 │ ├─/dev/shm                                         none                      tmpfs       rw,nosuid,nodev,noatime
 │ ├─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
@@ -122,9 +122,9 @@ TARGET                                               SOURCE                    F
 ├─/sys                                               sysfs                     sysfs       rw,nosuid,nodev,noexec,noatime
 │ ├─/sys/fs/cgroup                                   cgroup2                   cgroup2     rw,nosuid,nodev,noexec,relatime,nsdelegate
 │ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/config                               configfs                  configfs    rw,nosuid,nodev,noexec,relatime
-│ ├─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
-│ └─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
+│ └─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
 ├─/proc                                              proc                      proc        rw,nosuid,nodev,noexec,noatime
 │ └─/proc/sys/fs/binfmt_misc                         binfmt_misc               binfmt_misc rw,relatime
 ├─/run                                               none                      tmpfs       rw,nosuid,nodev,mode=755
