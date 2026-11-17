@@ -1,6 +1,6 @@
-Tue Nov 17 15:52:09 MST 2026
+Tue Nov 17 15:53:33 MST 2026
 
 COMMAND: cat /proc/cmdline
 DESCRIPTION: Kernel command line used at boot
 
-initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=20 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1

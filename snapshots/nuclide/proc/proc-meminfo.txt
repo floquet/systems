@@ -1,45 +1,45 @@
-Tue Nov 17 15:52:09 MST 2026
+Tue Nov 17 15:53:33 MST 2026
 
 COMMAND: cat /proc/meminfo
 DESCRIPTION: Detailed memory statistics
 
-MemTotal:        7971496 kB
-MemFree:         5682576 kB
-MemAvailable:    7092188 kB
-Buffers:           78320 kB
-Cached:          1458680 kB
+MemTotal:       10183304 kB
+MemFree:         7948752 kB
+MemAvailable:    9362964 kB
+Buffers:           78260 kB
+Cached:          1472744 kB
 SwapCached:            0 kB
-Active:           227892 kB
-Inactive:        1550604 kB
-Active(anon):       3024 kB
-Inactive(anon):   244740 kB
-Active(file):     224868 kB
-Inactive(file):  1305864 kB
+Active:           228832 kB
+Inactive:        1545456 kB
+Active(anon):       3044 kB
+Inactive(anon):   226104 kB
+Active(file):     225788 kB
+Inactive(file):  1319352 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
-SwapTotal:       2097152 kB
-SwapFree:        2097152 kB
-Dirty:              7588 kB
+SwapTotal:       3145728 kB
+SwapFree:        3145728 kB
+Dirty:              7676 kB
 Writeback:             0 kB
-AnonPages:        241928 kB
-Mapped:           298140 kB
-Shmem:              6532 kB
-KReclaimable:      37176 kB
-Slab:             123924 kB
-SReclaimable:      37176 kB
-SUnreclaim:        86748 kB
-KernelStack:        8304 kB
-PageTables:        18376 kB
+AnonPages:        223732 kB
+Mapped:           298428 kB
+Shmem:              6472 kB
+KReclaimable:      34500 kB
+Slab:             100580 kB
+SReclaimable:      34500 kB
+SUnreclaim:        66080 kB
+KernelStack:        5984 kB
+PageTables:        15904 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
-CommitLimit:     6082900 kB
-Committed_AS:    1898620 kB
+CommitLimit:     8237380 kB
+Committed_AS:    1575160 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       37740 kB
+VmallocUsed:       35288 kB
 VmallocChunk:          0 kB
-Percpu:            11040 kB
+Percpu:             7360 kB
 HardwareCorrupted:     0 kB
 AnonHugePages:         0 kB
 ShmemHugePages:        0 kB
@@ -54,6 +54,6 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:       66560 kB
-DirectMap2M:     7112704 kB
-DirectMap1G:     9437184 kB
+DirectMap4k:       54272 kB
+DirectMap2M:     5187584 kB
+DirectMap1G:    14680064 kB
