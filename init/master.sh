@@ -51,3 +51,13 @@ alias date="date '+%a %b %d %H:%M:%S %Z %Y'"
 # Report initialization time
 echo "time used: $((SECONDS - recorderStart)) seconds"
 
+
+# High-contrast directory color (bold bright cyan instead of unreadable dark blue)
+if command -v dircolors >/dev/null 2>&1; then
+    eval "$(dircolors -b)"
+    export LS_COLORS="${LS_COLORS/di=01;34:/di=01;93:}"
+fi
+
+# Swap unreadable dark blue path (01;34m / 1;34m) in PS1 for bold bright cyan (01;96m)
+PS1="${PS1//01;34m/01;96m}"
+PS1="${PS1//1;34m/01;96m}"
