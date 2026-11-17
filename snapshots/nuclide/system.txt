@@ -1,4 +1,4 @@
-Tue Nov 17 15:53:33 MST 2026
+Tue Nov 17 15:54:46 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           9.7Gi       789Mi       7.6Gi       6.3Mi       1.5Gi       8.9Gi
+Mem:           9.7Gi       770Mi       7.3Gi       6.3Mi       1.9Gi       9.0Gi
 Swap:          3.0Gi          0B       3.0Gi
 
 COMMAND: lsblk
@@ -89,7 +89,7 @@ drivers        9p       236G  232G  4.0G  99% /usr/lib/wsl/drivers
 none           tmpfs    4.9G   68K  4.9G   1% /mnt/wslg
 none           overlay  4.9G     0  4.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   4.9G  2.8M  4.9G   1% /init
-none           tmpfs    4.9G  876K  4.9G   1% /run
+none           tmpfs    4.9G  864K  4.9G   1% /run
 none           tmpfs    4.9G     0  4.9G   0% /run/lock
 none           tmpfs    4.9G     0  4.9G   0% /run/shm
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/versions.txt
