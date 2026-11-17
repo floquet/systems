@@ -1,4 +1,4 @@
-Tue Nov 17 15:55:01 MST 2026
+Tue Nov 17 15:55:07 MST 2026
 
 COMMAND: cat /proc/ioports
 DESCRIPTION: Registered I/O port regions
