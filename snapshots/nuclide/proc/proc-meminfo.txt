@@ -1,51 +1,51 @@
-Fri Nov 13 13:32:56 MST 2026
+Tue Nov 17 10:21:50 MST 2026
 
 COMMAND: cat /proc/meminfo
 DESCRIPTION: Detailed memory statistics
 
 MemTotal:        7971496 kB
-MemFree:         6618724 kB
-MemAvailable:    6996224 kB
-Buffers:            6920 kB
-Cached:           429712 kB
+MemFree:         5106892 kB
+MemAvailable:    6632340 kB
+Buffers:           81608 kB
+Cached:           920596 kB
 SwapCached:            0 kB
-Active:            99244 kB
-Inactive:         634188 kB
-Active(anon):       2804 kB
-Inactive(anon):   312416 kB
-Active(file):      96440 kB
-Inactive(file):   321772 kB
+Active:           223840 kB
+Inactive:        1365244 kB
+Active(anon):       2932 kB
+Inactive(anon):   613664 kB
+Active(file):     220908 kB
+Inactive(file):   751580 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
 SwapTotal:       2097152 kB
 SwapFree:        2097152 kB
-Dirty:               252 kB
-Writeback:             4 kB
-AnonPages:        297348 kB
-Mapped:           340564 kB
-Shmem:             18468 kB
-KReclaimable:     155436 kB
-Slab:             261200 kB
-SReclaimable:     155436 kB
-SUnreclaim:       105764 kB
-KernelStack:        8144 kB
-PageTables:        17740 kB
+Dirty:              4112 kB
+Writeback:             0 kB
+AnonPages:        587832 kB
+Mapped:           361024 kB
+Shmem:             29520 kB
+KReclaimable:     749108 kB
+Slab:             904592 kB
+SReclaimable:     749108 kB
+SUnreclaim:       155484 kB
+KernelStack:        8736 kB
+PageTables:        19080 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     6082900 kB
-Committed_AS:    1973584 kB
+Committed_AS:    2368232 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       37248 kB
+VmallocUsed:       37924 kB
 VmallocChunk:          0 kB
-Percpu:            11616 kB
+Percpu:            11904 kB
 HardwareCorrupted:     0 kB
 AnonHugePages:         0 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 FileHugePages:      8192 kB
-FilePmdMapped:      8192 kB
+FilePmdMapped:     10240 kB
 Unaccepted:            0 kB
 Balloon:               0 kB
 HugePages_Total:       0
