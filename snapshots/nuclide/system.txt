@@ -1,11 +1,11 @@
-Wed Nov 18 10:04:41 MST 2026
+Wed Nov 18 12:40:02 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 33c7ff3a713a4d5eafcf1e88e83ab519
+         Boot ID: 712714ccb44342ce8326732d38a52f3a
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -35,7 +35,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      6
 Socket(s):                               1
 Stepping:                                2
-BogoMIPS:                                4991.99
+BogoMIPS:                                4992.00
 Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni vnmi umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt flush_l1d arch_capabilities
 Virtualization:                          VT-x
 Hypervisor vendor:                       Microsoft
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           9.7Gi       4.1Gi       3.5Gi       2.0Gi       4.4Gi       5.6Gi
+Mem:           9.7Gi       823Mi       7.5Gi       6.3Mi       1.6Gi       8.9Gi
 Swap:          3.0Gi          0B       3.0Gi
 
 COMMAND: lsblk
@@ -84,19 +84,19 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  4.9G     0  4.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    4.9G  4.0K  4.9G   1% /mnt/wsl
-drivers        9p       236G  232G  3.9G  99% /usr/lib/wsl/drivers
-/dev/sdd       ext4    1007G   90G  866G  10% /
+drivers        9p       236G  234G  2.4G 100% /usr/lib/wsl/drivers
+/dev/sdd       ext4    1007G   93G  863G  10% /
 none           tmpfs    4.9G   68K  4.9G   1% /mnt/wslg
 none           overlay  4.9G     0  4.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   4.9G  2.8M  4.9G   1% /init
-none           tmpfs    4.9G  864K  4.9G   1% /run
+none           tmpfs    4.9G  876K  4.9G   1% /run
 none           tmpfs    4.9G     0  4.9G   0% /run/lock
 none           tmpfs    4.9G     0  4.9G   0% /run/shm
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/versions.txt
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/doc
-C:\            9p       236G  232G  3.9G  99% /mnt/c
+C:\            9p       236G  234G  2.4G 100% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-tmpfs          tmpfs    4.9G  2.1G  2.9G  42% /tmp
+tmpfs          tmpfs    4.9G     0  4.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs          tmpfs    995M   12K  995M   1% /run/user/1000
@@ -121,8 +121,8 @@ TARGET                                               SOURCE                    F
 │ └─/dev/hugepages                                   hugetlbfs                 hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
 ├─/sys                                               sysfs                     sysfs       rw,nosuid,nodev,noexec,noatime
 │ ├─/sys/fs/cgroup                                   cgroup2                   cgroup2     rw,nosuid,nodev,noexec,relatime,nsdelegate
-│ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/config                               configfs                  configfs    rw,nosuid,nodev,noexec,relatime
 │ └─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
 ├─/proc                                              proc                      proc        rw,nosuid,nodev,noexec,noatime
@@ -138,6 +138,6 @@ TARGET                                               SOURCE                    F
 │ └─/run/credentials/getty@tty1.service              none                      tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 ├─/tmp/.X11-unix                                     none[/.X11-unix]          tmpfs       ro,relatime
 ├─/mnt/c                                             C:\                       9p          rw,noatime,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=6,wfd=6
-├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,nr_inodes=1048576
+├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,size=5091656k,nr_inodes=1048576
 │ └─/tmp/.X11-unix                                   none[/.X11-unix]          tmpfs       ro,relatime
 └─/var/lib/docker                                    /dev/sdd[/var/lib/docker] ext4        rw,relatime,discard,errors=remount-ro,data=ordered

@@ -3,7 +3,7 @@
 <topology version="2.0">
   <object type="Machine" os_index="0" cpuset="0x00000fff" complete_cpuset="0x00000fff" allowed_cpuset="0x00000fff" nodeset="0x00000001" complete_nodeset="0x00000001" allowed_nodeset="0x00000001" gp_index="1">
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/init.scope"/>
+    <info name="LinuxCgroup" value="/user.slice"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="6.18.33.2-microsoft-standard-WSL2"/>
     <info name="OSVersion" value="#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026"/>
@@ -17,8 +17,8 @@
       <info name="CPUModelNumber" value="191"/>
       <info name="CPUModel" value="13th Gen Intel(R) Core(TM) i5-13500"/>
       <info name="CPUStepping" value="2"/>
-      <object type="NUMANode" os_index="0" cpuset="0x00000fff" complete_cpuset="0x00000fff" nodeset="0x00000001" complete_nodeset="0x00000001" gp_index="47" local_memory="10427711488">
-        <page_type size="4096" count="2545828"/>
+      <object type="NUMANode" os_index="0" cpuset="0x00000fff" complete_cpuset="0x00000fff" nodeset="0x00000001" complete_nodeset="0x00000001" gp_index="47" local_memory="10427707392">
+        <page_type size="4096" count="2545827"/>
         <page_type size="2097152" count="0"/>
         <page_type size="1073741824" count="0"/>
       </object>
