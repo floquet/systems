@@ -1,4 +1,4 @@
-Wed Nov 18 12:40:02 MST 2026
+Wed Nov 18 12:40:08 MST 2026
 
 COMMAND: cat /proc/interrupts
 DESCRIPTION: Interrupt counts and IRQ information
@@ -17,17 +17,17 @@ SPU:          0          0          0          0          0          0          
 PMI:          0          0          0          0          0          0          0          0          0          0          0          0   Performance monitoring interrupts
 IWI:          0          0          0          0          0          0          0          0          0          0          0          0   IRQ work interrupts
 RTR:          0          0          0          0          0          0          0          0          0          0          0          0   APIC ICR read retries
-RES:        227         95        393        426        286        175        439        219        204        169        329        119   Rescheduling interrupts
-CAL:       7644       2801       7551       8625       8690       7030       8598       7734       8853       9404       8931       7007   Function call interrupts
+RES:        269        134        447        480        337        235        505        261        297        215        390        178   Rescheduling interrupts
+CAL:       8107       3477       7957      12531      12976       7399      11372       8072      13355      12855      13034      10745   Function call interrupts
 TLB:          0          0          0          0          0          0          0          0          0          0          0          0   TLB shootdowns
 TRM:          0          0          0          0          0          0          0          0          0          0          0          0   Thermal event interrupts
 THR:          0          0          0          0          0          0          0          0          0          0          0          0   Threshold APIC interrupts
 DFR:          0          0          0          0          0          0          0          0          0          0          0          0   Deferred Error APIC interrupts
 MCE:          0          0          0          0          0          0          0          0          0          0          0          0   Machine check exceptions
 MCP:          1          1          1          1          1          1          1          1          1          1          1          1   Machine check polls
-HYP:       7610       3301       3279         24          0          4          0          2          4         14         11         11   Hypervisor callback interrupts
+HYP:      16487      11991      11327         26          4          5          1          9         10         17         18         14   Hypervisor callback interrupts
 HRE:          0          0          0          0          0          0          0          0          0          0          0          0   Hyper-V reenlightenment interrupts
-HVS:       1678        942       1053       1368       1263        751       1103        704        841        751       1361        651   Hyper-V stimer0 interrupts
+HVS:       2082       1342       1609       1877       1669       1079       1683        895       1306       1202       2035        975   Hyper-V stimer0 interrupts
 ERR:          0
 MIS:          0
 PIN:          0          0          0          0          0          0          0          0          0          0          0          0   Posted-interrupt notification event
