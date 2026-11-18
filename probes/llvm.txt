@@ -1,0 +1,212 @@
+dantopa@isotope:~/repos-isotope/github/systems/probes$ ls -l /usr/bin/clang* /usr/bin/llvm-* 2>/dev/null
+apt-cache policy clang llvm clang-20 clang-21 clang-22
+lrwxrwxrwx 1 root root  8 Mar 19  2026 /usr/bin/clang -> clang-21
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/clang++ -> clang++-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/clang++-21 -> ../lib/llvm-21/bin/clang++
+lrwxrwxrwx 1 root root 24 Mar 18  2026 /usr/bin/clang-21 -> ../lib/llvm-21/bin/clang
+lrwxrwxrwx 1 root root 43 Mar 18  2026 /usr/bin/clang-apply-replacements-21 -> ../lib/llvm-21/bin/clang-apply-replacements
+lrwxrwxrwx 1 root root 41 Mar 18  2026 /usr/bin/clang-change-namespace-21 -> ../lib/llvm-21/bin/clang-change-namespace
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/clang-check-21 -> ../lib/llvm-21/bin/clang-check
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/clang-cl -> clang-cl-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/clang-cl-21 -> ../lib/llvm-21/bin/clang-cl
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/clang-cpp -> clang-cpp-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/clang-cpp-21 -> ../lib/llvm-21/bin/clang-cpp
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/clang-doc-21 -> ../lib/llvm-21/bin/clang-doc
+lrwxrwxrwx 1 root root 39 Mar 18  2026 /usr/bin/clang-extdef-mapping-21 -> ../lib/llvm-21/bin/clang-extdef-mapping
+lrwxrwxrwx 1 root root 40 Mar 18  2026 /usr/bin/clang-include-cleaner-21 -> ../lib/llvm-21/bin/clang-include-cleaner
+lrwxrwxrwx 1 root root 38 Mar 18  2026 /usr/bin/clang-include-fixer-21 -> ../lib/llvm-21/bin/clang-include-fixer
+lrwxrwxrwx 1 root root 35 Mar 18  2026 /usr/bin/clang-installapi-21 -> ../lib/llvm-21/bin/clang-installapi
+lrwxrwxrwx 1 root root 39 Mar 18  2026 /usr/bin/clang-linker-wrapper-21 -> ../lib/llvm-21/bin/clang-linker-wrapper
+lrwxrwxrwx 1 root root 29 Mar 18  2026 /usr/bin/clang-move-21 -> ../lib/llvm-21/bin/clang-move
+lrwxrwxrwx 1 root root 39 Mar 18  2026 /usr/bin/clang-nvlink-wrapper-21 -> ../lib/llvm-21/bin/clang-nvlink-wrapper
+lrwxrwxrwx 1 root root 40 Mar 18  2026 /usr/bin/clang-offload-bundler-21 -> ../lib/llvm-21/bin/clang-offload-bundler
+lrwxrwxrwx 1 root root 41 Mar 18  2026 /usr/bin/clang-offload-packager-21 -> ../lib/llvm-21/bin/clang-offload-packager
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/clang-query-21 -> ../lib/llvm-21/bin/clang-query
+lrwxrwxrwx 1 root root 33 Mar 18  2026 /usr/bin/clang-refactor-21 -> ../lib/llvm-21/bin/clang-refactor
+lrwxrwxrwx 1 root root 39 Mar 18  2026 /usr/bin/clang-reorder-fields-21 -> ../lib/llvm-21/bin/clang-reorder-fields
+lrwxrwxrwx 1 root root 29 Mar 18  2026 /usr/bin/clang-repl-21 -> ../lib/llvm-21/bin/clang-repl
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/clang-scan-deps -> clang-scan-deps-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/clang-scan-deps-21 -> ../lib/llvm-21/bin/clang-scan-deps
+lrwxrwxrwx 1 root root 36 Mar 18  2026 /usr/bin/clang-sycl-linker-21 -> ../lib/llvm-21/bin/clang-sycl-linker
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/clang-tblgen-21 -> ../lib/llvm-21/bin/clang-tblgen
+lrwxrwxrwx 1 root root 22 Mar 19  2026 /usr/bin/llvm-PerfectShuffle -> llvm-PerfectShuffle-21
+lrwxrwxrwx 1 root root 38 Mar 18  2026 /usr/bin/llvm-PerfectShuffle-21 -> ../lib/llvm-21/bin/llvm-PerfectShuffle
+lrwxrwxrwx 1 root root 17 Mar 19  2026 /usr/bin/llvm-addr2line -> llvm-addr2line-21
+lrwxrwxrwx 1 root root 33 Mar 18  2026 /usr/bin/llvm-addr2line-21 -> ../lib/llvm-21/bin/llvm-addr2line
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-ar -> llvm-ar-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-ar-21 -> ../lib/llvm-21/bin/llvm-ar
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-as -> llvm-as-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-as-21 -> ../lib/llvm-21/bin/llvm-as
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-bcanalyzer -> llvm-bcanalyzer-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-bcanalyzer-21 -> ../lib/llvm-21/bin/llvm-bcanalyzer
+lrwxrwxrwx 1 root root 21 Mar 19  2026 /usr/bin/llvm-bitcode-strip -> llvm-bitcode-strip-21
+lrwxrwxrwx 1 root root 37 Mar 18  2026 /usr/bin/llvm-bitcode-strip-21 -> ../lib/llvm-21/bin/llvm-bitcode-strip
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-c-test -> llvm-c-test-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-c-test-21 -> ../lib/llvm-21/bin/llvm-c-test
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-cat -> llvm-cat-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-cat-21 -> ../lib/llvm-21/bin/llvm-cat
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-cfi-verify -> llvm-cfi-verify-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-cfi-verify-21 -> ../lib/llvm-21/bin/llvm-cfi-verify
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-cgdata -> llvm-cgdata-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-cgdata-21 -> ../lib/llvm-21/bin/llvm-cgdata
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-config -> llvm-config-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-config-21 -> ../lib/llvm-21/bin/llvm-config
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-cov -> llvm-cov-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-cov-21 -> ../lib/llvm-21/bin/llvm-cov
+lrwxrwxrwx 1 root root 36 Mar 18  2026 /usr/bin/llvm-ctxprof-util-21 -> ../lib/llvm-21/bin/llvm-ctxprof-util
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-cvtres -> llvm-cvtres-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-cvtres-21 -> ../lib/llvm-21/bin/llvm-cvtres
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-cxxdump -> llvm-cxxdump-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-cxxdump-21 -> ../lib/llvm-21/bin/llvm-cxxdump
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-cxxfilt -> llvm-cxxfilt-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-cxxfilt-21 -> ../lib/llvm-21/bin/llvm-cxxfilt
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-cxxmap -> llvm-cxxmap-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-cxxmap-21 -> ../lib/llvm-21/bin/llvm-cxxmap
+lrwxrwxrwx 1 root root 26 Mar 19  2026 /usr/bin/llvm-debuginfo-analyzer -> llvm-debuginfo-analyzer-21
+lrwxrwxrwx 1 root root 42 Mar 18  2026 /usr/bin/llvm-debuginfo-analyzer-21 -> ../lib/llvm-21/bin/llvm-debuginfo-analyzer
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-debuginfod -> llvm-debuginfod-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-debuginfod-21 -> ../lib/llvm-21/bin/llvm-debuginfod
+lrwxrwxrwx 1 root root 23 Mar 19  2026 /usr/bin/llvm-debuginfod-find -> llvm-debuginfod-find-21
+lrwxrwxrwx 1 root root 39 Mar 18  2026 /usr/bin/llvm-debuginfod-find-21 -> ../lib/llvm-21/bin/llvm-debuginfod-find
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-diff -> llvm-diff-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-diff-21 -> ../lib/llvm-21/bin/llvm-diff
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-dis -> llvm-dis-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-dis-21 -> ../lib/llvm-21/bin/llvm-dis
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-dlltool -> llvm-dlltool-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-dlltool-21 -> ../lib/llvm-21/bin/llvm-dlltool
+lrwxrwxrwx 1 root root 17 Mar 19  2026 /usr/bin/llvm-dwarfdump -> llvm-dwarfdump-21
+lrwxrwxrwx 1 root root 33 Mar 18  2026 /usr/bin/llvm-dwarfdump-21 -> ../lib/llvm-21/bin/llvm-dwarfdump
+lrwxrwxrwx 1 root root 17 Mar 19  2026 /usr/bin/llvm-dwarfutil -> llvm-dwarfutil-21
+lrwxrwxrwx 1 root root 33 Mar 18  2026 /usr/bin/llvm-dwarfutil-21 -> ../lib/llvm-21/bin/llvm-dwarfutil
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-dwp -> llvm-dwp-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-dwp-21 -> ../lib/llvm-21/bin/llvm-dwp
+lrwxrwxrwx 1 root root 16 Mar 19  2026 /usr/bin/llvm-exegesis -> llvm-exegesis-21
+lrwxrwxrwx 1 root root 32 Mar 18  2026 /usr/bin/llvm-exegesis-21 -> ../lib/llvm-21/bin/llvm-exegesis
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-extract -> llvm-extract-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-extract-21 -> ../lib/llvm-21/bin/llvm-extract
+lrwxrwxrwx 1 root root 16 Mar 19  2026 /usr/bin/llvm-gsymutil -> llvm-gsymutil-21
+lrwxrwxrwx 1 root root 32 Mar 18  2026 /usr/bin/llvm-gsymutil-21 -> ../lib/llvm-21/bin/llvm-gsymutil
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-ifs -> llvm-ifs-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-ifs-21 -> ../lib/llvm-21/bin/llvm-ifs
+lrwxrwxrwx 1 root root 25 Mar 19  2026 /usr/bin/llvm-install-name-tool -> llvm-install-name-tool-21
+lrwxrwxrwx 1 root root 41 Mar 18  2026 /usr/bin/llvm-install-name-tool-21 -> ../lib/llvm-21/bin/llvm-install-name-tool
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-jitlink -> llvm-jitlink-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-jitlink-21 -> ../lib/llvm-21/bin/llvm-jitlink
+lrwxrwxrwx 1 root root 24 Mar 19  2026 /usr/bin/llvm-jitlink-executor -> llvm-jitlink-executor-21
+lrwxrwxrwx 1 root root 40 Mar 18  2026 /usr/bin/llvm-jitlink-executor-21 -> ../lib/llvm-21/bin/llvm-jitlink-executor
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-lib -> llvm-lib-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-lib-21 -> ../lib/llvm-21/bin/llvm-lib
+lrwxrwxrwx 1 root root 22 Mar 19  2026 /usr/bin/llvm-libtool-darwin -> llvm-libtool-darwin-21
+lrwxrwxrwx 1 root root 38 Mar 18  2026 /usr/bin/llvm-libtool-darwin-21 -> ../lib/llvm-21/bin/llvm-libtool-darwin
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-link -> llvm-link-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-link-21 -> ../lib/llvm-21/bin/llvm-link
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-lipo -> llvm-lipo-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-lipo-21 -> ../lib/llvm-21/bin/llvm-lipo
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-lto -> llvm-lto-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-lto-21 -> ../lib/llvm-21/bin/llvm-lto
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-lto2 -> llvm-lto2-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-lto2-21 -> ../lib/llvm-21/bin/llvm-lto2
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-mc -> llvm-mc-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-mc-21 -> ../lib/llvm-21/bin/llvm-mc
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-mca -> llvm-mca-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-mca-21 -> ../lib/llvm-21/bin/llvm-mca
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-ml -> llvm-ml-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-ml-21 -> ../lib/llvm-21/bin/llvm-ml
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-ml64 -> llvm-ml64-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-ml64-21 -> ../lib/llvm-21/bin/llvm-ml64
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-modextract -> llvm-modextract-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-modextract-21 -> ../lib/llvm-21/bin/llvm-modextract
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-mt -> llvm-mt-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-mt-21 -> ../lib/llvm-21/bin/llvm-mt
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-nm -> llvm-nm-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-nm-21 -> ../lib/llvm-21/bin/llvm-nm
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-objcopy -> llvm-objcopy-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-objcopy-21 -> ../lib/llvm-21/bin/llvm-objcopy
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-objdump -> llvm-objdump-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-objdump-21 -> ../lib/llvm-21/bin/llvm-objdump
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-opt-report -> llvm-opt-report-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-opt-report-21 -> ../lib/llvm-21/bin/llvm-opt-report
+lrwxrwxrwx 1 root root 13 Mar 19  2026 /usr/bin/llvm-otool -> llvm-otool-21
+lrwxrwxrwx 1 root root 29 Mar 18  2026 /usr/bin/llvm-otool-21 -> ../lib/llvm-21/bin/llvm-otool
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-pdbutil -> llvm-pdbutil-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-pdbutil-21 -> ../lib/llvm-21/bin/llvm-pdbutil
+lrwxrwxrwx 1 root root 16 Mar 19  2026 /usr/bin/llvm-profdata -> llvm-profdata-21
+lrwxrwxrwx 1 root root 32 Mar 18  2026 /usr/bin/llvm-profdata-21 -> ../lib/llvm-21/bin/llvm-profdata
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-profgen -> llvm-profgen-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-profgen-21 -> ../lib/llvm-21/bin/llvm-profgen
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-ranlib -> llvm-ranlib-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-ranlib-21 -> ../lib/llvm-21/bin/llvm-ranlib
+lrwxrwxrwx 1 root root 10 Mar 19  2026 /usr/bin/llvm-rc -> llvm-rc-21
+lrwxrwxrwx 1 root root 26 Mar 18  2026 /usr/bin/llvm-rc-21 -> ../lib/llvm-21/bin/llvm-rc
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-readelf -> llvm-readelf-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-readelf-21 -> ../lib/llvm-21/bin/llvm-readelf
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-readobj -> llvm-readobj-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-readobj-21 -> ../lib/llvm-21/bin/llvm-readobj
+lrwxrwxrwx 1 root root 16 Mar 19  2026 /usr/bin/llvm-readtapi -> llvm-readtapi-21
+lrwxrwxrwx 1 root root 32 Mar 18  2026 /usr/bin/llvm-readtapi-21 -> ../lib/llvm-21/bin/llvm-readtapi
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-reduce -> llvm-reduce-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-reduce-21 -> ../lib/llvm-21/bin/llvm-reduce
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-remarkutil -> llvm-remarkutil-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-remarkutil-21 -> ../lib/llvm-21/bin/llvm-remarkutil
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-rtdyld -> llvm-rtdyld-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-rtdyld-21 -> ../lib/llvm-21/bin/llvm-rtdyld
+lrwxrwxrwx 1 root root 11 Mar 19  2026 /usr/bin/llvm-sim -> llvm-sim-21
+lrwxrwxrwx 1 root root 27 Mar 18  2026 /usr/bin/llvm-sim-21 -> ../lib/llvm-21/bin/llvm-sim
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-size -> llvm-size-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-size-21 -> ../lib/llvm-21/bin/llvm-size
+lrwxrwxrwx 1 root root 13 Mar 19  2026 /usr/bin/llvm-split -> llvm-split-21
+lrwxrwxrwx 1 root root 29 Mar 18  2026 /usr/bin/llvm-split-21 -> ../lib/llvm-21/bin/llvm-split
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-stress -> llvm-stress-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-stress-21 -> ../lib/llvm-21/bin/llvm-stress
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-strings -> llvm-strings-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-strings-21 -> ../lib/llvm-21/bin/llvm-strings
+lrwxrwxrwx 1 root root 13 Mar 19  2026 /usr/bin/llvm-strip -> llvm-strip-21
+lrwxrwxrwx 1 root root 29 Mar 18  2026 /usr/bin/llvm-strip-21 -> ../lib/llvm-21/bin/llvm-strip
+lrwxrwxrwx 1 root root 18 Mar 19  2026 /usr/bin/llvm-symbolizer -> llvm-symbolizer-21
+lrwxrwxrwx 1 root root 34 Mar 18  2026 /usr/bin/llvm-symbolizer-21 -> ../lib/llvm-21/bin/llvm-symbolizer
+lrwxrwxrwx 1 root root 14 Mar 19  2026 /usr/bin/llvm-tblgen -> llvm-tblgen-21
+lrwxrwxrwx 1 root root 30 Mar 18  2026 /usr/bin/llvm-tblgen-21 -> ../lib/llvm-21/bin/llvm-tblgen
+lrwxrwxrwx 1 root root 26 Mar 19  2026 /usr/bin/llvm-test-mustache-spec -> llvm-test-mustache-spec-21
+lrwxrwxrwx 1 root root 42 Mar 18  2026 /usr/bin/llvm-test-mustache-spec-21 -> ../lib/llvm-21/bin/llvm-test-mustache-spec
+lrwxrwxrwx 1 root root 19 Mar 19  2026 /usr/bin/llvm-tli-checker -> llvm-tli-checker-21
+lrwxrwxrwx 1 root root 35 Mar 18  2026 /usr/bin/llvm-tli-checker-21 -> ../lib/llvm-21/bin/llvm-tli-checker
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-undname -> llvm-undname-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-undname-21 -> ../lib/llvm-21/bin/llvm-undname
+lrwxrwxrwx 1 root root 15 Mar 19  2026 /usr/bin/llvm-windres -> llvm-windres-21
+lrwxrwxrwx 1 root root 31 Mar 18  2026 /usr/bin/llvm-windres-21 -> ../lib/llvm-21/bin/llvm-windres
+lrwxrwxrwx 1 root root 12 Mar 19  2026 /usr/bin/llvm-xray -> llvm-xray-21
+lrwxrwxrwx 1 root root 28 Mar 18  2026 /usr/bin/llvm-xray-21 -> ../lib/llvm-21/bin/llvm-xray
+clang:
+  Installed: 1:21.1.6-71
+  Candidate: 1:21.1.6-71
+  Version table:
+ *** 1:21.1.6-71 500
+        500 http://us.archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+        100 /var/lib/dpkg/status
+llvm:
+  Installed: 1:21.1.6-71
+  Candidate: 1:21.1.6-71
+  Version table:
+ *** 1:21.1.6-71 500
+        500 http://us.archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+        100 /var/lib/dpkg/status
+clang-20:
+  Installed: (none)
+  Candidate: 1:20.1.8-2ubuntu8
+  Version table:
+     1:20.1.8-2ubuntu8 500
+        500 http://us.archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+clang-21:
+  Installed: 1:21.1.8-6ubuntu1
+  Candidate: 1:21.1.8-6ubuntu1
+  Version table:
+ *** 1:21.1.8-6ubuntu1 500
+        500 http://us.archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+        100 /var/lib/dpkg/status
+clang-22:
+  Installed: (none)
+  Candidate: 1:22.1.2-1ubuntu1
+  Version table:
+     1:22.1.2-1ubuntu1 500
+        500 http://us.archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+
