@@ -1,4 +1,4 @@
-Tue Nov 17 15:55:14 MST 2026
+Tue Nov 17 17:01:27 MST 2026
 
 COMMAND: cat /proc/interrupts
 DESCRIPTION: Interrupt counts and IRQ information
@@ -7,27 +7,27 @@ DESCRIPTION: Interrupt counts and IRQ information
   8:          0          0          0          0          0          0          0          0          0          0          0          0  IO-APIC   8-edge      rtc0
   9:          0          0          0          0          0          0          0          0          0          0          0          0  IO-APIC   9-fasteoi   acpi
  24:          0          1          0          0          0          0          0          0          0          0          0          0 HV-PCI-MSIX-5582:00:00.0   0-edge      virtio0-config
- 25:          0          0       1451          0          0          0          0          0          0          0          0          0 HV-PCI-MSIX-5582:00:00.0   1-edge      virtio0-virtqueues
- 26:          0          0          0          0          1          0          0          0          0          0          0          0 HV-PCI-MSIX-a26b:00:00.0   0-edge      virtio1-config
- 27:          0          0          0          0          0          1          0          0          0          0          0          0 HV-PCI-MSIX-a26b:00:00.0   1-edge      virtio1-hiprio
- 28:          0          0          0          0          0          0          0          0          0          0          0         10 HV-PCI-MSIX-a26b:00:00.0   2-edge      virtio1-requests.0
+ 25:          0          0       1273          0          0          0          0          0          0          0          0          0 HV-PCI-MSIX-5582:00:00.0   1-edge      virtio0-virtqueues
+ 26:          0          0          0          0          1          0          0          0          0          0          0          0 HV-PCI-MSIX-0efb:00:00.0   0-edge      virtio1-config
+ 27:          0          0          0          0          0          1          0          0          0          0          0          0 HV-PCI-MSIX-0efb:00:00.0   1-edge      virtio1-hiprio
+ 28:          0          0          0          0          0          0          0          0          0          0          0         10 HV-PCI-MSIX-0efb:00:00.0   2-edge      virtio1-requests.0
 NMI:          0          0          0          0          0          0          0          0          0          0          0          0   Non-maskable interrupts
 LOC:          0          0          0          0          0          0          0          0          0          0          0          0   Local timer interrupts
 SPU:          0          0          0          0          0          0          0          0          0          0          0          0   Spurious interrupts
 PMI:          0          0          0          0          0          0          0          0          0          0          0          0   Performance monitoring interrupts
-IWI:          1          0          0          0          0          0          0          0          0          0          0          0   IRQ work interrupts
+IWI:          0          0          0          0          0          0          0          0          0          0          0          0   IRQ work interrupts
 RTR:          0          0          0          0          0          0          0          0          0          0          0          0   APIC ICR read retries
-RES:        509        383        706        391        603        556        615        629        891        461        526        495   Rescheduling interrupts
-CAL:      11000      10315      11783      12469      15169      13745      13027      11279      14612      13774      13912       7602   Function call interrupts
+RES:        334        152        321        349        378        245        437        414        457        293        553        349   Rescheduling interrupts
+CAL:       8631       8064       8944       7863       5139       7241       7494       7998       9489       9616       9526       7360   Function call interrupts
 TLB:          0          0          0          0          0          0          0          0          0          0          0          0   TLB shootdowns
 TRM:          0          0          0          0          0          0          0          0          0          0          0          0   Thermal event interrupts
 THR:          0          0          0          0          0          0          0          0          0          0          0          0   Threshold APIC interrupts
 DFR:          0          0          0          0          0          0          0          0          0          0          0          0   Deferred Error APIC interrupts
 MCE:          0          0          0          0          0          0          0          0          0          0          0          0   Machine check exceptions
 MCP:          1          1          1          1          1          1          1          1          1          1          1          1   Machine check polls
-HYP:      20147      11861      12025         37          6         36         17         25         51         13         23          7   Hypervisor callback interrupts
+HYP:      13533       1964       2897         32          2          0         11          0          6         10          2         17   Hypervisor callback interrupts
 HRE:          0          0          0          0          0          0          0          0          0          0          0          0   Hyper-V reenlightenment interrupts
-HVS:       3667       2482       4887       2343       3628       2598       4814       2542       5109       3718       3870       3602   Hyper-V stimer0 interrupts
+HVS:       1473        994       1310       3408       1923        963        830       1451       1442       1292       1433        727   Hyper-V stimer0 interrupts
 ERR:          0
 MIS:          0
 PIN:          0          0          0          0          0          0          0          0          0          0          0          0   Posted-interrupt notification event

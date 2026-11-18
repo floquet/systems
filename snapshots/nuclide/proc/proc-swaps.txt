@@ -1,7 +1,6 @@
-Tue Nov 17 15:55:14 MST 2026
+Tue Nov 17 17:01:27 MST 2026
 
 COMMAND: cat /proc/swaps
 DESCRIPTION: Configured swap devices and utilization
 
 Filename				Type		Size		Used		Priority
-/dev/sdc                                partition	3145728		0		-2
