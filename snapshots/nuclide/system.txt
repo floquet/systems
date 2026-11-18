@@ -1,4 +1,4 @@
-Wed Nov 18 13:31:40 MST 2026
+Wed Nov 18 14:08:28 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           9.7Gi       834Mi       7.5Gi       6.3Mi       1.6Gi       8.9Gi
+Mem:           9.7Gi       5.7Gi       2.1Gi       3.0Gi       5.2Gi       4.0Gi
 Swap:          3.0Gi          0B       3.0Gi
 
 COMMAND: lsblk
@@ -84,19 +84,19 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  4.9G     0  4.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    4.9G  4.0K  4.9G   1% /mnt/wsl
-drivers        9p       236G  230G  5.9G  98% /usr/lib/wsl/drivers
+drivers        9p       236G  227G  9.0G  97% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G   94G  862G  10% /
-none           tmpfs    4.9G   64K  4.9G   1% /mnt/wslg
+none           tmpfs    4.9G   68K  4.9G   1% /mnt/wslg
 none           overlay  4.9G     0  4.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   4.9G  2.8M  4.9G   1% /init
-none           tmpfs    4.9G  876K  4.9G   1% /run
+none           tmpfs    4.9G  864K  4.9G   1% /run
 none           tmpfs    4.9G     0  4.9G   0% /run/lock
 none           tmpfs    4.9G     0  4.9G   0% /run/shm
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/versions.txt
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/doc
-C:\            9p       236G  230G  5.9G  98% /mnt/c
+C:\            9p       236G  227G  9.0G  97% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-tmpfs          tmpfs    4.9G     0  4.9G   0% /tmp
+tmpfs          tmpfs    4.9G  3.1G  1.9G  63% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs          tmpfs    995M   12K  995M   1% /run/user/1000
