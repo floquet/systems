@@ -1,4 +1,4 @@
-Wed Nov 18 13:27:33 MST 2026
+Wed Nov 18 13:31:40 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -10,10 +10,6 @@ declare -f __git_sequencer_status
 declare -f __load_completion
 declare -f __ltrim_colon_completions
 declare -f __parse_options
-declare -f __systemd_osc_context_common
-declare -f __systemd_osc_context_escape
-declare -f __systemd_osc_context_precmdline
-declare -f __systemd_osc_context_ps0
 declare -f _allowed_groups
 declare -f _allowed_users
 declare -f _available_interfaces
@@ -197,27 +193,22 @@ declare -f pt
 declare -f q-caf
 declare -f q-compiler
 declare -f q-fortran-env
-declare -f q-fortran-stack
-declare -f q-functions
-declare -f q-mpi
-declare -f q-selection
-declare -f q-wrappers
-declare -f quote
-declare -f quote_readline
-
-COMMAND: declare -f
-__expand_tilde_by_ref () 
+d__expand_tilde_by_ref () 
 { 
     [[ -n ${1+set} ]] || return 0;
     [[ $1 == REPLY ]] || local REPLY;
     _comp_expand_tilde "${!1-}";
-    [[ $1 == REPLY ]] || printf -v "$1" "$REPLY"
-}
-__git_eread () 
+    [[ $1 == REPLY ]] || printf -v "$1" __expand_tilde_by_ref () 
 { 
-    test -r "$1" && IFS=$__git_CRLF read -r "$2" < "$1"
-}
-__git_ps1 () 
+    [[ -n ${1+set} ]] || return 0;
+    [[ $1 == REPLY ]] ||__git_ps1 () 
+{ 
+    local exit="$?";
+    local pcmode=no;
+    local detached=no;
+    local ps1pc_start='\u@\h:\w ';
+    local ps1pc_end='\$ ';
+    local printf_format=' (%s)'__git_ps1 () 
 { 
     local exit="$?";
     local pcmode=no;
@@ -642,50 +633,6 @@ __parse_options ()
     local -a _options=();
     _comp_compgen_help__parse "$1";
     printf '%s\n' "${_options[@]}"
-}
-__systemd_osc_context_common () 
-{ 
-    if [ -f /etc/machine-id ]; then
-        printf ";machineid=%.36s" "$(< /etc/machine-id)";
-    fi;
-    __systemd_osc_context_escape ";user=%.255s" "$USER";
-    __systemd_osc_context_escape ";hostname=%.255s" "$HOSTNAME";
-    printf ";bootid=%.36s;pid=%.20s" "$(< /proc/sys/kernel/random/boot_id)" "$$";
-    __systemd_osc_context_escape ";cwd=%.255s" "$PWD"
-}
-__systemd_osc_context_escape () 
-{ 
-    local systemd_format="$1";
-    local systemd_value="$2";
-    systemd_value="${systemd_value//\\/\\x5c}";
-    systemd_value="${systemd_value//;/\\x3b}";
-    systemd_value="${systemd_value//[[:cntrl:]]/⍰}";
-    printf "$systemd_format" "$systemd_value"
-}
-__systemd_osc_context_precmdline () 
-{ 
-    local systemd_exitstatus="$?" systemd_signal;
-    if [ -n "${systemd_osc_context_cmd_id:-}" ]; then
-        if [ "$systemd_exitstatus" -gt 128 ] && systemd_signal=$(kill -l "$systemd_exitstatus" 2>&-); then
-            printf "\033]3008;end=%.64s;exit=failure;status=%d;signal=SIG%s\033\\" "$systemd_osc_context_cmd_id" "$systemd_exitstatus" "$systemd_signal";
-        else
-            if [ "$systemd_exitstatus" -ne 0 ]; then
-                printf "\033]3008;end=%.64s;exit=failure;status=%d\033\\" "$systemd_osc_context_cmd_id" "$systemd_exitstatus";
-            else
-                printf "\033]3008;end=%.64s;exit=success\033\\" "$systemd_osc_context_cmd_id";
-            fi;
-        fi;
-    fi;
-    if [ -z "${systemd_osc_context_shell_id:-}" ]; then
-        read -r systemd_osc_context_shell_id < /proc/sys/kernel/random/uuid;
-    fi;
-    printf "\033]3008;start=%.64s;type=shell%s\033\\" "$systemd_osc_context_shell_id" "$(__systemd_osc_context_common)";
-    read -r systemd_osc_context_cmd_id < /proc/sys/kernel/random/uuid
-}
-__systemd_osc_context_ps0 () 
-{ 
-    [ -n "${systemd_osc_context_cmd_id:-}" ] || return;
-    printf "\033]3008;start=%.64s;type=command%s\033\\" "$systemd_osc_context_cmd_id" "$(__systemd_osc_context_common)"
 }
 _allowed_groups () 
 { 
