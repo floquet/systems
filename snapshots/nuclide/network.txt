@@ -1,4 +1,4 @@
-Tue Nov 17 17:15:25 MST 2026
+Wed Nov 18 09:07:13 MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
@@ -61,4 +61,4 @@ tcp   LISTEN 0      4096             [::]:22           [::]:*
 tcp   LISTEN 0      4096            [::1]:631          [::]:*          
 
 COMMAND: ip neigh
-172.21.96.1 dev eth0 lladdr 00:15:5d:c1:42:79 REACHABLE 
+172.21.96.1 dev eth0 lladdr 00:15:5d:c1:42:79 STALE 
