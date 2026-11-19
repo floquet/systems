@@ -1,4 +1,4 @@
-Tue Nov 17 10:35:32 MST 2026
+Wed Nov 18 14:11:33 MST 2026
 
 COMMAND: bash --version
 GNU bash, version 5.3.9(1)-release (x86_64-pc-linux-gnu)
@@ -42,7 +42,9 @@ COMMAND: git --version
 git version 2.53.0
 
 COMMAND: cmake --version
-NOT FOUND
+cmake version 4.2.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
 
 COMMAND: make --version
 GNU Make 4.4.1

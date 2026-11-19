@@ -1,2 +1,2 @@
-CPU kind #0 efficiency 0 cpuset 0x000fffff
+CPU kind #0 efficiency 0 cpuset 0x00000fff
   LinuxCapacity = 1024
