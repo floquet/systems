@@ -1,11 +1,11 @@
-Thu Nov 19 11:33:01 MST 2026
+Thu Nov 19 12:40:12 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 55c6693741b249e484a68c0e8638e40b
+         Boot ID: 8d98e3453db8414f89be2af751857729
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           9.7Gi       814Mi       7.5Gi       6.3Mi       1.6Gi       8.9Gi
+Mem:           9.7Gi       837Mi       7.4Gi       6.2Mi       1.6Gi       8.9Gi
 Swap:          3.0Gi          0B       3.0Gi
 
 COMMAND: lsblk
@@ -84,9 +84,9 @@ COMMAND: df -hT
 Filesystem     Type     Size  Used Avail Use% Mounted on
 none           overlay  4.9G     0  4.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
 none           tmpfs    4.9G  4.0K  4.9G   1% /mnt/wsl
-drivers        9p       236G  230G  5.7G  98% /usr/lib/wsl/drivers
+drivers        9p       236G  231G  5.4G  98% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G  101G  855G  11% /
-none           tmpfs    4.9G   68K  4.9G   1% /mnt/wslg
+none           tmpfs    4.9G   36K  4.9G   1% /mnt/wslg
 none           overlay  4.9G     0  4.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   4.9G  2.8M  4.9G   1% /init
 none           tmpfs    4.9G  876K  4.9G   1% /run
@@ -94,7 +94,7 @@ none           tmpfs    4.9G     0  4.9G   0% /run/lock
 none           tmpfs    4.9G     0  4.9G   0% /run/shm
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/versions.txt
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/doc
-C:\            9p       236G  230G  5.7G  98% /mnt/c
+C:\            9p       236G  231G  5.4G  98% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 tmpfs          tmpfs    4.9G     0  4.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
@@ -113,18 +113,18 @@ TARGET                                               SOURCE                    F
 │ ├─/mnt/wslg/doc                                    none[/usr/share/doc]      overlay     rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work,uuid=on
 │ └─/mnt/wslg/run/user/1000                          tmpfs                     tmpfs       rw,nosuid,nodev,relatime,size=1018328k,nr_inodes=254582,mode=700,uid=1000,gid=1000
 ├─/usr/lib/wsl/lib                                   none                      overlay     rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work,uuid=on
-├─/init                                              rootfs[/init]             rootfs      ro,size=5085896k,nr_inodes=1271474
-├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=5085896k,nr_inodes=1271474,mode=755
+├─/init                                              rootfs[/init]             rootfs      ro,size=5085892k,nr_inodes=1271473
+├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=5085892k,nr_inodes=1271473,mode=755
 │ ├─/dev/pts                                         devpts                    devpts      rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000
 │ ├─/dev/shm                                         none                      tmpfs       rw,nosuid,nodev,noatime
-│ ├─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
-│ └─/dev/hugepages                                   hugetlbfs                 hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
+│ ├─/dev/hugepages                                   hugetlbfs                 hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
+│ └─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
 ├─/sys                                               sysfs                     sysfs       rw,nosuid,nodev,noexec,noatime
 │ ├─/sys/fs/cgroup                                   cgroup2                   cgroup2     rw,nosuid,nodev,noexec,relatime,nsdelegate
 │ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
-│ ├─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/config                               configfs                  configfs    rw,nosuid,nodev,noexec,relatime
-│ └─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
+│ └─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
 ├─/proc                                              proc                      proc        rw,nosuid,nodev,noexec,noatime
 │ └─/proc/sys/fs/binfmt_misc                         binfmt_misc               binfmt_misc rw,relatime
 ├─/run                                               none                      tmpfs       rw,nosuid,nodev,mode=755
@@ -138,6 +138,6 @@ TARGET                                               SOURCE                    F
 │ └─/run/credentials/getty@tty1.service              none                      tmpfs       ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap
 ├─/tmp/.X11-unix                                     none[/.X11-unix]          tmpfs       ro,relatime
 ├─/mnt/c                                             C:\                       9p          rw,noatime,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=6,wfd=6
-├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,size=5091656k,nr_inodes=1048576
+├─/tmp                                               tmpfs                     tmpfs       rw,nosuid,nodev,nr_inodes=1048576
 │ └─/tmp/.X11-unix                                   none[/.X11-unix]          tmpfs       ro,relatime
 └─/var/lib/docker                                    /dev/sdd[/var/lib/docker] ext4        rw,relatime,discard,errors=remount-ro,data=ordered
