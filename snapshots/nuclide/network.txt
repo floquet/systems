@@ -1,8 +1,8 @@
-Thu Nov 19 09:56:06 MST 2026
+Thu Nov 19 11:02:44 MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
-eth0             UP             172.21.106.91/20 fe80::215:5dff:fe37:7233/64 
+eth0             UP             172.21.106.91/20 fe80::215:5dff:fe37:7dc6/64 
 docker0          DOWN           172.17.0.1/16 
 
 COMMAND: ip route
@@ -53,12 +53,12 @@ udp   UNCONN 0      0               [::1]:323          [::]:*
 udp   UNCONN 0      0               [::1]:323          [::]:*          
 udp   UNCONN 0      0                [::]:5353         [::]:*          
 tcp   LISTEN 0      4096        127.0.0.1:631       0.0.0.0:*          
-tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
-tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
-tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
 tcp   LISTEN 0      4096          0.0.0.0:22        0.0.0.0:*          
-tcp   LISTEN 0      4096            [::1]:631          [::]:*          
+tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
 tcp   LISTEN 0      4096             [::]:22           [::]:*          
+tcp   LISTEN 0      4096            [::1]:631          [::]:*          
 
 COMMAND: ip neigh
 172.21.96.1 dev eth0 lladdr 00:15:5d:d0:c2:3f REACHABLE 
