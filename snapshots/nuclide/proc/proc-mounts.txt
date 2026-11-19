@@ -1,4 +1,4 @@
-Thu Nov 19 11:02:44 MST 2026
+Thu Nov 19 11:33:01 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -10,8 +10,8 @@ drivers /usr/lib/wsl/drivers 9p ro,nosuid,nodev,noatime,aname=drivers;fmask=222;
 none /mnt/wslg tmpfs rw,relatime 0 0
 /dev/sdd /mnt/wslg/distro ext4 ro,relatime,discard,errors=remount-ro,data=ordered 0 0
 none /usr/lib/wsl/lib overlay rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work,uuid=on 0 0
-rootfs /init rootfs ro,size=5085892k,nr_inodes=1271473 0 0
-none /dev devtmpfs rw,nosuid,relatime,size=5085892k,nr_inodes=1271473,mode=755 0 0
+rootfs /init rootfs ro,size=5085896k,nr_inodes=1271474 0 0
+none /dev devtmpfs rw,nosuid,relatime,size=5085896k,nr_inodes=1271474,mode=755 0 0
 sysfs /sys sysfs rw,nosuid,nodev,noexec,noatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,noatime 0 0
 devpts /dev/pts devpts rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000 0 0
@@ -30,11 +30,11 @@ none /run/user tmpfs rw,relatime 0 0
 none /run/credentials/systemd-journald.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap 0 0
 mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
 debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
-tmpfs /tmp tmpfs rw,nosuid,nodev,nr_inodes=1048576 0 0
-tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
-configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
 hugetlbfs /dev/hugepages hugetlbfs rw,nosuid,nodev,relatime,pagesize=2M 0 0
 fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=5091656k,nr_inodes=1048576 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
 none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap 0 0
 none /tmp/.X11-unix tmpfs ro,relatime 0 0
 /dev/sdd /var/lib/docker ext4 rw,relatime,discard,errors=remount-ro,data=ordered 0 0
