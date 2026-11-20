@@ -1,65 +1,65 @@
-Mon Nov 16 08:07:19 PM MST 2026
+Fri Nov 20 11:52:50 AM MST 2026
 
 COMMAND: cat /proc/meminfo
 DESCRIPTION: Detailed memory statistics
 
 MemTotal:       127410748 kB
-MemFree:        110095460 kB
-MemAvailable:   120704416 kB
-Buffers:          944884 kB
-Cached:         10522104 kB
-SwapCached:            0 kB
-Active:          5406756 kB
-Inactive:        8349432 kB
-Active(anon):    3750708 kB
-Inactive(anon):        0 kB
-Active(file):    1656048 kB
-Inactive(file):  8349432 kB
+MemFree:         1540036 kB
+MemAvailable:   107684964 kB
+Buffers:        37205984 kB
+Cached:         58691680 kB
+SwapCached:          920 kB
+Active:          2091156 kB
+Inactive:       95571568 kB
+Active(anon):    1730968 kB
+Inactive(anon):    57172 kB
+Active(file):     360188 kB
+Inactive(file): 95514396 kB
 Unevictable:          16 kB
 Mlocked:              16 kB
 SwapTotal:       8388604 kB
-SwapFree:        8388604 kB
+SwapFree:        8387432 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:              5824 kB
-Writeback:             0 kB
-AnonPages:       2288784 kB
-Mapped:           683816 kB
-Shmem:           1461928 kB
-KReclaimable:    1749872 kB
-Slab:            2305144 kB
-SReclaimable:    1749872 kB
-SUnreclaim:       555272 kB
-KernelStack:       21136 kB
-PageTables:        46024 kB
-SecPageTables:      2488 kB
+Dirty:              3216 kB
+Writeback:           348 kB
+AnonPages:       1764788 kB
+Mapped:           710684 kB
+Shmem:             23660 kB
+KReclaimable:   11416740 kB
+Slab:           27309480 kB
+SReclaimable:   11416740 kB
+SUnreclaim:     15892740 kB
+KernelStack:       20768 kB
+PageTables:        42308 kB
+SecPageTables:      6460 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    72093976 kB
-Committed_AS:   11270944 kB
+Committed_AS:    9433320 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      238108 kB
+VmallocUsed:      264168 kB
 VmallocChunk:          0 kB
-Percpu:            58464 kB
+Percpu:            67104 kB
 HardwareCorrupted:     0 kB
 AnonHugePages:         0 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
-FileHugePages:    311296 kB
-FilePmdMapped:         0 kB
+FileHugePages:    118784 kB
+FilePmdMapped:     53248 kB
 CmaTotal:              0 kB
-CmaFree:        18061312 kB
+CmaFree:          294436 kB
 Unaccepted:            0 kB
 Balloon:               0 kB
-GPUActive:         72128 kB
-GPUReclaim:        34448 kB
+GPUActive:        120880 kB
+GPUReclaim:        16896 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:      380360 kB
-DirectMap2M:    10076160 kB
-DirectMap1G:    125829120 kB
+DirectMap4k:      482760 kB
+DirectMap2M:    19410944 kB
+DirectMap1G:    116391936 kB

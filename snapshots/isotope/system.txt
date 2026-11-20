@@ -1,4 +1,4 @@
-Mon Nov 16 08:07:19 PM MST 2026
+Fri Nov 20 11:52:50 AM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isotope
@@ -14,7 +14,7 @@ Operating System: Ubuntu 26.04.1 LTS
 Hardware Version: 1.0
 Firmware Version: 481.0.0.0.0
    Firmware Date: Sat 2023-10-07
-    Firmware Age: 3y 1month 1w 3d
+    Firmware Age: 3y 1month 2w
 
 COMMAND: uname -a
 Linux isotope 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      12
 Socket(s):                               1
 Stepping:                                4
-CPU(s) scaling MHz:                      65%
+CPU(s) scaling MHz:                      50%
 CPU max MHz:                             3500.0000
 CPU min MHz:                             1200.0000
 BogoMIPS:                                5399.87
@@ -74,13 +74,13 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           121Gi       6.4Gi       104Gi       1.4Gi        12Gi       115Gi
-Swap:          8.0Gi          0B       8.0Gi
+Mem:           121Gi        18Gi       1.5Gi        23Mi       102Gi       102Gi
+Swap:          8.0Gi       1.1Mi       8.0Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0         7:0    0     4K  1 loop /snap/bare/5
-loop1         7:1    0 217.9M  1 loop /snap/brave/692
+loop1         7:1    0  11.7M  1 loop /snap/snap-store/1504
 loop2         7:2    0  13.1M  1 loop /snap/canonical-livepatch/414
 loop3         7:3    0  13.2M  1 loop /snap/canonical-livepatch/418
 loop4         7:4    0    74M  1 loop /snap/core22/2437
@@ -102,27 +102,55 @@ loop19        7:19   0   395M  1 loop /snap/mesa-2404/1165
 loop20        7:20   0   402M  1 loop /snap/mesa-2404/1839
 loop21        7:21   0  18.8M  1 loop /snap/prompting-client/222
 loop22        7:22   0  18.4M  1 loop /snap/prompting-client/228
-loop23        7:23   0  11.8M  1 loop /snap/snap-store/1390
 loop24        7:24   0  11.8M  1 loop /snap/snap-store/1427
 loop25        7:25   0  50.3M  1 loop /snap/snapd/27738
 loop26        7:26   0   580K  1 loop /snap/snapd-desktop-integration/361
 loop27        7:27   0  44.7M  1 loop /snap/snapd/28254
 loop28        7:28   0   828K  1 loop /snap/snapd-desktop-integration/391
 loop29        7:29   0 223.1M  1 loop /snap/brave/709
+loop30        7:30   0 230.9M  1 loop /snap/brave/711
+sda           8:0    0   9.1T  0 disk 
+├─sda1        8:1    0   200M  0 part 
+├─sda2        8:2    0   2.7T  0 part /mnt/isotope-spinners/sda2-unlabeled
+├─sda3        8:3    0   3.6T  0 part /mnt/isotope-spinners/Infernum
+└─sda4        8:4    0   2.7T  0 part /mnt/isotope-spinners/Purgatorium
+sdb           8:16   0  16.4T  0 disk 
+├─sdb1        8:17   0   200M  0 part 
+├─sdb2        8:18   0   1.8T  0 part /mnt/isotope-spinners/sdb2
+├─sdb3        8:19   0   1.8T  0 part /mnt/isotope-spinners/sdb3
+├─sdb4        8:20   0   1.8T  0 part /mnt/isotope-spinners/sdb4
+├─sdb5        8:21   0   1.8T  0 part /mnt/isotope-spinners/sdb5
+├─sdb6        8:22   0   1.8T  0 part /mnt/isotope-spinners/sdb6
+├─sdb7        8:23   0   1.8T  0 part /mnt/isotope-spinners/sdb7
+├─sdb8        8:24   0   1.8T  0 part /mnt/isotope-spinners/sdb8
+├─sdb9        8:25   0   1.8T  0 part /mnt/isotope-spinners/sdb9
+└─sdb10       8:26   0   1.8T  0 part /mnt/isotope-spinners/sdb10
 nvme0n1     259:0    0   1.8T  0 disk 
 ├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
 └─nvme0n1p2 259:2    0   1.8T  0 part /
 
 COMMAND: df -hT
-Filesystem     Type   Size  Used Avail Use% Mounted on
-tmpfs          tmpfs   25G  3.7M   25G   1% /run
-/dev/nvme0n1p2 ext4   1.8T  300G  1.5T  18% /
-tmpfs          tmpfs   61G  524K   61G   1% /dev/shm
-none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-none           tmpfs  1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-tmpfs          tmpfs   61G  1.4G   60G   3% /tmp
-/dev/nvme0n1p1 vfat   1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs          tmpfs   13G  112K   13G   1% /run/user/1000
+Filesystem     Type     Size  Used Avail Use% Mounted on
+tmpfs          tmpfs     25G  3.9M   25G   1% /run
+/dev/nvme0n1p2 ext4     1.8T  305G  1.5T  18% /
+tmpfs          tmpfs     61G  524K   61G   1% /dev/shm
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs          tmpfs     61G  6.2M   61G   1% /tmp
+/dev/nvme0n1p1 vfat     1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs          tmpfs     13G  116K   13G   1% /run/user/1000
+/dev/sda2      hfsplus  2.8T  2.8T  109M 100% /mnt/isotope-spinners/sda2-unlabeled
+/dev/sda3      hfsplus  3.7T  3.3T  444G  89% /mnt/isotope-spinners/Infernum
+/dev/sda4      hfsplus  2.8T  2.5T  271G  91% /mnt/isotope-spinners/Purgatorium
+/dev/sdb2      fuse     1.9T   48G  1.8T   3% /mnt/isotope-spinners/sdb2
+/dev/sdb4      fuse     1.9T   99G  1.8T   6% /mnt/isotope-spinners/sdb4
+/dev/sdb5      fuse     1.9T   83G  1.8T   5% /mnt/isotope-spinners/sdb5
+/dev/sdb6      fuse     1.9T  276G  1.6T  15% /mnt/isotope-spinners/sdb6
+/dev/sdb7      fuse     1.9T  235G  1.6T  13% /mnt/isotope-spinners/sdb7
+/dev/sdb8      fuse     1.9T  821G  1.1T  45% /mnt/isotope-spinners/sdb8
+/dev/sdb9      fuse     1.9T  205G  1.7T  11% /mnt/isotope-spinners/sdb9
+/dev/sdb10     fuse     1.9T   31G  1.8T   2% /mnt/isotope-spinners/sdb10
+/dev/sdb3      fuse     1.9T  776G  1.1T  42% /mnt/isotope-spinners/sdb3
 
 COMMAND: findmnt
 TARGET                                            SOURCE                 FSTYPE          OPTIONS
@@ -133,12 +161,14 @@ TARGET                                            SOURCE                 FSTYPE 
 │ │ ├─/run/user/1000/doc                          portal                 fuse.portal     rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 │ │ └─/run/user/1000/gvfs                         gvfsd-fuse             fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
 │ ├─/run/credentials/systemd-resolved.service     none                   tmpfs           ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap
-│ └─/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs           rw,nosuid,nodev,size=25482152k,nr_inodes=819200,mode=755,inode64
-│   ├─/run/snapd/ns/canonical-livepatch.mnt       nsfs[mnt:[4026533445]] nsfs            rw
-│   ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026533446]] nsfs            rw
-│   ├─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026533625]] nsfs            rw
-│   ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026533140]] nsfs            rw
-│   └─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026533142]] nsfs            rw
+│ ├─/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs           rw,nosuid,nodev,size=25482152k,nr_inodes=819200,mode=755,inode64
+│ │ ├─/run/snapd/ns/canonical-livepatch.mnt       nsfs[mnt:[4026533445]] nsfs            rw
+│ │ ├─/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026533446]] nsfs            rw
+│ │ ├─/run/snapd/ns/prompting-client.mnt          nsfs[mnt:[4026533625]] nsfs            rw
+│ │ ├─/run/snapd/ns/firmware-updater.mnt          nsfs[mnt:[4026533140]] nsfs            rw
+│ │ ├─/run/snapd/ns/brave.mnt                     nsfs[mnt:[4026533142]] nsfs            rw
+│ │ └─/run/snapd/ns/snap-store.mnt                nsfs[mnt:[4026533144]] nsfs            rw
+│ └─/run/rpc_pipefs                               sunrpc                 rpc_pipefs      rw,relatime
 ├─/dev                                            devtmpfs               devtmpfs        rw,nosuid,size=54527004k,nr_inodes=13631751,mode=755,inode64
 │ ├─/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime
 │ ├─/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
@@ -158,7 +188,6 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/proc                                           proc                   proc            rw,nosuid,nodev,noexec,relatime
 │ └─/proc/sys/fs/binfmt_misc                      systemd-1              autofs          rw,relatime,fd=41,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=7481
 │   └─/proc/sys/fs/binfmt_misc                    binfmt_misc            binfmt_misc     rw,nosuid,nodev,noexec,relatime
-├─/snap/brave/692                                 /dev/loop1             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/canonical-livepatch/414                   /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/canonical-livepatch/418                   /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/core22/2437                               /dev/loop4             squashfs        ro,nodev,relatime,errors=continue,threads=single
@@ -181,11 +210,24 @@ TARGET                                            SOURCE                 FSTYPE 
 ├─/snap/prompting-client/228                      /dev/loop22            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/prompting-client/222                      /dev/loop21            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/tmp                                            tmpfs                  tmpfs           rw,nosuid,nodev,size=63705376k,nr_inodes=1048576,inode64,usrquota
-├─/snap/snap-store/1390                           /dev/loop23            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd/27738                               /dev/loop25            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snap-store/1427                           /dev/loop24            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd-desktop-integration/361             /dev/loop26            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd/28254                               /dev/loop27            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/snap/snapd-desktop-integration/391             /dev/loop28            squashfs        ro,nodev,relatime,errors=continue,threads=single
 ├─/boot/efi                                       /dev/nvme0n1p1         vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
-└─/snap/brave/709                                 /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/brave/709                                 /dev/loop29            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/brave/711                                 /dev/loop30            squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/snap/snap-store/1504                           /dev/loop1             squashfs        ro,nodev,relatime,errors=continue,threads=single
+├─/mnt/isotope-spinners/sda2-unlabeled            /dev/sda2              hfsplus         ro,relatime,umask=22,uid=0,gid=0,nls=utf8
+├─/mnt/isotope-spinners/Infernum                  /dev/sda3              hfsplus         ro,relatime,umask=22,uid=0,gid=0,nls=utf8
+├─/mnt/isotope-spinners/Purgatorium               /dev/sda4              hfsplus         ro,relatime,umask=22,uid=0,gid=0,nls=utf8
+├─/mnt/isotope-spinners/sdb2                      /dev/sdb2              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb4                      /dev/sdb4              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb5                      /dev/sdb5              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb6                      /dev/sdb6              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb7                      /dev/sdb7              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb8                      /dev/sdb8              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb9                      /dev/sdb9              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/mnt/isotope-spinners/sdb10                     /dev/sdb10             fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+└─/mnt/isotope-spinners/sdb3                      /dev/sdb3              fuse            ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other

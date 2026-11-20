@@ -1,5 +1,12 @@
-Mon Nov 16 08:07:19 PM MST 2026
+Fri Nov 20 11:52:50 AM MST 2026
 
 COMMAND: cat /proc/scsi/scsi
 DESCRIPTION: SCSI devices known to the kernel
 
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: Seagate  Model: Backup+ Hub BK   Rev: D781
+  Type:   Direct-Access                    ANSI  SCSI revision: 06
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: Seagate  Model: Expansion HDD    Rev: 1801
+  Type:   Direct-Access                    ANSI  SCSI revision: 06
