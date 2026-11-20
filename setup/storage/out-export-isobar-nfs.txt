@@ -1,0 +1,109 @@
+chmod +x export-isobar-nfs.sh && \
+ln -sf ../setup/storage/export-isobar-nfs.sh ~/repos-isomer/github/systems/bin/export-isobar-nfs && \
+scp export-isobar-nfs.sh root@10.11.26.37:/root/export-isobar-nfs.sh && \
+ssh root@10.11.26.37 'chmod +x /root/export-isobar-nfs.sh && /root/export-isobar-nfs.sh 2>&1 | tee /root/export-isobar-nfs.log'
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+export-isobar-nfs.sh                                                                                                                                                                                                                          100% 4448     2.7MB/s   00:00    
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+Thu Nov 19 21:51:40 MST 2026 /root/export-isobar-nfs.sh
+
+Step 1: Set system hostname to isobar
+
+  Substep 1.1: Hostname verified as: isobar
+
+Step 2: Verify NFS kernel server packages
+
+  Substep 2.1: nfs-kernel-server already installed
+
+Step 3: Configure persistent UUID mounts and NFSv4 bind mounts
+
+  Substep 3.1: Mounting UUID=3bb8c0ab-309b-4dcf-8c35-008423e53b2c -> /mnt/anode and binding -> /srv/nfs/anode
+    Added: UUID=3bb8c0ab-309b-4dcf-8c35-008423e53b2c  /mnt/anode  ext4  defaults,noatime,nofail,x-systemd.device-timeout=10  0  2
+    Added: /mnt/anode  /srv/nfs/anode  none  bind,nofail,x-systemd.requires-mounts-for=/mnt/anode  0  0
+
+  Substep 3.2: Mounting UUID=42a274db-0816-49a8-9563-4a973d252082 -> /mnt/cathode and binding -> /srv/nfs/cathode
+    Added: UUID=42a274db-0816-49a8-9563-4a973d252082  /mnt/cathode  ext4  defaults,noatime,nofail,x-systemd.device-timeout=10  0  2
+    Added: /mnt/cathode  /srv/nfs/cathode  none  bind,nofail,x-systemd.requires-mounts-for=/mnt/cathode  0  0
+
+Step 4: Activate mounts and set UID/GID 1000:1000 ownership
+findmnt: unrecognized option '--verify'
+
+Usage:
+ findmnt [options]
+ findmnt [options] <device> | <mountpoint>
+ findmnt [options] <device> <mountpoint>
+ findmnt [options] [--source <device>] [--target <mountpoint>]
+
+Options:
+ -s, --fstab            search in static table of filesystems
+ -m, --mtab             search in table of mounted filesystems
+ -k, --kernel           search in kernel table of mounted
+                          filesystems (default)
+
+ -p, --poll[=<list>]    monitor changes in table of mounted filesystems
+ -w, --timeout <num>    upper limit in milliseconds that --poll will block
+
+ -A, --all              disable all built-in filters, print all filesystems
+ -a, --ascii            use ASCII chars for tree formatting
+ -b, --bytes            print sizes in bytes rather than in human readable format
+ -C, --nocanonicalize   don't canonicalize when comparing paths
+ -c, --canonicalize     canonicalize printed paths
+ -D, --df               imitate the output of df(1)
+ -d, --direction <word> direction of search, 'forward' or 'backward'
+ -e, --evaluate         convert tags (LABEL,UUID,PARTUUID,PARTLABEL) 
+                          to device names
+ -F, --tab-file <path>  alternative file for -s, -m or -k options
+ -f, --first-only       print the first found filesystem only
+ -i, --invert           invert the sense of matching
+ -l, --list             use list format output
+ -N, --task <tid>       use alternative namespace (/proc/<tid>/mountinfo file)
+ -n, --noheadings       don't print column headings
+ -O, --options <list>   limit the set of filesystems by mount options
+ -o, --output <list>    the output columns to be shown
+ -P, --pairs            use key="value" output format
+ -R, --submounts        print all submounts for the matching filesystems
+ -r, --raw              use raw output format
+ -S, --source <string>  the device to mount (by name, maj:min, 
+                          LABEL=, UUID=, PARTUUID=, PARTLABEL=)
+ -T, --target <string>  the mountpoint to use
+ -t, --types <list>     limit the set of filesystems by FS types
+ -U, --uniq             ignore filesystems with duplicate target
+ -u, --notruncate       don't truncate text in columns
+ -v, --nofsroot         don't print [/dir] for bind or btrfs mounts
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+Available columns:
+      SOURCE  source device
+      TARGET  mountpoint
+      FSTYPE  filesystem type
+     OPTIONS  all mount options
+ VFS-OPTIONS  VFS specific mount options
+  FS-OPTIONS  FS specific mount options
+       LABEL  filesystem label
+        UUID  filesystem UUID
+   PARTLABEL  partition label
+    PARTUUID  partition UUID
+     MAJ:MIN  major:minor device number
+      ACTION  action detected by --poll
+  OLD-TARGET  old mountpoint saved by --poll
+ OLD-OPTIONS  old mount options saved by --poll
+        SIZE  filesystem size
+       AVAIL  filesystem size available
+        USED  filesystem size used
+        USE%  filesystem use percentage
+      FSROOT  filesystem root
+         TID  task ID
+          ID  mount ID
+  OPT-FIELDS  optional mount fields
+ PROPAGATION  VFS propagation flags
+        FREQ  dump(8) period in days [fstab only]
+      PASSNO  pass number on parallel fsck(8) [fstab only]
+
+For more details see findmnt(8).
+
