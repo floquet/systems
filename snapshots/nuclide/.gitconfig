@@ -5,6 +5,7 @@
 	email = daniel.topa@baesystems.us
 [core]
 	editor = vim
+	autocrlf = true
 [diff]
 	tool = vimdiff
 [merge]
