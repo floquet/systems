@@ -1,4 +1,4 @@
-Fri Nov 20 11:52:50 AM MST 2026
+Sat Nov 21 10:27:13 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -48,7 +48,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop21 /snap/prompting-client/222 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 tmpfs /tmp tmpfs rw,nosuid,nodev,size=63705376k,nr_inodes=1048576,inode64,usrquota 0 0
 /dev/loop25 /snap/snapd/27738 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop24 /snap/snap-store/1427 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop26 /snap/snapd-desktop-integration/361 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop27 /snap/snapd/28254 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop28 /snap/snapd-desktop-integration/391 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -66,7 +65,6 @@ nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop30 /snap/brave/711 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop1 /snap/snap-store/1504 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/sda2 /mnt/isotope-spinners/sda2-unlabeled hfsplus ro,relatime,umask=22,uid=0,gid=0,nls=utf8 0 0
 /dev/sda3 /mnt/isotope-spinners/Infernum hfsplus ro,relatime,umask=22,uid=0,gid=0,nls=utf8 0 0
 /dev/sda4 /mnt/isotope-spinners/Purgatorium hfsplus ro,relatime,umask=22,uid=0,gid=0,nls=utf8 0 0
@@ -80,3 +78,8 @@ nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/sdb10 /mnt/isotope-spinners/sdb10 fuse ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other 0 0
 /dev/sdb3 /mnt/isotope-spinners/sdb3 fuse ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other 0 0
 sunrpc /run/rpc_pipefs rpc_pipefs rw,relatime 0 0
+systemd-1 /mnt/anode autofs rw,relatime,fd=107,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=3498251 0 0
+systemd-1 /mnt/cathode autofs rw,relatime,fd=108,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=3498253 0 0
+isobar:/srv/nfs/anode /mnt/anode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
+/dev/loop23 /snap/snap-store/1509 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0

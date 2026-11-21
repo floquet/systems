@@ -4,3 +4,576 @@
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/opt/local/share/locale/nb
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/usr/share/locale/nb
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Enceladus/Applications/Brackets.app/Contents/www/nls/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Enceladus/opt/local/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Applications/Brackets.app/Contents/www/nls/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/fortran sweep/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/backups/Meson harvest/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/backups/Meson harvest/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/opt/local/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/usr/share/locale/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Orpheus/charm/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Orpheus/charm/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/020707_1003/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030731_1744/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030803_1739/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030805_1820/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030816_1039/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/040701_1630/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/060224 pdf/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/060224 pdf/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/061105 alt mm/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/2006.11.05 Oort cloud/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/2006.11.05 Oort cloud/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070318 Meson/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070716 special/e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/ABG McMahon et al/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/CPU Oort cloud/secondary/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/Mathematica/dropbox/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/conf/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admin/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admindocs/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/auth/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/contenttypes/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/flatpages/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/gis/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/humanize/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/postgres/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/redirects/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sessions/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sites/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/conf/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admin/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admindocs/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/auth/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/contenttypes/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/flatpages/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/gis/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/humanize/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/postgres/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/redirects/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sessions/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sites/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-skylake/clang-9.0.1/gettext-0.20.1-tkdfnzkn6ba6jsigdwp3ml2davrugxwq/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-skylake/clang-9.0.1/gettext-0.20.1-xw4jpluip23ufxgg4rfm4lvcnfmglh3g/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gettext-0.20.1-pewulcjbeqfhj55ooglxym2pwrudtgny/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gettext-0.20.1-scfikrxzfiahmy7cfsclqzt7yfvznxkc/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/glib-2.56.3-5sxo7k7qbwfnaugf7bew47ovub543vsk/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/rcs-files/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/Müntz-Szász/github/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/bundle/libri/svdfp/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/clean  up/untitled folder 2/svdfp/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Gimp.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/ NetBeans 7.0.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/eclipse droppings/netbeans archive/ NetBeans 6.9.1.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/eclipse droppings/netbeans archive/NetBeans/NetBeans 6.9.1.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/LibreOffice.app/Contents/share/extensions/nlpsolver/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/NetBeans/NetBeans 7.0.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Office/LibreOffice.app/Contents/share/extensions/nlpsolver/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Office/LibreOffice.app/Contents/share/extensions/wiki-publisher/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Wolfram/Octave.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/XAMPP/xamppfiles/phpmyadmin/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/XAMPP/xamppfiles/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/editors/Vim.app/Contents/Resources/vim/runtime/spell/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/editors/gedit.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/graphics/ Gimp.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/020707_1003/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/03-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/030731_1744/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/030803_1739/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/030805_1820/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/030816_1039/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/040701_1630/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/060224 pdf/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/060224 pdf/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/061105 alt mm/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/2006.11.05 Oort cloud/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/2006.11.05 Oort cloud/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070318 Meson/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070713 Jeep/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070713 Jeep/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070713 Jeep/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070716 special/e drive/data/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/20070717 nb/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/ABG McMahon et al/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/CPU Oort cloud/secondary/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson 070428/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson 070428/e/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson 2.21.07/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson backup/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson backup/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Meson dump/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-02/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-11/My Disc 1/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-14/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-15/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-15/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-16/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-16/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-16/nb/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-17/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/My Disk-18/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/Quark raid/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/ZernikeWire-05/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/my Meson/_nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/nb Meson e drive/e drive/nb
+/mnt/isotope-spinners/Infernum/Rhea/library - DVD, CD/tarballs/nbFromDD90z301/nb
+/mnt/isotope-spinners/Infernum/TITAN/Deimos image/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/Infernum/TITAN/Deimos image/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/Infernum/TITAN/Deimos image/Users/dantopa/Library/Application Support/TorBrowser-Data/Browser/udqdym9r.default/extensions/support@lastpass.com/data/_locales/nb
+/mnt/isotope-spinners/Infernum/TITAN/Deimos image/opt/local/share/locale/nb
+/mnt/isotope-spinners/Infernum/TITAN/Müntz-Szász/Google Drive/bundle/libri/svdfp/nb
+/mnt/isotope-spinners/Infernum/TITAN/Müntz-Szász/Google Drive/bundle/untitled folder 2/svdfp/nb
+/mnt/isotope-spinners/Infernum/TITAN/Müntz-Szász/rditldmt/github/nb
+/mnt/isotope-spinners/Infernum/TITAN/rditldmt/Google Drive/bundle/libri/svdfp/nb
+/mnt/isotope-spinners/Infernum/TITAN/rditldmt/Google Drive/bundle/untitled folder 2/svdfp/nb
+/mnt/isotope-spinners/Infernum/TITAN/rditldmt/documents/adh/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/TITAN/rditldmt/documents/adh/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/TITAN/rditldmt/documents/adh/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/Meson 070428/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/Meson 070428/e/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/Meson 2.21.07/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/Meson backup/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/Meson dump/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-02/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-14/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-15/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-16/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-17/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/My Disk-18/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica sorting/my Meson/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/Meson 070428/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/Meson 070428/e/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/Meson 2.21.07/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/Meson backup/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/Meson dump/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-02/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-14/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-15/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-16/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-17/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/My Disk-18/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc/Mathematica staging/my Meson/_nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/at-spi2-core-2.40.1-hkwjzqio5o3wnl4j6yc5jkxe32q2dtx2/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/atk-2.36.0-bfoe4iuyhcs4aum24nogiexxrfgnhea6/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/gdk-pixbuf-2.42.2-tclz7sxcvdountool5unprvriddypg7z/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/gettext-0.21-pripfdw6bo7h5frkeg2kxms6awfdgd72/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/glib-2.68.4-5ue5llgdaysijz4fry27awvspzy5p6fh/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/glib-2.68.4-bxcb5rkifqh4kve6qhsmqgeolimbbp5v/share/locale/nb
+/mnt/isotope-spinners/Infernum/Tlaloc II/ehecoatl/tlaloc-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/shared-mime-info-1.9-xx5pynn7guvzvm4kavz3yej3lobma6iz/share/locale/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/020707_1003/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/03-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/030731_1744/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/030803_1739/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/030805_1820/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/030816_1039/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/040701_1630/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/060224 pdf/_nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/060224 pdf/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/061105 alt mm/nb
+/mnt/isotope-spinners/Infernum/externals/Hyperion/test/061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/Mathematica/dropbox/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/conf/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admin/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admindocs/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/auth/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/contenttypes/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/flatpages/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/gis/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/humanize/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/postgres/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/redirects/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sessions/locale/nb
+/mnt/isotope-spinners/Infernum/repos/gitlab-lanl/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sites/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/at-spi2-core-2.36.0-cwm53iyujw7xui6v7yx6piubibekhsil/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/at-spi2-core-2.36.0-eyfm2b6vd5l66ou4pf75gb64ua26be5t/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/atk-2.36.0-ke2btvz5oy3dfiq55uibnqzj223hnmwl/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/atk-2.36.0-nqd4bm4awjfs3xmxunmwlkgy62fhdeyq/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/bison-3.6.4-chquywd3wbx3mb2fsf72s6dqh5v7aqgj/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/diffutils-3.7-jikq7pvgnkpxktp42zy4c3sfm44ncnoq/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gdk-pixbuf-2.40.0-im44zwu6qdtjvw4ayzqeoimt4urywtpk/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gdk-pixbuf-2.40.0-sjhdtzbhm7z4a6dbozdhm3y2ywyqbcxu/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gettext-0.20.2-onyczqivsod23pjol7aronrfgmbuahh2/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gettext-0.21-54ec27m7m4h6tnjhthnlxrfblspwdvay/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/glib-2.64.4-2g2emqt7d2zjp3esaxacisphmewzyemm/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/glib-2.64.4-d7bmcodauayol6omceifzheevkqfjtkf/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/glib-2.64.5-663av4zv2qjp4bun5dtmi26jnvn2vynw/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gtkplus-3.20.10-ola5sioz4ln6yp6iiy4mrcvtflrxihcj/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/shared-mime-info-1.9-uqomyx5spjkdhpyf7kjbc2qoumj2tl4z/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/shared-mime-info-1.9-zfbch2os462wq4tda7hvht2vtwvo36zk/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/tar-1.32-j6kbw3nh4j4edabxa2pnt7imb6mzegzs/share/locale/nb
+/mnt/isotope-spinners/Infernum/spacktivity/xiuhcoatl-infernum-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/texinfo-6.5-ec2m3427v5pcxi7asubwwocp7d5s2yes/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/Safari/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/key/080129/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Macintosh HD/dantopa/Documents/archive/files/Safari/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Macintosh HD/dantopa/Documents/archive/files/key/080129/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Orpheus/Charm/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Orpheus/Charm/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Orpheus/backups/Meson harvest/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Mathematica archives/Orpheus/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Orpheus/charm/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/Orpheus/charm/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/020707_1003/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/03-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/030731_1744/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/030803_1739/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/030805_1820/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/030816_1039/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/040701_1630/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/060224 pdf/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/2006.11.05 Oort cloud/nb archive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/2006.11.05 Oort cloud/nb archive/another sort/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070713 Jeep/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070713 Jeep/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070713 Jeep/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070716 special/e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/black_bart/d_drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep c drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/20070717 nb/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/ABG McMahon et al/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/My Disk-02/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/Quark raid/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/my Meson/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/nb Meson e drive/e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/library - CD, DVD/tarballs/nbFromDD90z301/nb
+/mnt/isotope-spinners/Purgatorium/Documents/rditldmt/Documents/adh (1)/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/Purgatorium/Documents/rditldmt/Documents/adh (1)/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/Purgatorium/Documents/rditldmt/Documents/adh (1)/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/020707_1003/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/030731_1744/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/030803_1739/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/030805_1820/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/030816_1039/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/040701_1630/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/060224 pdf/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/061105 alt mm/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/061210 bk Zernike/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/2006.11.05 Oort cloud/nb archive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/2006.11.05 Oort cloud/nb archive/another sort/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20061210 bk Zernike/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070318 Meson/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070713 Jeep/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070713 Jeep/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070713 Jeep/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/black_bart/d_drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep c drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/data/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/nb/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/20070717 nb/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/CPU Oort cloud/secondary/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Meson 070428/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Meson 070428/e/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Meson 2.21.07/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Meson backup/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Meson dump/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-02/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-11/My Disc 1/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-14/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-15/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-15/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-16/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-16/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-17/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/My Disk-18/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/Quark raid/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/ZernikeWire-05/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/my Meson/_nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/nb Meson e drive/e drive/nb
+/mnt/isotope-spinners/Purgatorium/Documents/test/tarballs/nbFromDD90z301/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/darwin-catalina-skylake/clang-11.0.3-apple/gettext-0.20.2-2pkqpfvqv7uwvr2amslwuinlhzt37prr/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/darwin-catalina-skylake/clang-11.0.3-apple/glib-2.64.3-hh5sdkaxy5j6w6j2mvldehyp47sy76p4/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/darwin-catalina-skylake/clang-11.0.3-apple/texinfo-6.5-57vm67i4y3ysp7mywrriasnw6w4jyfn5/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-centos8-haswell/gcc-8.3.1/diffutils-3.7-wvpnep7wzrntmvw4savcl3mtu3krgxds/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-centos8-haswell/gcc-8.3.1/gettext-0.20.2-bcq3jcdefgrjiafy5fqvh6zt44wkgq7l/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-centos8-haswell/gcc-8.3.1/tar-1.32-q2cpmj6x3ccdqto75tmmy2qy7a2c6asj/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-centos8-haswell/gcc-8.3.1/texinfo-6.5-hretev7mqjv5u754wepdkjwbryjmum6y/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-clear_linux_os33590-haswell/gcc-10.2.1/diffutils-3.7-hupepziu6hkxlkgq7mo7fljactfz4yzw/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-clear_linux_os33590-haswell/gcc-10.2.1/tar-1.32-6h56uzpwfar66s2lje7jcwf5qmeea5da/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-clear_linux_os33590-haswell/gcc-10.2.1/texinfo-6.5-2bwe37xcrffcthkemjsxxbnzvjahfqmm/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-clear_linux_os33590-haswell/gcc-10.2.1/texinfo-6.5-sroe6yuoopw7m4dajv3y6oihkksjteca/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0/diffutils-3.7-6fbgxkp7sqjnpmgltli3zjvycdddaj6i/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0/gettext-0.20.2-zckvvxs2utyjlu5j2xe2b373xohijgyl/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0/tar-1.32-ox7ybvqcpwj2durqpueu3xi3uvnb6td4/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0/texinfo-6.5-d6lypwnuzbortqe3abi4cpfvba7446yk/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0/texinfo-6.5-ex4ykejs3xfqtv7ykm5724de3sx6cfaw/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/bison-3.6.4-chquywd3wbx3mb2fsf72s6dqh5v7aqgj/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/diffutils-3.7-jikq7pvgnkpxktp42zy4c3sfm44ncnoq/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/gettext-0.21-3weti3tzkuzubyugj7yrmglbu7bdefzs/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/tar-1.32-j6kbw3nh4j4edabxa2pnt7imb6mzegzs/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-debian10-haswell/gcc-8.3.0-6/texinfo-6.5-ozl4vh74zqfcdxheizhx55eemqs5ok2p/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-fedora33-haswell/gcc-10.2.1/diffutils-3.7-c2ondx6ucxfl33366go2ksxeicezu7je/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-fedora33-haswell/gcc-10.2.1/tar-1.32-3flzh46yjf7bajzjx2f3leto46m6hjre/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ol8-haswell/gcc-8.3.1/bison-3.6.4-ruiubsts25xuuens6l33ubh42qwklqk3/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ol8-haswell/gcc-8.3.1/diffutils-3.7-ts2zp3oxzzzgyoj4stugraj7xfo6tbo5/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ol8-haswell/gcc-8.3.1/gettext-0.20.2-gwni7a2muz23ie6zsfdbon7q2n4clnwm/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ol8-haswell/gcc-8.3.1/tar-1.32-iq6razsx7gha66anvbwwm2rjilbpsfin/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ol8-haswell/gcc-8.3.1/texinfo-6.5-qx45ltorvvesqvdjedeieg4e3adez2fo/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ubuntu20.10-haswell/gcc-10.2.0-5ubuntu2/bison-3.6.4-4mutc3dgf3j3mrdvuimas5f5zngdraqd/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ubuntu20.10-haswell/gcc-10.2.0-5ubuntu2/diffutils-3.7-y25jjnecwqb5d3q5ejlmdqtnurr3g2qp/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ubuntu20.10-haswell/gcc-10.2.0-5ubuntu2/gettext-0.20.2-osonstk5kahrlseo4hvkxfqaohvqppxc/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ubuntu20.10-haswell/gcc-10.2.0-5ubuntu2/tar-1.32-lvmtienq3gcj72jmbdwqzdg5newyql4h/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/Metztli-spack/opt/spack/linux-ubuntu20.10-haswell/gcc-10.2.0-5ubuntu2/texinfo-6.5-muyea6yjooqq6duoy7cvysmiqu6c6o3g/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-bigsur-skylake/apple-clang-12.0.0/gettext-0.21-d6a6ozbqvbijy2we6xr7bzvfpddtchzx/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/gettext-0.21-pripfdw6bo7h5frkeg2kxms6awfdgd72/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-catalina-skylake/apple-clang-12.0.0/gettext-0.21-tna5kgtzbi5h7j37nxjdumcpdadjsfbd/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-catalina-skylake/clang-8.0.1/gettext-0.21-sn4uzxpr2pmionjdemyrzsz6yagkxncg/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-catalina-skylake/clang-8.0.1/glib-2.64.5-at4mlfv2vjcviv4eilbqspdoz53gnnre/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-catalina-x86_64/apple-clang-11.0.3/gettext-0.21-tqql3zegvxmqbrmfulwu6n34i5h4ol5o/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-metztli-spack/opt/spack/darwin-catalina-x86_64/apple-clang-12.0.0/gettext-0.21-dti2z6rdbbh64zxen4bn7wi5erhyzqt2/share/locale/nb
+/mnt/isotope-spinners/Purgatorium/spacktivity/xiuhcoatl-purgatorium-spack/opt/spack/darwin-bigsur-skylake/apple-clang-13.0.0/gettext-0.21-pripfdw6bo7h5frkeg2kxms6awfdgd72/share/locale/nb
