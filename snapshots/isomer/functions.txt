@@ -1,4 +1,4 @@
-Fri Nov 20 19:37:09 MST 2026
+Fri Nov 20 19:38:26 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -174,6 +174,7 @@ declare -f command_not_found_handle
 declare -f commit-builds
 declare -f config_git
 declare -f create-pres
+declare -f date
 declare -f dequote
 declare -f g-fortran
 declare -f g-general
@@ -3155,6 +3156,14 @@ create-pres ()
     local project="${1:?Usage: create-pres PROJECT_NAME}";
     "${pScaffold}/scripts/create-pres.sh" "$project" || return;
     cd "${pScaffold}/projects/beamer/${project}/main" || return
+}
+date () 
+{ 
+    if (( $# == 0 )); then
+        command date '+%a %b %d %H:%M:%S %Z %Y';
+    else
+        command date "$@";
+    fi
 }
 dequote () 
 { 
