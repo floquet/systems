@@ -1,4 +1,4 @@
-Sat Nov 21 10:20:57 MST 2026
+Sat Nov 21 10:27:13 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isotope
@@ -40,7 +40,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      12
 Socket(s):                               1
 Stepping:                                4
-CPU(s) scaling MHz:                      43%
+CPU(s) scaling MHz:                      42%
 CPU max MHz:                             3500.0000
 CPU min MHz:                             1200.0000
 BogoMIPS:                                5399.87
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           121Gi        99Gi       1.1Gi        19Mi        21Gi        21Gi
-Swap:          8.0Gi       7.9Gi       147Mi
+Mem:           121Gi       100Gi       1.1Gi        20Mi        21Gi        21Gi
+Swap:          8.0Gi       7.8Gi       210Mi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -133,12 +133,12 @@ COMMAND: df -hT
 Filesystem            Type     Size  Used Avail Use% Mounted on
 tmpfs                 tmpfs     25G  3.9M   25G   1% /run
 /dev/nvme0n1p2        ext4     1.8T  306G  1.4T  18% /
-tmpfs                 tmpfs     61G  900K   61G   1% /dev/shm
+tmpfs                 tmpfs     61G  1.6M   61G   1% /dev/shm
 none                  tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none                  tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-tmpfs                 tmpfs     61G  6.7M   61G   1% /tmp
+tmpfs                 tmpfs     61G  6.9M   61G   1% /tmp
 /dev/nvme0n1p1        vfat     1.1G  6.4M  1.1G   1% /boot/efi
-tmpfs                 tmpfs     13G  112K   13G   1% /run/user/1000
+tmpfs                 tmpfs     13G  116K   13G   1% /run/user/1000
 /dev/sda2             hfsplus  2.8T  2.8T  109M 100% /mnt/isotope-spinners/sda2-unlabeled
 /dev/sda3             hfsplus  3.7T  3.3T  444G  89% /mnt/isotope-spinners/Infernum
 /dev/sda4             hfsplus  2.8T  2.5T  271G  91% /mnt/isotope-spinners/Purgatorium
