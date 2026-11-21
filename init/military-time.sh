@@ -12,4 +12,5 @@ date() {
     else
         command date "$@"
     fi
+    export -f date
 }
