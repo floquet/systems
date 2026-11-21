@@ -17,7 +17,7 @@
     <info name="DMIBIOSDate" value="10/07/2023"/>
     <info name="DMISysVendor" value="Apple Inc."/>
     <info name="Backend" value="Linux"/>
-    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/session-256.scope"/>
+    <info name="LinuxCgroup" value="/user.slice/user-1000.slice/user@1000.service/app.slice/ptyxis-spawn-607a900a-120a-4ead-a327-45024ee84aa4.scope"/>
     <info name="OSName" value="Linux"/>
     <info name="OSRelease" value="7.0.0-43-generic"/>
     <info name="OSVersion" value="#43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026"/>
