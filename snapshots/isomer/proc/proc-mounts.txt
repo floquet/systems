@@ -1,4 +1,4 @@
-Fri Nov 20 19:46:50 MST 2026
+Fri Nov 20 22:01:28 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -98,5 +98,3 @@ systemd-1 /mnt/anode autofs rw,relatime,fd=107,pgrp=1,timeout=600,minproto=5,max
 systemd-1 /mnt/cathode autofs rw,relatime,fd=108,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=15995020 0 0
 none /run/credentials/systemd-journald.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0
 none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0
-isobar:/srv/nfs/anode /mnt/anode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
-isobar:/srv/nfs/cathode /mnt/cathode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
