@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
 # GNOME screenshot management for Beamer presentations.
 # Set land to the active presentation's graphics directory.
 
