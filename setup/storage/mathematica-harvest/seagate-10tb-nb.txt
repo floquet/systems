@@ -4,3 +4,183 @@
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/opt/local/share/locale/nb
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/usr/share/locale/nb
 /mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Enceladus/Applications/Brackets.app/Contents/www/nls/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Enceladus/opt/local/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Applications/Brackets.app/Contents/www/nls/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/SVN working directory/AdH/adh/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/fortran sweep/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/Charm/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/backups/Meson harvest/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/Orpheus/archive/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Macintosh HD/Volumes/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/data/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/nb/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/Charm/temp/logo/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/backups/Meson harvest/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/Users/dantopa/tethys/arXive/Mac HD Fail/mathematica sweep/mm - Orpheus/backups/nb arXive 060206/nb archive/another sort/_nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/opt/local/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Iapetus/usr/share/locale/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/Mac HD/downloads/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/dropbox overflow/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/Safari/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/files/key/080129/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/MathematicaLand/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/Mac HD/downloads/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Icarus/mm - Macintosh HD/Users/dantopa/Documents/archive/storage/Orpheus/dropbox overflow/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Orpheus/charm/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/Orpheus/charm/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/btr-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/cmh-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/rditldmt/Documents/adh (1)/branches/jph-dev/test/angle_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/01-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/020707_1003/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/03-20070717/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030731_1744/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030803_1739/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030805_1820/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/030816_1039/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/040629_1858/040629_1858/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/040701_1630/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/060224 pdf/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/060224 pdf/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/061105 alt mm/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/2006.11.05 Oort cloud/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/2006.11.05 Oort cloud/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20061210 bk Zernike/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070318 Meson/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070713 Jeep/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070716 special/e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/Wolfram web site/functions/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/black_bart/d_drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/black_bart/e_drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep c drive/hugedisk/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/black bart/d_black_bart/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/black bart/e_black_bart/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/data/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/nb/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/20070717 nb/jeep e drive/temp/logo/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/ABG McMahon et al/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/CPU Oort cloud/secondary/nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/HD gluon/archive/nb archive/_nb
+/mnt/isotope-spinners/Infernum/Google Drive Drama/bitbucket/test/HD gluon/archive/nb archive/another sort/_nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/Mathematica/dropbox/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/conf/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admin/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admindocs/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/auth/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/contenttypes/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/flatpages/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/gis/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/humanize/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/postgres/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/redirects/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sessions/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sites/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/conf/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admin/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/admindocs/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/auth/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/contenttypes/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/flatpages/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/gis/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/humanize/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/postgres/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/redirects/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sessions/locale/nb
+/mnt/isotope-spinners/Infernum/LANL Removable 01/gitlab.com/mtt-open-mpi-test-tool/dir-home/virtualenvs/mtt-virtual/lib/python3.5/site-packages/django/contrib/sites/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-skylake/clang-9.0.1/gettext-0.20.1-tkdfnzkn6ba6jsigdwp3ml2davrugxwq/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-skylake/clang-9.0.1/gettext-0.20.1-xw4jpluip23ufxgg4rfm4lvcnfmglh3g/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gettext-0.20.1-pewulcjbeqfhj55ooglxym2pwrudtgny/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gettext-0.20.1-scfikrxzfiahmy7cfsclqzt7yfvznxkc/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/clean-spack/spack/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/glib-2.56.3-5sxo7k7qbwfnaugf7bew47ovub543vsk/share/locale/nb
+/mnt/isotope-spinners/Infernum/Metzli/rcs-files/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/Müntz-Szász/github/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/bundle/libri/svdfp/nb
+/mnt/isotope-spinners/Infernum/Rhea/Google Drive/clean  up/untitled folder 2/svdfp/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Gimp.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/ NetBeans 7.0.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/eclipse droppings/netbeans archive/ NetBeans 6.9.1.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/IDE/eclipse droppings/netbeans archive/NetBeans/NetBeans 6.9.1.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/LibreOffice.app/Contents/share/extensions/nlpsolver/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/NetBeans/NetBeans 7.0.app/Contents/Resources/NetBeans/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Office/LibreOffice.app/Contents/share/extensions/nlpsolver/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Office/LibreOffice.app/Contents/share/extensions/wiki-publisher/help/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/Wolfram/Octave.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/XAMPP/xamppfiles/phpmyadmin/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/XAMPP/xamppfiles/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/editors/Vim.app/Contents/Resources/vim/runtime/spell/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/editors/gedit.app/Contents/Resources/share/locale/nb
+/mnt/isotope-spinners/Infernum/Rhea/Macintosh HD preview/Applications/graphics/ Gimp.app/Contents/Resources/share/locale/nb
