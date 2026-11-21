@@ -1,4 +1,4 @@
-Fri Nov 20 07:38:34 PM MST 2026
+Fri Nov 20 07:45:38 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      70%
+CPU(s) scaling MHz:                      67%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,8 +74,8 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        17Gi       2.8Gi       5.2Gi        12Gi        12Gi
-Swap:           15Gi       7.5Gi       8.5Gi
+Mem:            30Gi        16Gi       4.1Gi       5.0Gi        11Gi        13Gi
+Swap:           15Gi       7.3Gi       8.7Gi
 
 COMMAND: lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
@@ -138,7 +138,7 @@ nvme0n1     259:0    0 953.9G  0 disk
 COMMAND: df -hT
 Filesystem              Type      Size  Used Avail Use% Mounted on
 tmpfs                   tmpfs     6.1G  4.9M  6.1G   1% /run
-/dev/nvme0n1p2          ext4      937G  296G  595G  34% /
+/dev/nvme0n1p2          ext4      937G  295G  595G  34% /
 tmpfs                   tmpfs      16G   14M   16G   1% /dev/shm
 efivarfs                efivarfs  192K  135K   53K  72% /sys/firmware/efi/efivars
 /dev/nvme0n1p1          vfat      975M   92M  883M  10% /boot/efi
@@ -148,7 +148,7 @@ tmpfs                   tmpfs     3.1G  4.2M  3.1G   1% /run/user/1000
 /dev/sdc1               ext4      916G  408G  462G  47% /mnt/mirovia
 none                    tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none                    tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-isobar:/srv/nfs/anode   nfs       2.7T  115G  2.6T   5% /mnt/anode
+isobar:/srv/nfs/anode   nfs       2.7T  116G  2.6T   5% /mnt/anode
 isobar:/srv/nfs/cathode nfs       2.7T   73M  2.7T   1% /mnt/cathode
 
 COMMAND: findmnt

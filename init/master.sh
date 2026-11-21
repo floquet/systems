@@ -48,12 +48,8 @@ source "${pInit}/recorder.sh"
 
 ) 200>"${HOME}/.git-init.lock"
 
-# use miltary time
-alias date="date '+%a %b %d %H:%M:%S %Z %Y'"
-
 # Report initialization time
 echo "time used: $((SECONDS - recorderStart)) seconds"
-
 
 # High-contrast directory color (bold bright cyan instead of unreadable dark blue)
 if command -v dircolors >/dev/null 2>&1; then
