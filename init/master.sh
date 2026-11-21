@@ -6,6 +6,8 @@ recorderStart=$SECONDS
 # Disable shell bell
 bind "set bell-style none"
 
+source "${pInit}/military-time.sh" #Ensure uniform time stamps
+
 # Establish paths before dependent initialization scripts
 source "${pInit}/paths.sh"
 

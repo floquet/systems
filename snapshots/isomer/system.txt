@@ -1,4 +1,4 @@
-Fri Nov 20 07:33:17 PM MST 2026
+Fri Nov 20 07:37:10 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -40,7 +40,7 @@ Thread(s) per core:                      1
 Core(s) per socket:                      14
 Socket(s):                               1
 Stepping:                                2
-CPU(s) scaling MHz:                      71%
+CPU(s) scaling MHz:                      70%
 CPU max MHz:                             4900.0000
 CPU min MHz:                             400.0000
 BogoMIPS:                                7372.80
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        17Gi       2.9Gi       5.1Gi        12Gi        12Gi
+Mem:            30Gi        17Gi       2.9Gi       5.2Gi        12Gi        12Gi
 Swap:           15Gi       7.5Gi       8.5Gi
 
 COMMAND: lsblk
@@ -148,7 +148,7 @@ tmpfs                   tmpfs     3.1G  4.2M  3.1G   1% /run/user/1000
 /dev/sdc1               ext4      916G  408G  462G  47% /mnt/mirovia
 none                    tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none                    tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-isobar:/srv/nfs/anode   nfs       2.7T  113G  2.6T   5% /mnt/anode
+isobar:/srv/nfs/anode   nfs       2.7T  114G  2.6T   5% /mnt/anode
 isobar:/srv/nfs/cathode nfs       2.7T   73M  2.7T   1% /mnt/cathode
 
 COMMAND: findmnt
