@@ -1,4 +1,4 @@
-Fri Nov 20 11:42:26 AM MST 2026
+Fri Nov 20 06:23:45 PM MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -90,13 +90,11 @@ nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop5 /snap/thunderbird/1333 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/thunderbird.mnt nsfs rw 0 0
 nsfs /run/snapd/ns/glab.mnt nsfs rw 0 0
-none /run/credentials/systemd-journald.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0
-none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0
 /dev/loop8 /snap/cmake/1587 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 sunrpc /run/rpc_pipefs rpc_pipefs rw,relatime 0 0
 /dev/loop9 /snap/vivaldi/531 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/vivaldi.mnt nsfs rw 0 0
 systemd-1 /mnt/anode autofs rw,relatime,fd=107,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=15995016 0 0
 systemd-1 /mnt/cathode autofs rw,relatime,fd=108,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=15995020 0 0
-isobar:/srv/nfs/anode /mnt/anode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
-isobar:/srv/nfs/cathode /mnt/cathode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
+none /run/credentials/systemd-journald.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0
+none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap 0 0

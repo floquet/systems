@@ -1,4 +1,4 @@
-Fri Nov 20 11:42:26 AM MST 2026
+Fri Nov 20 06:23:45 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -42,7 +42,7 @@ Link 2 (enp86s0)
 Link 3 (enp87s0)
     Current Scopes: DNS
          Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 1.1.1.1
+Current DNS Server: 8.8.8.8
        DNS Servers: 8.8.8.8 1.1.1.1
      Default Route: yes
 
@@ -57,26 +57,23 @@ udp   UNCONN 0      0                                 0.0.0.0:48305      0.0.0.0
 udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                                
 udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                                
 udp   UNCONN 0      0                                 0.0.0.0:111        0.0.0.0:*                                                
-udp   UNCONN 0      0                              10.10.10.4:33019      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=29))
 udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                                
 udp   UNCONN 0      0                               127.0.0.1:697        0.0.0.0:*                                                
-udp   UNCONN 0      0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=1907583,fd=77))       
-udp   UNCONN 0      0                             10.11.26.57:33948      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=21))
+udp   UNCONN 7680   0                                 0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=1907583,fd=77))       
+udp   UNCONN 0      0                              10.10.10.4:34057      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=6)) 
 udp   UNCONN 0      0                             10.11.26.57:3702       0.0.0.0:*    users:(("python3",pid=1910210,fd=13))       
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=1910210,fd=11))       
 udp   UNCONN 0      0                              10.10.10.4:3702       0.0.0.0:*    users:(("python3",pid=1910210,fd=10))       
 udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=1910210,fd=8))        
-udp   UNCONN 0      0                             10.11.26.57:52860      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=30))
 udp   UNCONN 0      0                                 0.0.0.0:36851      0.0.0.0:*    users:(("python3",pid=1910210,fd=12))       
-udp   UNCONN 0      0                                 0.0.0.0:54174      0.0.0.0:*    users:(("firefox",pid=1910237,fd=298))      
-udp   UNCONN 0      0                                 0.0.0.0:54402      0.0.0.0:*    users:(("firefox",pid=1910237,fd=272))      
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2295365,fd=80))        
 udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=2295365,fd=66))        
 udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                                
-udp   UNCONN 0      0                              10.10.10.4:40587      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=6)) 
 udp   UNCONN 0      0                                 0.0.0.0:57583      0.0.0.0:*    users:(("chrome",pid=2295365,fd=84))        
+udp   UNCONN 0      0                             10.11.26.57:57630      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=30))
+udp   UNCONN 0      0                             10.11.26.57:42783      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=21))
 udp   UNCONN 0      0                                 0.0.0.0:46093      0.0.0.0:*    users:(("python3",pid=1910210,fd=9))        
-udp   UNCONN 0      0                                 0.0.0.0:47066      0.0.0.0:*                                                
+udp   UNCONN 0      0                              10.10.10.4:46831      0.0.0.0:*    users:(("Socket Process",pid=1910407,fd=29))
 udp   UNCONN 0      0                                    [::]:111           [::]:*                                                
 udp   UNCONN 0      0                                   [::1]:323           [::]:*                                                
 udp   UNCONN 0      0                                    [::]:36163         [::]:*                                                
@@ -84,7 +81,6 @@ udp   UNCONN 0      0      [fe80::5d6:4641:7d3d:f0b3]%enp87s0:3702          [::]
 udp   UNCONN 0      0                       [ff02::c]%enp87s0:3702          [::]:*    users:(("python3",pid=1910210,fd=14))       
 udp   UNCONN 0      0                                       *:37828            *:*    users:(("chrome",pid=2295365,fd=85))        
 udp   UNCONN 0      0                                    [::]:5353          [::]:*                                                
-udp   UNCONN 0      0                                    [::]:58234         [::]:*                                                
 udp   UNCONN 0      0                                       *:46770            *:*    users:(("python3",pid=1910210,fd=15))       
 tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                                
 tcp   LISTEN 0      128                             127.0.0.1:17600      0.0.0.0:*    users:(("dropbox",pid=1907583,fd=80))       
@@ -95,12 +91,10 @@ tcp   LISTEN 0      4096                              0.0.0.0:111        0.0.0.0
 tcp   LISTEN 0      4096                              0.0.0.0:32873      0.0.0.0:*                                                
 tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*                                                
 tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                                
-tcp   LISTEN 0      4096                              0.0.0.0:42777      0.0.0.0:*                                                
 tcp   LISTEN 0      4096                                 [::]:22            [::]:*                                                
 tcp   LISTEN 0      4096                                 [::]:111           [::]:*                                                
 tcp   LISTEN 0      4096                                 [::]:49697         [::]:*                                                
 tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                                
-tcp   LISTEN 0      4096                                 [::]:41379         [::]:*                                                
 
 COMMAND: ip neigh
 10.11.26.135 dev enp87s0 lladdr f0:a6:54:4c:c8:71 STALE 
