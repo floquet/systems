@@ -1,4 +1,4 @@
-Fri Nov 20 19:30:33 MST 2026
+Fri Nov 20 19:31:15 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -201,6 +201,7 @@ declare -f q-selection
 declare -f q-wrappers
 declare -f quote
 declare -f quote_readline
+declare -f shotmove
 
 COMMAND: declare -f
 __expand_tilde_by_ref () 
@@ -3507,4 +3508,20 @@ quote_readline ()
     local REPLY;
     _comp_quote_compgen "$1";
     printf %s "$REPLY"
+}
+shotmove () 
+{ 
+    local src name;
+    [[ -n "${land:-}" ]] || { 
+        echo "shotmove: land is not set" 1>&2;
+        return 1
+    };
+    name="${1:?Usage: shotmove NAME}";
+    src=$(find "$HOME/Pictures/Screenshots" -maxdepth 1 -type f -name 'Screenshot From *.png' -printf '%T@ %p\n' | sort -nr | head -1 | cut -d' ' -f2-);
+    [[ -n "$src" ]] || { 
+        echo "shotmove: no screenshot found" 1>&2;
+        return 1
+    };
+    mkdir -p "$land";
+    mv -i -- "$src" "$land/${name%.png}.png"
 }
