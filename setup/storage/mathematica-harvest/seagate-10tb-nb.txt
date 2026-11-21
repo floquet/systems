@@ -1,0 +1,6 @@
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/Applications/Brackets.app/Contents/www/nls/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/System/Library/Frameworks/Python.framework/Versions/2.5/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/wx-2.8-mac-unicode/wx/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/opt/local/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Deimos/usr/share/locale/nb
+/mnt/isotope-spinners/sda2-unlabeled/Mittag-Leffler/Enceladus/Applications/Brackets.app/Contents/www/nls/nb

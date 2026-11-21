@@ -1,241 +1,222 @@
 #!/usr/bin/env python3
-"""
-Phase 1 Read-Only Mathematica Inventory & Provenance Harvester.
-Indexes user Mathematica files (.nb, .wl, .m, .wls, .cdf, .mx) and {nb, wl, io} trees
-into SQLite without modifying, moving, or dereferencing symlinks.
-"""
-
+"""ISOTOPE / ISOMER: read-only Mathematica inventory and optional blended warehouse."""
 import argparse
 import hashlib
 import os
 import re
+import shutil
 import socket
 import sqlite3
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-MATHEMATICA_EXTS = {".nb", ".wl", ".m", ".wls", ".cdf", ".mx"}
-SKIP_DIRS = {
-    ".git", ".svn", "__pycache__", ".Trash", ".Trashes", ".Spotlight-V100",
-    ".fseventsd", ".DocumentRevisions-V100", ".DocumentRevisions-V100-bad-1",
-    ".CacheDeleteDiscardedCaches", "Zotero", "ebooks", "ebooks-grande",
-    "nas-music-staging", "node_modules", "books-mathematica", "iTunes U",
-    "Backups.backupdb"
-}
-BUCKET_RE = re.compile(
-    r"^(nb|wl|io|_nb|_wl|.*_nb|.*_wl|nb-[a-z0-9._-]+|.*\.nb|mathematica nb)$",
-    re.IGNORECASE,
-)
-
-SCHEMA_SQL = """
-PRAGMA journal_mode = WAL;
-PRAGMA synchronous = NORMAL;
-
+EXTS = {'.nb', '.wl', '.m', '.wls', '.cdf', '.mx'}
+SKIP = {'.git', '.svn', '__pycache__', '.Trash', 'Zotero', 'node_modules'}
+VERSION = re.compile(rb'FrontEndVersion\s*->\s*"([^"\r\n]{1,200})"')
+SCHEMA = '''
+PRAGMA journal_mode=WAL;
 CREATE TABLE IF NOT EXISTS files (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    source_host TEXT NOT NULL,
-    source_volume TEXT NOT NULL,
-    source_root TEXT NOT NULL,
-    full_path TEXT NOT NULL UNIQUE,
-    filename TEXT NOT NULL,
-    ext TEXT NOT NULL,
-    size_bytes INTEGER NOT NULL,
-    mtime_utc TEXT NOT NULL,
-    is_symlink INTEGER NOT NULL,
-    symlink_target TEXT,
-    sha256 TEXT,
-    bucket TEXT,
-    preserved_relpath TEXT,
-    upstream_prefix TEXT,
-    git_repo TEXT,
-    warehouse_status TEXT NOT NULL DEFAULT 'pending'
+ full_path TEXT PRIMARY KEY, source_host TEXT NOT NULL, source_root TEXT NOT NULL,
+ relpath TEXT NOT NULL, filename TEXT NOT NULL, ext TEXT NOT NULL,
+ size_bytes INTEGER, mtime_utc TEXT, sha256 TEXT, mathematica_version TEXT,
+ is_symlink INTEGER NOT NULL, symlink_target TEXT, warehouse_relpath TEXT,
+ status TEXT NOT NULL, error TEXT, indexed_utc TEXT NOT NULL
 );
+CREATE INDEX IF NOT EXISTS idx_hash ON files(sha256);
+CREATE INDEX IF NOT EXISTS idx_relpath ON files(relpath);
+'''
 
-CREATE INDEX IF NOT EXISTS idx_files_sha256 ON files(sha256);
-CREATE INDEX IF NOT EXISTS idx_files_bucket_relpath ON files(bucket, preserved_relpath);
-CREATE INDEX IF NOT EXISTS idx_files_ext ON files(ext);
-CREATE INDEX IF NOT EXISTS idx_files_volume ON files(source_volume);
-"""
+def stamp():
+    return datetime.now().astimezone().isoformat(timespec='seconds')
 
+def log(message):
+    print(f'[{stamp()}] {message}', flush=True)
 
-def sha256_file(path: Path, chunk_size: int = 1048576) -> str:
+def hash_and_version(path):
     h = hashlib.sha256()
-    with path.open("rb") as f:
-        while True:
-            chunk = f.read(chunk_size)
-            if not chunk:
-                break
+    version = None
+    with path.open('rb') as stream:
+        first = True
+        while chunk := stream.read(1024 * 1024):
             h.update(chunk)
-    return h.hexdigest()
+            if first and path.suffix.lower() == '.nb':
+                match = VERSION.search(chunk[:1024 * 1024])
+                if match:
+                    version = match.group(1).decode('utf-8', 'replace')
+            first = False
+    return h.hexdigest(), version
 
+def unique_destination(relpath, digest, occupied):
+    """Reserve a destination, preserving unrelated existing filenames."""
+    path = Path(relpath)
+    base = path.as_posix()
+    if base not in occupied or occupied[base] == digest:
+        occupied[base] = digest
+        return base
+    for length in range(6, 65, 2):
+        candidate = (path.parent / f'{path.stem}-{digest[:length]}{path.suffix}').as_posix()
+        if candidate not in occupied or occupied[candidate] == digest:
+            occupied[candidate] = digest
+            return candidate
+    raise RuntimeError(f'Cannot assign unique name: {relpath}')
 
-def parse_bucket_marker(part: str):
-    low = part.lower()
-    if low == "wl" or low.endswith("_wl"):
-        return "wl", None
-    if low == "io":
-        return "io", None
-    if low.startswith("nb-") and len(low) > 3:
-        return "nb", part[3:]
-    return "nb", None
-
-
-def parse_provenance(full_path: Path):
-    parts = full_path.parts
-    anchor_idx = None
-    for i in range(len(parts) - 2, -1, -1):
-        if BUCKET_RE.match(parts[i]):
-            anchor_idx = i
-            break
-
-    if anchor_idx is not None:
-        bucket, domain_prefix = parse_bucket_marker(parts[anchor_idx])
-        subparts = parts[anchor_idx + 1 :]
-        if domain_prefix:
-            preserved_relpath = str(Path(domain_prefix, *subparts))
-        else:
-            preserved_relpath = str(Path(*subparts))
-        upstream_prefix = str(Path(*parts[:anchor_idx]))
-    else:
-        ext = full_path.suffix.lower()
-        bucket = "wl" if ext in {".wl", ".wls", ".m"} else "nb"
-        preserved_relpath = full_path.name
-        upstream_prefix = str(full_path.parent)
-
-    git_repo = None
-    for parent in full_path.parents:
-        if (parent / ".git").exists():
-            git_repo = str(parent)
-            break
-
-    return bucket, preserved_relpath, upstream_prefix, git_repo
-
-
-def scan_root(conn: sqlite3.Connection, host: str, volume: str, root: Path):
-    if not root.exists():
-        print(f"[SKIP] Root does not exist: {root}", file=sys.stderr)
-        return
-
-    cur = conn.cursor()
-    scanned = 0
-    indexed = 0
-
-    for dirpath, dirnames, filenames in os.walk(root, followlinks=False):
-        dirnames[:] = [
-            d for d in dirnames
-            if d not in SKIP_DIRS and not d.endswith(".app")
-        ]
-        dpath = Path(dirpath)
-        in_bucket_tree = any(BUCKET_RE.match(p) for p in dpath.parts)
-
-        for fname in filenames:
-            scanned += 1
-            if fname.startswith("._") or fname == ".DS_Store":
+def scan(conn, root, host, interval):
+    start = time.monotonic()
+    examined = indexed = failed = 0
+    last_report = start
+    log(f'ROOT host={host} path={root}')
+    if not root.is_dir():
+        raise SystemExit(f'Not a directory: {root}')
+    for directory, dirs, names in os.walk(root, followlinks=False):
+        dirs[:] = sorted(d for d in dirs if d not in SKIP and not (Path(directory) / d).is_symlink())
+        for name in sorted(names):
+            examined += 1
+            path = Path(directory) / name
+            if path.suffix.lower() not in EXTS:
                 continue
-            fpath = dpath / fname
-            ext = fpath.suffix.lower()
-            if ext not in MATHEMATICA_EXTS and not in_bucket_tree:
-                continue
-
-            try:
-                st = fpath.lstat()
-            except OSError as exc:
-                print(f"[WARN] lstat failed on {fpath}: {exc}", file=sys.stderr)
-                continue
-
-            is_link = 1 if os.path.islink(fpath) else 0
-            link_target = os.readlink(fpath) if is_link else None
-            mtime_utc = datetime.fromtimestamp(st.st_mtime, tz=timezone.utc).isoformat()
-
-            digest = None
-            if not is_link and os.path.isfile(fpath):
-                try:
-                    digest = sha256_file(fpath)
-                except OSError as exc:
-                    print(f"[WARN] hash failed on {fpath}: {exc}", file=sys.stderr)
-
-            bucket, preserved_relpath, upstream_prefix, git_repo = parse_provenance(fpath)
-
-            cur.execute(
-                """
-                INSERT INTO files (
-                    source_host, source_volume, source_root, full_path, filename, ext,
-                    size_bytes, mtime_utc, is_symlink, symlink_target, sha256,
-                    bucket, preserved_relpath, upstream_prefix, git_repo
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(full_path) DO UPDATE SET
-                    source_volume=excluded.source_volume,
-                    size_bytes=excluded.size_bytes,
-                    mtime_utc=excluded.mtime_utc,
-                    is_symlink=excluded.is_symlink,
-                    symlink_target=excluded.symlink_target,
-                    sha256=excluded.sha256,
-                    bucket=excluded.bucket,
-                    preserved_relpath=excluded.preserved_relpath,
-                    upstream_prefix=excluded.upstream_prefix,
-                    git_repo=excluded.git_repo
-                """,
-                (
-                    host, volume, str(root), str(fpath), fname, ext,
-                    st.st_size, mtime_utc, is_link, link_target, digest,
-                    bucket, preserved_relpath, upstream_prefix, git_repo
-                ),
-            )
             indexed += 1
-            if indexed % 1000 == 0:
+            rel = path.relative_to(root).as_posix()
+            digest = version = error = target = None
+            status = 'ok'
+            try:
+                st = path.lstat()
+                is_link = path.is_symlink()
+                if is_link:
+                    target = os.readlink(path)
+                    status = 'symlink-skipped'
+                elif not path.is_file():
+                    status = 'nonregular-skipped'
+                else:
+                    log(f'HASH {rel} ({st.st_size:,} bytes)') if st.st_size >= 100 * 1024 * 1024 else None
+                    digest, version = hash_and_version(path)
+                size = st.st_size
+                mtime = datetime.fromtimestamp(st.st_mtime, timezone.utc).isoformat()
+            except OSError as exc:
+                is_link = path.is_symlink()
+                size = None
+                mtime = None
+                status = 'error'
+                error = str(exc)
+                failed += 1
+                log(f'ERROR {rel}: {exc}')
+            conn.execute('''INSERT INTO files
+                (full_path, source_host, source_root, relpath, filename, ext,
+                 size_bytes, mtime_utc, sha256, mathematica_version, is_symlink,
+                 symlink_target, warehouse_relpath, status, error, indexed_utc)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                ON CONFLICT(full_path) DO UPDATE SET
+                 source_host=excluded.source_host, source_root=excluded.source_root,
+                 relpath=excluded.relpath, filename=excluded.filename, ext=excluded.ext,
+                 size_bytes=excluded.size_bytes, mtime_utc=excluded.mtime_utc,
+                 sha256=excluded.sha256, mathematica_version=excluded.mathematica_version,
+                 is_symlink=excluded.is_symlink, symlink_target=excluded.symlink_target,
+                 status=excluded.status, error=excluded.error, indexed_utc=excluded.indexed_utc''',
+                (str(path), host, str(root), rel, name, path.suffix.lower(), size, mtime,
+                 digest, version, int(is_link), target, None, status, error, stamp()))
+            now = time.monotonic()
+            if indexed % 100 == 0 or now - last_report >= interval:
                 conn.commit()
-                print(f"  ... [{volume}] indexed {indexed} items (scanned {scanned})", flush=True)
-
+                log(f'PROGRESS examined={examined:,} indexed={indexed:,} failed={failed:,} elapsed={now-start:.1f}s')
+                last_report = now
     conn.commit()
-    print(f"[DONE] {host}:{volume} ({root}) -> indexed {indexed} items (scanned {scanned})")
+    log(f'SCAN DONE examined={examined:,} indexed={indexed:,} failed={failed:,} elapsed={time.monotonic()-start:.1f}s')
 
+def plan(conn, warehouse):
+    """Deterministic plan, independent of scan order; never overwrite source."""
+    rows = conn.execute('''SELECT full_path, relpath, sha256, size_bytes
+                           FROM files WHERE status='ok' AND sha256 IS NOT NULL
+                           ORDER BY relpath, sha256, full_path''').fetchall()
+    # Reserve every original relative filename before creating suffixed names.
+    occupied = {rel: None for _, rel, _, _ in rows}
+    # For each relative path, select the lexicographically first hash as unsuffixed.
+    groups = {}
+    for full, rel, digest, size in rows:
+        groups.setdefault(rel, {}).setdefault(digest, []).append((full, size))
+    assignments = {}
+    for rel in sorted(groups):
+        for index, digest in enumerate(sorted(groups[rel])):
+            if index == 0:
+                destination = rel
+                occupied[rel] = digest
+            else:
+                destination = unique_destination(rel, digest, occupied)
+            for full, size in groups[rel][digest]:
+                assignments[full] = (destination, digest, size)
+    for full, (destination, _, _) in assignments.items():
+        conn.execute('UPDATE files SET warehouse_relpath=? WHERE full_path=?', (destination, full))
+    conn.commit()
+    distinct_paths = {(d, h) for d, h, _ in assignments.values()}
+    bytes_needed = sum(next(size for d, h, size in assignments.values() if (d, h) == key) for key in distinct_paths)
+    duplicates = len(assignments) - len(distinct_paths)
+    conflicts = sum(max(0, len(hashes)-1) for hashes in groups.values())
+    log(f'PLAN entries={len(assignments):,} destinations={len(distinct_paths):,} duplicates={duplicates:,} conflicts={conflicts:,} bytes={bytes_needed:,}')
+    return assignments
 
-def print_summary(conn: sqlite3.Connection):
-    cur = conn.cursor()
-    print("\n=== INVENTORY SUMMARY BY EXTENSION ===")
-    for row in cur.execute("""
-        SELECT ext,
-               COUNT(*) AS total_entries,
-               SUM(is_symlink) AS symlinks,
-               COUNT(DISTINCT sha256) AS unique_hashes,
-               ROUND(SUM(CASE WHEN is_symlink=0 THEN size_bytes ELSE 0 END) / 1048576.0, 2) AS total_mb
-        FROM files
-        GROUP BY ext
-        ORDER BY total_entries DESC
-    """):
-        print(f"  ext={row[0] or '<none>':6s} | entries={row[1]:6d} | symlinks={row[2]:4d} | unique_sha256={row[3]:6d} | total_MB={row[4]}")
-
-    print("\n=== INVENTORY SUMMARY BY VOLUME ===")
-    for row in cur.execute("""
-        SELECT source_volume,
-               COUNT(*) AS total_entries,
-               COUNT(DISTINCT sha256) AS unique_hashes,
-               ROUND(SUM(CASE WHEN is_symlink=0 THEN size_bytes ELSE 0 END) / 1048576.0, 2) AS total_mb
-        FROM files
-        GROUP BY source_volume
-        ORDER BY total_entries DESC
-    """):
-        print(f"  vol={row[0]:22s} | entries={row[1]:6d} | unique_sha256={row[2]:6d} | total_MB={row[3]}")
-
+def build(assignments, warehouse):
+    """Copy only; verify every destination hash. Existing differences are never overwritten."""
+    written = set()
+    start = time.monotonic()
+    for full, (rel, digest, _) in sorted(assignments.items()):
+        if rel in written:
+            continue
+        target = warehouse / rel
+        if target.exists() or target.is_symlink():
+            if target.is_symlink() or not target.is_file():
+                raise RuntimeError(f'Unsafe existing destination: {target}')
+            existing, _ = hash_and_version(target)
+            if existing != digest:
+                raise RuntimeError(f'Existing destination differs; refusing overwrite: {target}')
+        else:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            # Copy to a temporary file in the destination directory, then rename.
+            temp = target.with_name(target.name + f'.tmp-{os.getpid()}')
+            try:
+                with open(full, 'rb') as src, temp.open('xb') as dst:
+                    shutil.copyfileobj(src, dst, 1024 * 1024)
+                copied, _ = hash_and_version(temp)
+                if copied != digest:
+                    raise RuntimeError(f'Hash verification failed: {full}')
+                if target.exists() or target.is_symlink():
+                    raise RuntimeError(f'Destination appeared during copy: {target}')
+                os.link(temp, target)  # atomic create; fails rather than replacing
+            finally:
+                temp.unlink(missing_ok=True)
+        written.add(rel)
+        if len(written) % 100 == 0:
+            log(f'BUILD files={len(written):,} elapsed={time.monotonic()-start:.1f}s')
+    log(f'BUILD DONE files={len(written):,} elapsed={time.monotonic()-start:.1f}s')
 
 def main():
-    parser = argparse.ArgumentParser(description="Harvest Mathematica file metadata & SHA-256 into SQLite.")
-    parser.add_argument("--db", default="mathematica-inventory.sqlite", help="SQLite database path")
-    parser.add_argument("--host", default=socket.gethostname(), help="Source hostname label")
-    parser.add_argument("--spec", action="append", required=True, help="VOLUME:PATH pair to scan")
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('roots', nargs='+', type=Path, help='nb or _nb roots; content below each root is preserved')
+    ap.add_argument('--db', type=Path, default=Path('mathematica-inventory.sqlite'))
+    ap.add_argument('--warehouse', type=Path, default=Path('nb-warehouse'))
+    ap.add_argument('--host', default=socket.gethostname())
+    ap.add_argument('--progress-seconds', type=float, default=10.0)
+    ap.add_argument('--build', action='store_true', help='Actually construct warehouse; default is read-only inventory and plan')
+    args = ap.parse_args()
+    started = time.monotonic()
+    roots = [p.expanduser().resolve() for p in args.roots]
+    warehouse = args.warehouse.expanduser().resolve()
+    db = args.db.expanduser().resolve()
+    if any(warehouse == root or warehouse.is_relative_to(root) for root in roots):
+        ap.error('Warehouse must not be inside a scanned source root')
+    if any(db == root or db.is_relative_to(root) for root in roots):
+        ap.error('Database must not be inside a scanned source root')
+    log(f'START host={args.host} mode={"BUILD" if args.build else "DRY-RUN"}')
+    conn = sqlite3.connect(db)
+    try:
+        conn.executescript(SCHEMA)
+        for root in roots:
+            scan(conn, root, args.host, args.progress_seconds)
+        assignments = plan(conn, warehouse)
+        if args.build:
+            build(assignments, warehouse)
+        log(f'FINISH total_elapsed={time.monotonic()-started:.1f}s database={db} warehouse={warehouse}')
+    finally:
+        conn.close()
 
-    conn = sqlite3.connect(args.db)
-    conn.executescript(SCHEMA_SQL)
-
-    for spec in args.spec:
-        vol, raw_path = spec.split(":", 1)
-        scan_root(conn, args.host, vol, Path(raw_path).expanduser())
-
-    print_summary(conn)
-    conn.close()
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
