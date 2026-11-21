@@ -1,4 +1,4 @@
-Fri Nov 20 07:45:40 PM MST 2026
+Fri Nov 20 07:45:43 PM MST 2026
 
 COMMAND: hostnamectl
  Static hostname: isomer
@@ -74,7 +74,7 @@ Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspa
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:            30Gi        16Gi       4.0Gi       5.0Gi        11Gi        13Gi
+Mem:            30Gi        16Gi       4.2Gi       5.0Gi        11Gi        13Gi
 Swap:           15Gi       7.3Gi       8.7Gi
 
 COMMAND: lsblk
