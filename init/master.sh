@@ -6,6 +6,8 @@ recorderStart=$SECONDS
 # Disable shell bell
 bind "set bell-style none"
 
+source "${pInit}/military-time.sh" #Ensure uniform time stamps
+
 # Establish paths before dependent initialization scripts
 source "${pInit}/paths.sh"
 
@@ -22,6 +24,7 @@ source "${pInit}/grep.sh"
 source "${pInit}/latex.sh"
 source "${pInit}/ptyxis.sh"
 source "${pInit}/spack-bootstrap.sh"
+source "${pInit}/screenshot.sh"
 source "${pInit}/ssh.sh"
 source "${pInit}/vim.sh"
 source "${pInit}/recorder.sh"
@@ -45,12 +48,8 @@ source "${pInit}/recorder.sh"
 
 ) 200>"${HOME}/.git-init.lock"
 
-# use miltary time
-alias date="date '+%a %b %d %H:%M:%S %Z %Y'"
-
 # Report initialization time
 echo "time used: $((SECONDS - recorderStart)) seconds"
-
 
 # High-contrast directory color (bold bright cyan instead of unreadable dark blue)
 if command -v dircolors >/dev/null 2>&1; then

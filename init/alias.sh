@@ -7,7 +7,9 @@ alias wolfram="/usr/local/Wolfram/Wolfram/15.0/Executables/wolfram"
 alias nb="/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB"
 alias pdft='pdflatex -synctex=1 -halt-on-error'
 
-alias hot="cd ${pFramework}/pres/spherical-harmonics/main; pwd"
+# alias hot="cd ${pFramework}/pres/spherical-harmonics/main; pwd"
+alias tex-hot="cd ${pFramework}/pres/pagmo/main; pwd"
+alias code-hot="cd ${pGitlab}/pagmo; pwd"
 
 # source/reload
 alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'

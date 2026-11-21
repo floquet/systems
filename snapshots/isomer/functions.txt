@@ -1,4 +1,4 @@
-Mon Nov 16 21:09:34 MST 2026
+Fri Nov 20 19:46:50 MST 2026
 
 COMMAND: declare -F
 declare -f __expand_tilde_by_ref
@@ -174,6 +174,7 @@ declare -f command_not_found_handle
 declare -f commit-builds
 declare -f config_git
 declare -f create-pres
+declare -fx date
 declare -f dequote
 declare -f g-fortran
 declare -f g-general
@@ -201,6 +202,7 @@ declare -f q-selection
 declare -f q-wrappers
 declare -f quote
 declare -f quote_readline
+declare -f shotmove
 
 COMMAND: declare -f
 __expand_tilde_by_ref () 
@@ -3155,6 +3157,16 @@ create-pres ()
     "${pScaffold}/scripts/create-pres.sh" "$project" || return;
     cd "${pScaffold}/projects/beamer/${project}/main" || return
 }
+date () 
+{ 
+    if (( $# == 0 )); then
+        command date '+%a %b %d %H:%M:%S %Z %Y';
+    else
+        command date "$@";
+    fi;
+    export -f date
+}
+declare -fx date
 dequote () 
 { 
     local REPLY;
@@ -3507,4 +3519,20 @@ quote_readline ()
     local REPLY;
     _comp_quote_compgen "$1";
     printf %s "$REPLY"
+}
+shotmove () 
+{ 
+    local src name;
+    [[ -n "${land:-}" ]] || { 
+        echo "shotmove: land is not set" 1>&2;
+        return 1
+    };
+    name="${1:?Usage: shotmove NAME}";
+    src=$(find "$HOME/Pictures/Screenshots" -maxdepth 1 -type f -name 'Screenshot From *.png' -printf '%T@ %p\n' | sort -nr | head -1 | cut -d' ' -f2-);
+    [[ -n "$src" ]] || { 
+        echo "shotmove: no screenshot found" 1>&2;
+        return 1
+    };
+    mkdir -p "$land";
+    mv -i -- "$src" "$land/${name%.png}.png"
 }

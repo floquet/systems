@@ -1,7 +1,7 @@
-Mon Nov 16 21:09:34 MST 2026
+Fri Nov 20 19:46:50 MST 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias date='date '\''+%a %b %d %H:%M:%S %Z %Y'\'''
+alias code-hot='cd /home/dantopa/repos-isomer/gitlab/pagmo; pwd'
 alias echoff='echo "$fflags"'
 alias echogf='echo "$allflags"'
 alias echoof='echo "$oflags"'
@@ -51,6 +51,7 @@ alias lss='ls -alh'
 alias nb='/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB'
 alias pdft='pdflatex -synctex=1 -halt-on-error'
 alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'
+alias tex-hot='cd /home/dantopa/repos-isomer/github/framework/pres/pagmo/main; pwd'
 alias v='echo "vim $HOME/.${HOSTNAME}.sh"; vim "$HOME/.${HOSTNAME}.sh"'
 alias vM='echo "vim Makefile";              vim Makefile'
 alias vc='echo "vim ${pScripts}/master.sh"; vim "${pScripts}/master.sh"'

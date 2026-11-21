@@ -1,5 +1,5 @@
-Machine (7785MB total) + Package P#0
-  NUMANode P#0 (7785MB)
+Machine (9945MB total) + Package P#0
+  NUMANode P#0 (9945MB)
   L3 P#0 (24MB)
     L2 P#0 (1280KB) + L1d P#0 (48KB) + L1i P#0 (32KB) + Core P#0
       PU P#0
@@ -19,15 +19,3 @@ Machine (7785MB total) + Package P#0
     L2 P#5 (1280KB) + L1d P#5 (48KB) + L1i P#5 (32KB) + Core P#5
       PU P#10
       PU P#11
-    L2 P#6 (1280KB) + L1d P#6 (48KB) + L1i P#6 (32KB) + Core P#6
-      PU P#12
-      PU P#13
-    L2 P#7 (1280KB) + L1d P#7 (48KB) + L1i P#7 (32KB) + Core P#7
-      PU P#14
-      PU P#15
-    L2 P#8 (1280KB) + L1d P#8 (48KB) + L1i P#8 (32KB) + Core P#8
-      PU P#16
-      PU P#17
-    L2 P#9 (1280KB) + L1d P#9 (48KB) + L1i P#9 (32KB) + Core P#9
-      PU P#18
-      PU P#19

@@ -1,4 +1,4 @@
-Mon Nov 16 09:09:34 PM MST 2026
+Fri Nov 20 19:46:50 MST 2026
 
 COMMAND: cat /proc/scsi/scsi
 DESCRIPTION: SCSI devices known to the kernel
@@ -6,4 +6,7 @@ DESCRIPTION: SCSI devices known to the kernel
 Attached devices:
 Host: scsi0 Channel: 00 Id: 00 Lun: 00
   Vendor: Samsung  Model: PSSD T7 Shield   Rev: 0   
+  Type:   Direct-Access                    ANSI  SCSI revision: 06
+Host: scsi2 Channel: 00 Id: 00 Lun: 00
+  Vendor: LaCie    Model: Rugged USB-C     Rev: 1153
   Type:   Direct-Access                    ANSI  SCSI revision: 06

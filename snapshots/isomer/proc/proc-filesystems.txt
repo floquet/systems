@@ -1,4 +1,4 @@
-Mon Nov 16 09:09:34 PM MST 2026
+Fri Nov 20 19:46:50 MST 2026
 
 COMMAND: cat /proc/filesystems
 DESCRIPTION: Filesystem types supported by the kernel
@@ -36,3 +36,7 @@ nodev	pstore
 nodev	autofs
 nodev	binfmt_misc
 nodev	overlay
+	hfsplus
+nodev	rpc_pipefs
+nodev	nfs
+nodev	nfs4

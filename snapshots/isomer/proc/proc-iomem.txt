@@ -1,4 +1,4 @@
-Mon Nov 16 09:09:34 PM MST 2026
+Fri Nov 20 19:46:50 MST 2026
 
 COMMAND: cat /proc/iomem
 DESCRIPTION: Physical memory and device address map
