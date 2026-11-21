@@ -1,18 +1,18 @@
-Fri Nov 20 06:46:48 PM MST 2026
+Fri Nov 20 07:30:33 PM MST 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
 
-nfsv3 61440 0 - Live 0x0000000000000000
+nfsv3 61440 1 - Live 0x0000000000000000
 nfs_acl 12288 1 nfsv3, Live 0x0000000000000000
 rpcsec_gss_krb5 36864 0 - Live 0x0000000000000000
 auth_rpcgss 188416 1 rpcsec_gss_krb5, Live 0x0000000000000000
 nfsv4 1241088 0 - Live 0x0000000000000000
-nfs 643072 2 nfsv3,nfsv4, Live 0x0000000000000000
+nfs 643072 4 nfsv3,nfsv4, Live 0x0000000000000000
 lockd 151552 2 nfsv3,nfs, Live 0x0000000000000000
 grace 16384 1 lockd, Live 0x0000000000000000
 netfs 622592 1 nfs, Live 0x0000000000000000
-sunrpc 851968 8 nfsv3,nfs_acl,rpcsec_gss_krb5,auth_rpcgss,nfsv4,nfs,lockd, Live 0x0000000000000000
+sunrpc 851968 23 nfsv3,nfs_acl,rpcsec_gss_krb5,auth_rpcgss,nfsv4,nfs,lockd, Live 0x0000000000000000
 nls_utf8 12288 0 - Live 0x0000000000000000
 hfsplus 172032 0 - Live 0x0000000000000000
 cpuid 12288 0 - Live 0x0000000000000000
@@ -124,7 +124,7 @@ wmi_bmof 12288 0 - Live 0x0000000000000000
 processor_thermal_wt_hint 16384 2 processor_thermal_device_pci,processor_thermal_device, Live 0x0000000000000000
 mac80211 1933312 1 iwlmld, Live 0x0000000000000000
 snd_seq 126976 9 snd_seq_dummy,snd_seq_midi,snd_seq_midi_event, Live 0x0000000000000000
-i915 5099520 126 - Live 0x0000000000000000
+i915 5099520 149 - Live 0x0000000000000000
 snd_seq_device 16384 4 snd_ump,snd_seq_midi,snd_rawmidi,snd_seq, Live 0x0000000000000000
 platform_temperature_control 20480 1 processor_thermal_device, Live 0x0000000000000000
 libarc4 12288 1 mac80211, Live 0x0000000000000000
