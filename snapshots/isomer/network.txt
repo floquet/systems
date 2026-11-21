@@ -1,4 +1,4 @@
-Fri Nov 20 07:45:38 PM MST 2026
+Fri Nov 20 07:45:40 PM MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -123,7 +123,7 @@ COMMAND: ip neigh
 10.11.26.146 dev enp87s0 FAILED 
 10.11.26.115 dev enp87s0 FAILED 
 10.11.26.105 dev enp86s0 lladdr 7c:27:bc:18:c1:f8 STALE 
-10.11.26.37 dev enp87s0 lladdr e8:fc:af:e5:3b:d3 STALE 
+10.11.26.37 dev enp87s0 lladdr e8:fc:af:e5:3b:d3 DELAY 
 10.11.26.105 dev enp87s0 lladdr 7c:27:bc:18:c1:f8 STALE 
 10.11.26.149 dev enp87s0 lladdr 00:3e:e1:ca:cc:92 STALE 
 10.11.26.126 dev enp86s0 lladdr 68:6c:e6:05:85:84 STALE 
