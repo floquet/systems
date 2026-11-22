@@ -1,4 +1,4 @@
-Sat Nov 21 10:27:13 MST 2026
+Sat Nov 21 23:14:49 MST 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias code-hot='cd /home/dantopa/repos-isotope/gitlab/pagmo; pwd'
@@ -42,6 +42,7 @@ alias goZazzle='cd "${pGitlab}/zazzle" && pwd'
 alias gof='cd "${pGithub}/f" && pwd'
 alias gps='echo '\''git pull && git status'\''; git pull && git status'
 alias grep='grep --color=auto'
+alias hot='cd /home/dantopa/repos-isotope/github/framework/pres/spherical-harmonics/main; pwd'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'

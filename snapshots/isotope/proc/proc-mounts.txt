@@ -1,4 +1,4 @@
-Sat Nov 21 10:27:13 MST 2026
+Sat Nov 21 23:14:50 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -34,7 +34,6 @@ none /run/credentials/systemd-resolved.service tmpfs ro,nosuid,nodev,noexec,rela
 /dev/loop8 /snap/desktop-security-center/188 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop9 /snap/desktop-security-center/206 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop10 /snap/firefox/8863 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-/dev/loop12 /snap/firmware-updater/226 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop14 /snap/gnome-42-2204/263 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop11 /snap/firmware-updater/258 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop13 /snap/firefox/8995 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
@@ -60,7 +59,6 @@ tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=12741072k,nr_inodes=318
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
-nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
 /dev/loop29 /snap/brave/709 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop30 /snap/brave/711 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
@@ -80,6 +78,7 @@ nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 sunrpc /run/rpc_pipefs rpc_pipefs rw,relatime 0 0
 systemd-1 /mnt/anode autofs rw,relatime,fd=107,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=3498251 0 0
 systemd-1 /mnt/cathode autofs rw,relatime,fd=108,pgrp=1,timeout=600,minproto=5,maxproto=5,direct,pipe_ino=3498253 0 0
-isobar:/srv/nfs/anode /mnt/anode nfs rw,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.11.26.37,mountvers=3,mountport=53636,mountproto=tcp,local_lock=none,addr=10.11.26.37 0 0
 /dev/loop23 /snap/snap-store/1509 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
+/dev/loop24 /snap/firmware-updater/262 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0

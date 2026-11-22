@@ -1,15 +1,15 @@
-Sat Nov 21 10:27:13 MST 2026
+Sat Nov 21 23:14:50 MST 2026
 
 COMMAND: cat /proc/modules
 DESCRIPTION: Currently loaded kernel modules
 
-nfsv3 61440 1 - Live 0x0000000000000000
+nfsv3 61440 0 - Live 0x0000000000000000
 nfs_acl 12288 1 nfsv3, Live 0x0000000000000000
-nfs 647168 2 nfsv3, Live 0x0000000000000000
+nfs 647168 1 nfsv3, Live 0x0000000000000000
 lockd 155648 2 nfsv3,nfs, Live 0x0000000000000000
 grace 16384 1 lockd, Live 0x0000000000000000
 netfs 634880 1 nfs, Live 0x0000000000000000
-sunrpc 860160 18 nfsv3,nfs_acl,nfs,lockd, Live 0x0000000000000000
+sunrpc 860160 5 nfsv3,nfs_acl,nfs,lockd, Live 0x0000000000000000
 nls_utf8 12288 3 - Live 0x0000000000000000
 hfsplus 172032 3 - Live 0x0000000000000000
 uas 32768 12 - Live 0x0000000000000000
