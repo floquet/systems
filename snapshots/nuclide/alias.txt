@@ -1,7 +1,7 @@
-Mon Nov 23 09:25:42 MST 2026
+Mon Nov 23 09:30:03 MST 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias code-hot='cd /home/dantopa/repos-nuclide/gitlab/pagmo; pwd'
+alias code-hot='cd /home/dantopa/repos-nuclide/gitlab/pagmo; pwd'
 alias echoff='echo "$fflags"'
 alias echogf='echo "$allflags"'
 alias echoof='echo "$oflags"'
@@ -47,15 +47,15 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
-alias lss='ls -alh'
-alias nb='/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB'
-alias pdft='pdflatex -synctex=1 -halt-on-error'
-alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'
-alias tex-hot='cd /home/dantopa/repos-nuclide/github/framework/pres/pagmo/main; pwd'
+alias lss='ls -alh'
+alias nb='/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB'
+alias pdft='pdflatex -synctex=1 -halt-on-error'
+alias sr='echo "source ${HOME}/.${HOSTNAME}.sh"; source "${HOME}/.${HOSTNAME}.sh"'
+alias tex-hot='cd /home/dantopa/repos-nuclide/github/framework/pres/pagmo/main; pwd'
 alias v='echo "vim $HOME/.${HOSTNAME}.sh"; vim "$HOME/.${HOSTNAME}.sh"'
 alias vM='echo "vim Makefile";              vim Makefile'
 alias vc='echo "vim ${pScripts}/master.sh"; vim "${pScripts}/master.sh"'
 alias vcl='echo "vim CMakeLists.txt";        vim CMakeLists.txt'
 alias vm='echo "vim makefile";              vim makefile'
-alias wolf='/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB'
-alias wolfram='/usr/local/Wolfram/Wolfram/15.0/Executables/wolfram'
+alias wolf='/usr/local/Wolfram/Wolfram/15.0/Executables/WolframNB'
+alias wolfram='/usr/local/Wolfram/Wolfram/15.0/Executables/wolfram'
