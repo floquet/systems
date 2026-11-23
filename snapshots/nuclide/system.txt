@@ -1,11 +1,11 @@
-Mon Nov 23 09:31:46 MST 2026
+Mon Nov 23 09:42:01 MST 2026
 
 COMMAND: hostnamectl
  Static hostname: nuclide
        Icon name: computer-container
          Chassis: container ☐
       Machine ID: 319665f9279c4811b507283c94529d2c
-         Boot ID: 8d98e3453db8414f89be2af751857729
+         Boot ID: e0f394f3ee49461a96368c2afeb1f5e8
   Virtualization: wsl
 Operating System: Ubuntu 26.04.1 LTS
           Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
@@ -68,7 +68,7 @@ Vulnerability Vmscape:                   Not affected
 
 COMMAND: free -h
                total        used        free      shared  buff/cache   available
-Mem:           9.7Gi       875Mi       7.7Gi        59Mi       1.4Gi       8.9Gi
+Mem:           9.7Gi       876Mi       7.1Gi       6.2Mi       1.9Gi       8.9Gi
 Swap:          3.0Gi          0B       3.0Gi
 
 COMMAND: lsblk
@@ -86,7 +86,7 @@ none           overlay  4.9G     0  4.9G   0% /usr/lib/modules/6.18.33.2-microso
 none           tmpfs    4.9G  4.0K  4.9G   1% /mnt/wsl
 drivers        9p       236G  233G  3.1G  99% /usr/lib/wsl/drivers
 /dev/sdd       ext4    1007G  102G  855G  11% /
-none           tmpfs    4.9G   76K  4.9G   1% /mnt/wslg
+none           tmpfs    4.9G   36K  4.9G   1% /mnt/wslg
 none           overlay  4.9G     0  4.9G   0% /usr/lib/wsl/lib
 rootfs         rootfs   4.9G  2.8M  4.9G   1% /init
 none           tmpfs    4.9G  876K  4.9G   1% /run
@@ -96,7 +96,7 @@ none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/versions.txt
 none           overlay  4.9G  2.6M  4.9G   1% /mnt/wslg/doc
 C:\            9p       236G  233G  3.1G  99% /mnt/c
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
-tmpfs          tmpfs    4.9G   54M  4.9G   2% /tmp
+tmpfs          tmpfs    4.9G     0  4.9G   0% /tmp
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs          tmpfs    995M   12K  995M   1% /run/user/1000
@@ -117,12 +117,12 @@ TARGET                                               SOURCE                    F
 ├─/dev                                               none                      devtmpfs    rw,nosuid,relatime,size=5085892k,nr_inodes=1271473,mode=755
 │ ├─/dev/pts                                         devpts                    devpts      rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000
 │ ├─/dev/shm                                         none                      tmpfs       rw,nosuid,nodev,noatime
-│ ├─/dev/hugepages                                   hugetlbfs                 hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
-│ └─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
+│ ├─/dev/mqueue                                      mqueue                    mqueue      rw,nosuid,nodev,noexec,relatime
+│ └─/dev/hugepages                                   hugetlbfs                 hugetlbfs   rw,nosuid,nodev,relatime,pagesize=2M
 ├─/sys                                               sysfs                     sysfs       rw,nosuid,nodev,noexec,noatime
 │ ├─/sys/fs/cgroup                                   cgroup2                   cgroup2     rw,nosuid,nodev,noexec,relatime,nsdelegate
-│ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/tracing                              tracefs                   tracefs     rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/debug                                debugfs                   debugfs     rw,nosuid,nodev,noexec,relatime
 │ ├─/sys/kernel/config                               configfs                  configfs    rw,nosuid,nodev,noexec,relatime
 │ └─/sys/fs/fuse/connections                         fusectl                   fusectl     rw,nosuid,nodev,noexec,relatime
 ├─/proc                                              proc                      proc        rw,nosuid,nodev,noexec,noatime

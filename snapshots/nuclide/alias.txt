@@ -1,4 +1,4 @@
-Mon Nov 23 09:31:46 MST 2026
+Mon Nov 23 09:42:01 MST 2026
 alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias code-hot='cd /home/dantopa/repos-nuclide/gitlab/pagmo; pwd'
@@ -42,7 +42,6 @@ alias goZazzle='cd "${pGitlab}/zazzle" && pwd'
 alias gof='cd "${pGithub}/f" && pwd'
 alias gps='echo '\''git pull && git status'\''; git pull && git status'
 alias grep='grep --color=auto'
-alias hot='goPres; cd uq-smith-alpha/main; pwd'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
