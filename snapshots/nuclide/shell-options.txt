@@ -1,4 +1,4 @@
-Mon Nov 23 09:42:01 MST 2026
+Mon Nov 23 09:47:52 MST 2026
 
 COMMAND: set -o
 allexport      	off
@@ -73,7 +73,7 @@ shopt -u lastpipe
 shopt -u lithist
 shopt -u localvar_inherit
 shopt -u localvar_unset
-shopt -s login_shell
+shopt -u login_shell
 shopt -u mailwarn
 shopt -u no_empty_cmd_completion
 shopt -u nocaseglob
