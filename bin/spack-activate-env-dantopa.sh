@@ -1,1 +1,0 @@
-../init/spack-activate-env-dantopa.sh
