@@ -1,4 +1,4 @@
-Mon Nov 23 09:57:09 MST 2026
+Tue Nov 24 09:55:39 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -41,3 +41,5 @@ none /tmp/.X11-unix tmpfs ro,relatime 0 0
 none /run/credentials/getty@tty1.service tmpfs ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=1018328k,nr_inodes=254582,mode=700,uid=1000,gid=1000 0 0
 tmpfs /mnt/wslg/run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=1018328k,nr_inodes=254582,mode=700,uid=1000,gid=1000 0 0
+portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
+portal /mnt/wslg/run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
