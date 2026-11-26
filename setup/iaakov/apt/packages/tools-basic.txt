@@ -1,0 +1,58 @@
+# tools-basic.txt
+#
+# Basic command-line workstation tools
+
+vim
+neovim
+nano
+
+htop
+tree
+lsof
+
+curl
+wget
+rsync
+
+unzip
+zip
+xz-utils
+zstd
+
+file
+less
+locate
+
+jq
+ripgrep
+
+tmux
+
+dos2unix
+patch
+
+# Data movement and storage exploration
+pv
+ncdu
+
+# File discovery and inspection
+fd-find
+bat
+
+# Shell script analysis
+shellcheck
+
+# Reference documentation
+man-db
+manpages
+
+# Arithmetic and execution measurement
+bc
+time
+
+# Additional Unix utilities
+moreutils
+parallel
+
+# Source code navigation
+universal-ctags

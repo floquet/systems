@@ -1,0 +1,18 @@
+# tools-database.txt
+#
+# Relational databases and data engineering
+
+# SQLite command-line interpreter
+sqlite3
+
+# SQLite development headers and libraries
+libsqlite3-dev
+
+# Graphical database exploration
+sqlitebrowser
+
+# CSV inspection, conversion, and interrogation
+csvkit
+
+# PostgreSQL client
+postgresql-client
