@@ -68,4 +68,7 @@ create_link "${script_dir}/../probes/probe-hardware.sh" \
 create_link "${script_dir}/../probes/ubuntu-probe.sh" \
     "${bin_dir}/ubuntu-probe-iaakov" || result=1
 
+create_link "${script_dir}/../probes/probe-software.sh" \
+    "${bin_dir}/probe-software-iaakov" || result=1
+
 exit "${result}"
