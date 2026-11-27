@@ -1,4 +1,4 @@
-Sat Nov 21 23:14:50 MST 2026
+Thu Nov 26 17:14:42 MST 2026
 
 COMMAND: cat /proc/mounts
 DESCRIPTION: Mounted filesystems
@@ -59,9 +59,7 @@ tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=12741072k,nr_inodes=318
 portal /run/user/1000/doc fuse.portal rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
 nsfs /run/snapd/ns/prompting-client.mnt nsfs rw 0 0
-/dev/loop29 /snap/brave/709 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/loop30 /snap/brave/711 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
-nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0
 /dev/loop1 /snap/snap-store/1504 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 /dev/sda2 /mnt/isotope-spinners/sda2-unlabeled hfsplus ro,relatime,umask=22,uid=0,gid=0,nls=utf8 0 0
 /dev/sda3 /mnt/isotope-spinners/Infernum hfsplus ro,relatime,umask=22,uid=0,gid=0,nls=utf8 0 0
@@ -82,3 +80,5 @@ systemd-1 /mnt/cathode autofs rw,relatime,fd=108,pgrp=1,timeout=600,minproto=5,m
 nsfs /run/snapd/ns/snap-store.mnt nsfs rw 0 0
 /dev/loop24 /snap/firmware-updater/262 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
 nsfs /run/snapd/ns/firmware-updater.mnt nsfs rw 0 0
+/dev/loop12 /snap/brave/713 squashfs ro,nodev,relatime,errors=continue,threads=single 0 0
+nsfs /run/snapd/ns/brave.mnt nsfs rw 0 0

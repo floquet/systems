@@ -1,4 +1,4 @@
-Sat Nov 21 23:14:49 MST 2026
+Thu Nov 26 17:14:42 MST 2026
 
 COMMAND: ip -br addr
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
@@ -35,7 +35,7 @@ Global
 Link 2 (enp11s0)
     Current Scopes: DNS
          Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 8.8.8.8
+Current DNS Server: 1.1.1.1
        DNS Servers: 8.8.8.8 1.1.1.1
      Default Route: yes
 
@@ -48,7 +48,7 @@ Current DNS Server: 8.8.8.8
 
 COMMAND: ss -tulpn
 Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                                                                                                                                                                                                
-udp   UNCONN 0      0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=11451,fd=77))                                                                                                                                                                                   
+udp   UNCONN 1920   0            0.0.0.0:17500      0.0.0.0:*    users:(("dropbox",pid=11451,fd=77))                                                                                                                                                                                   
 udp   UNCONN 0      0            0.0.0.0:51311      0.0.0.0:*                                                                                                                                                                                                                          
 udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*                                                                                                                                                                                                                          
 udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*                                                                                                                                                                                                                          
