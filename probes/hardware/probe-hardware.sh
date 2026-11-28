@@ -2,6 +2,13 @@
 set -euo pipefail
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
+# invocation: ./probe-hardware.sh [stress_seconds]
+# arguments: optional CPU stress-test duration in seconds
+# flags: none
+# default: 0 (no CPU stress test)
+# example: ./probe-hardware.sh 15
+# output: hardware-probe_<hostname>.log in current directory
+# privileges: no sudo required
 HOST="$(hostname)"
 LOG_FILE="hardware-probe_${HOST}.log"
 BANNER=$(printf '=%.0s' {1..80})
