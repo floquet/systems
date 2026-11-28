@@ -33,7 +33,6 @@ export Wflags="
 # ----------------------------------------------------------------------
 
 export fflags="
--fno-realloc-lhs
 -ffpe-trap=denormal,invalid,zero
 -fbacktrace
 -fmax-errors=5
@@ -47,6 +46,17 @@ export fflags="
 -fimplicit-none
 -fallow-argument-mismatch
 "
+
+# ----------------------------------------------------------------------
+# Specialized numerical-kernel option
+# ----------------------------------------------------------------------
+# -fno-realloc-lhs
+#     Suppresses standard Fortran automatic allocation and reallocation.
+#     Potentially useful in intensive numerical kernels with controlled
+#     allocation lifetimes and array dimensions.
+#     Not appropriate as a universal compiler flag.
+#     Prefer -Wrealloc-lhs-all to identify potential reallocations.
+#     Enable selectively, based on measured performance.
 
 # ----------------------------------------------------------------------
 # Optimization / language behavior
